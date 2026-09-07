@@ -12,10 +12,10 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Health & safety
 
+- [care-plan](skills/care-plan/)
+- [first-aid](skills/first-aid/)
 - [health-care](skills/health-care/)
 - [urgent-emergency-care](skills/urgent-emergency-care/)
-- [first-aid](skills/first-aid/)
-- [care-plan](skills/care-plan/)
 
 ## Health care assessments
 
@@ -105,57 +105,57 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Health care
 
-- [cancer-care](skills/cancer-care/)
-- [diabetes-care](skills/diabetes-care/)
-- [hypertension-care](skills/hypertension-care/)
-- [alzheimers-disease-care](skills/alzheimers-disease-care/)
-- [parkinsons-disease-care](skills/parkinsons-disease-care/)
-- [heart-disease-care](skills/heart-disease-care/)
-- [dental-care](skills/dental-care/)
-- [eye-care](skills/eye-care/)
-- [sleep-apnea-care](skills/sleep-apnea-care/)
-- [attention-deficit-care](skills/attention-deficit-care/)
-- [anxiety-care](skills/anxiety-care/)
-- [depression-care](skills/depression-care/)
-- [mental-health-care](skills/mental-health-care/)
 - [allergy-care](skills/allergy-care/)
+- [alzheimers-disease-care](skills/alzheimers-disease-care/)
+- [anxiety-care](skills/anxiety-care/)
 - [arthritis-care](skills/arthritis-care/)
+- [attention-deficit-care](skills/attention-deficit-care/)
 - [autism-care](skills/autism-care/)
 - [bipolar-care](skills/bipolar-care/)
+- [cancer-care](skills/cancer-care/)
 - [cold-sore-care](skills/cold-sore-care/)
 - [concussion-care](skills/concussion-care/)
 - [croup-care](skills/croup-care/)
 - [dehydration-care](skills/dehydration-care/)
 - [dementia-care](skills/dementia-care/)
+- [dental-care](skills/dental-care/)
+- [depression-care](skills/depression-care/)
+- [diabetes-care](skills/diabetes-care/)
 - [earache-care](skills/earache-care/)
+- [eczema-care](skills/eczema-care/)
 - [endometriosis-care](skills/endometriosis-care/)
+- [eye-care](skills/eye-care/)
 - [fever-care](skills/fever-care/)
 - [flu-care](skills/flu-care/)
 - [frozen-shoulder-care](skills/frozen-shoulder-care/)
 - [gallstone-care](skills/gallstone-care/)
+- [gonorrhea-care](skills/gonorrhea-care/)
 - [gout-care](skills/gout-care/)
 - [hay-fever-care](skills/hay-fever-care/)
+- [heart-disease-care](skills/heart-disease-care/)
 - [hernia-care](skills/hernia-care/)
 - [herpes-care](skills/herpes-care/)
-- [gonorrhea-care](skills/gonorrhea-care/)
+- [hypertension-care](skills/hypertension-care/)
 - [indigestion-care](skills/indigestion-care/)
 - [joint-hypermobility-care](skills/joint-hypermobility-care/)
-- [mast-cell-activation-syndrome-care](skills/mast-cell-activation-syndrome-care/)
 - [kidney-stone-care](skills/kidney-stone-care/)
 - [laryngitis-care](skills/laryngitis-care/)
+- [lice-care](skills/lice-care/)
 - [lupus-care](skills/lupus-care/)
 - [lyme-disease-care](skills/lyme-disease-care/)
 - [malaria-care](skills/malaria-care/)
 - [malnutrition-care](skills/malnutrition-care/)
+- [mast-cell-activation-syndrome-care](skills/mast-cell-activation-syndrome-care/)
+- [mental-health-care](skills/mental-health-care/)
 - [migraine-care](skills/migraine-care/)
 - [mumps-care](skills/mumps-care/)
 - [norovirus-care](skills/norovirus-care/)
 - [obesity-care](skills/obesity-care/)
 - [panic-care](skills/panic-care/)
+- [parkinsons-disease-care](skills/parkinsons-disease-care/)
+- [phobia-care](skills/phobia-care/)
 - [pneumonia-care](skills/pneumonia-care/)
 - [psoriasis-care](skills/psoriasis-care/)
-- [phobia-care](skills/phobia-care/)
-- [lice-care](skills/lice-care/)
 - [ringworm-care](skills/ringworm-care/)
 - [rosacea-care](skills/rosacea-care/)
 - [scabies-care](skills/scabies-care/)
@@ -163,6 +163,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [sepsis-care](skills/sepsis-care/)
 - [shingles-care](skills/shingles-care/)
 - [sinusitis-care](skills/sinusitis-care/)
+- [sleep-apnea-care](skills/sleep-apnea-care/)
 - [sore-throat-care](skills/sore-throat-care/)
 - [stomache-ache-care](skills/stomache-ache-care/)
 - [streptococcus-care](skills/streptococcus-care/)
@@ -175,7 +176,6 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [tonsillitis-care](skills/tonsillitis-care/)
 - [toothache-care](skills/toothache-care/)
 - [urinary-tract-infection-care](skills/urinary-tract-infection-care/)
-- [eczema-care](skills/eczema-care/)
 - [vertigo-care](skills/vertigo-care/)
 - [wart-care](skills/wart-care/)
 - [yellow-fever-care](skills/yellow-fever-care/)
@@ -183,192 +183,192 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Organizations
 
+- [community-of-practice](skills/community-of-practice/)
+- [continuing-professional-development](skills/continuing-professional-development/)
+- [job-description](skills/job-description/)
+- [job-description-with-uk-gdad-pcf-and-agenda-for-change](skills/job-description-with-uk-gdad-pcf-and-agenda-for-change/)
 - [organizational-development](skills/organizational-development/)
 - [people-and-organizational-development](skills/people-and-organizational-development/)
-- [job-description](skills/job-description/)
-- [continuing-professional-development](skills/continuing-professional-development/)
-- [ways-of-working](skills/ways-of-working/)
 - [united-kingdom-government-digital-and-data-profession-capability-framework](skills/united-kingdom-government-digital-and-data-profession-capability-framework/)
-- [job-description-with-uk-gdad-pcf-and-agenda-for-change](skills/job-description-with-uk-gdad-pcf-and-agenda-for-change/)
-- [community-of-practice](skills/community-of-practice/)
+- [ways-of-working](skills/ways-of-working/)
 
 ## Management disciplines
 
-- [project-management](skills/project-management/)
-- [program-management](skills/program-management/)
+- [critical-chain](skills/critical-chain/)
+- [critical-path](skills/critical-path/)
+- [functional-specification](skills/functional-specification/)
 - [portfolio-management](skills/portfolio-management/)
 - [practice-management](skills/practice-management/)
-- [product-management](skills/product-management/)
-- [critical-path](skills/critical-path/)
-- [critical-chain](skills/critical-chain/)
-- [statement-of-work](skills/statement-of-work/)
-- [project-charter](skills/project-charter/)
-- [project-management-body-of-knowledge](skills/project-management-body-of-knowledge/)
 - [prince2](skills/prince2/)
+- [product-management](skills/product-management/)
+- [program-management](skills/program-management/)
+- [project-charter](skills/project-charter/)
+- [project-management](skills/project-management/)
+- [project-management-body-of-knowledge](skills/project-management-body-of-knowledge/)
 - [project-scope](skills/project-scope/)
-- [work-breakdown-structure](skills/work-breakdown-structure/)
-- [functional-specification](skills/functional-specification/)
-- [risks-actions-issues-decisions](skills/risks-actions-issues-decisions/)
-- [responsibility-assignment-matrix](skills/responsibility-assignment-matrix/)
 - [raci-matrix](skills/raci-matrix/)
+- [responsibility-assignment-matrix](skills/responsibility-assignment-matrix/)
+- [risks-actions-issues-decisions](skills/risks-actions-issues-decisions/)
+- [statement-of-work](skills/statement-of-work/)
+- [work-breakdown-structure](skills/work-breakdown-structure/)
 
 ## Enterprise
 
 - [enterprise-architecture](skills/enterprise-architecture/)
+- [enterprise-change-management](skills/enterprise-change-management/)
 - [enterprise-portfolio-project-management](skills/enterprise-portfolio-project-management/)
 - [enterprise-resource-planning](skills/enterprise-resource-planning/)
-- [enterprise-change-management](skills/enterprise-change-management/)
 
 ## Team practices
 
-- [team-focus](skills/team-focus/)
-- [icebreaker-questions](skills/icebreaker-questions/)
 - [forming-storming-norming-performing](skills/forming-storming-norming-performing/)
+- [icebreaker-questions](skills/icebreaker-questions/)
+- [team-focus](skills/team-focus/)
 
 ## Change management
 
-- [dmaic](skills/dmaic/)
-- [kaizen](skills/kaizen/)
 - [adkar](skills/adkar/)
 - [critical-to-quality](skills/critical-to-quality/)
+- [dmaic](skills/dmaic/)
+- [kaizen](skills/kaizen/)
 
 ### Agile
 
-- [agile-principles](skills/agile-principles/)
 - [agile-charter](skills/agile-charter/)
-- [agile-liftoff](skills/agile-liftoff/)
-- [agile-reflection](skills/agile-reflection/)
-- [agile-standup](skills/agile-standup/)
-- [agile-standown](skills/agile-standown/)
-- [agile-showcase](skills/agile-showcase/)
 - [agile-coaching](skills/agile-coaching/)
-- [agile-discovery](skills/agile-discovery/)
 - [agile-delivery](skills/agile-delivery/)
-- [scrum](skills/scrum/)
+- [agile-discovery](skills/agile-discovery/)
+- [agile-liftoff](skills/agile-liftoff/)
+- [agile-principles](skills/agile-principles/)
+- [agile-reflection](skills/agile-reflection/)
+- [agile-showcase](skills/agile-showcase/)
+- [agile-standown](skills/agile-standown/)
+- [agile-standup](skills/agile-standup/)
 - [kanban](skills/kanban/)
+- [scrum](skills/scrum/)
 
 ## Meetings
 
 - [all-hands-meeting](skills/all-hands-meeting/)
 - [one-on-one-meeting](skills/one-on-one-meeting/)
-- [skip-level-meeting](skills/skip-level-meeting/)
-- [yearly-planning-meeting](skills/yearly-planning-meeting/)
-- [weekly-planning-meeting](skills/weekly-planning-meeting/)
 - [performance-review-meeting](skills/performance-review-meeting/)
+- [skip-level-meeting](skills/skip-level-meeting/)
+- [weekly-planning-meeting](skills/weekly-planning-meeting/)
+- [yearly-planning-meeting](skills/yearly-planning-meeting/)
 
 ## Strategy & planning frameworks
 
-- [total-project-control](skills/total-project-control/)
-- [plan-do-check-act](skills/plan-do-check-act/)
-- [ooda-loop](skills/ooda-loop/)
-- [strategic-balanced-scorecard](skills/strategic-balanced-scorecard/)
-- [objectives-and-key-results](skills/objectives-and-key-results/)
-- [key-performance-indicators](skills/key-performance-indicators/)
-- [smart-criteria](skills/smart-criteria/)
-- [maturity-models](skills/maturity-models/)
-- [pitch-deck](skills/pitch-deck/)
-- [north-star](skills/north-star/)
-- [guide-star](skills/guide-star/)
 - [big-hairy-audacious-goal](skills/big-hairy-audacious-goal/)
-- [vision-mission-values](skills/vision-mission-values/)
-- [voice-of-the-customer](skills/voice-of-the-customer/)
-- [key-risk-indicators](skills/key-risk-indicators/)
 - [critical-success-factors](skills/critical-success-factors/)
 - [emergent-task-planning](skills/emergent-task-planning/)
+- [guide-star](skills/guide-star/)
+- [key-performance-indicators](skills/key-performance-indicators/)
+- [key-risk-indicators](skills/key-risk-indicators/)
+- [maturity-models](skills/maturity-models/)
+- [north-star](skills/north-star/)
+- [objectives-and-key-results](skills/objectives-and-key-results/)
+- [ooda-loop](skills/ooda-loop/)
+- [pitch-deck](skills/pitch-deck/)
+- [plan-do-check-act](skills/plan-do-check-act/)
+- [smart-criteria](skills/smart-criteria/)
+- [strategic-balanced-scorecard](skills/strategic-balanced-scorecard/)
+- [total-project-control](skills/total-project-control/)
+- [vision-mission-values](skills/vision-mission-values/)
+- [voice-of-the-customer](skills/voice-of-the-customer/)
 - [volatile-uncertain-complex-ambiguous](skills/volatile-uncertain-complex-ambiguous/)
 
 ## Research & analysis methods
 
-- [task-analysis](skills/task-analysis/)
 - [cognitive-task-analysis](skills/cognitive-task-analysis/)
-- [hierarchical-task-analysis](skills/hierarchical-task-analysis/)
-- [workflow-analysis](skills/workflow-analysis/)
 - [critical-incident-technique](skills/critical-incident-technique/)
 - [diary-study](skills/diary-study/)
+- [hierarchical-task-analysis](skills/hierarchical-task-analysis/)
+- [task-analysis](skills/task-analysis/)
+- [workflow-analysis](skills/workflow-analysis/)
 
 ## Accessibility & inclusion
 
-- [digital-inclusion](skills/digital-inclusion/)
-- [web-content-accessibility-guidelines](skills/web-content-accessibility-guidelines/)
 - [aria-attributes](skills/aria-attributes/)
-- [screen-reader](skills/screen-reader/)
-- [keyboard-shortcut](skills/keyboard-shortcut/)
 - [cross-cultural-communication](skills/cross-cultural-communication/)
+- [digital-inclusion](skills/digital-inclusion/)
+- [keyboard-shortcut](skills/keyboard-shortcut/)
+- [screen-reader](skills/screen-reader/)
+- [web-content-accessibility-guidelines](skills/web-content-accessibility-guidelines/)
 
 ## Statistics
 
-- [statistical-analysis](skills/statistical-analysis/)
 - [anomaly-analysis](skills/anomaly-analysis/)
-- [trend-analysis](skills/trend-analysis/)
 - [bayes-theorem-analysis](skills/bayes-theorem-analysis/)
 - [chi-square-analysis](skills/chi-square-analysis/)
-- [monte-carlo-analysis](skills/monte-carlo-analysis/)
 - [constraint-satisfaction](skills/constraint-satisfaction/)
+- [monte-carlo-analysis](skills/monte-carlo-analysis/)
+- [statistical-analysis](skills/statistical-analysis/)
+- [trend-analysis](skills/trend-analysis/)
 
 ## Communication & thinking
 
-- [crucial-conversations](skills/crucial-conversations/)
-- [inclusive-language](skills/inclusive-language/)
 - [always-improving](skills/always-improving/)
-- [giving-feedback](skills/giving-feedback/)
+- [crucial-conversations](skills/crucial-conversations/)
 - [getting-feedback](skills/getting-feedback/)
+- [giving-feedback](skills/giving-feedback/)
+- [inclusive-language](skills/inclusive-language/)
 
 ## Creative thinking
 
-- [oblique-strategies](skills/oblique-strategies/)
-- [creative-thinking](skills/creative-thinking/)
-- [ideation](skills/ideation/)
-- [futurespective](skills/futurespective/)
 - [brainstorming](skills/brainstorming/)
-- [thinking-hats](skills/thinking-hats/)
-- [scamper](skills/scamper/)
-- [mind-map](skills/mind-map/)
-- [flowchart](skills/flowchart/)
+- [creative-thinking](skills/creative-thinking/)
 - [decision-tree](skills/decision-tree/)
+- [flowchart](skills/flowchart/)
+- [futurespective](skills/futurespective/)
+- [ideation](skills/ideation/)
 - [mental-model](skills/mental-model/)
+- [mind-map](skills/mind-map/)
+- [oblique-strategies](skills/oblique-strategies/)
+- [scamper](skills/scamper/)
+- [thinking-hats](skills/thinking-hats/)
 
 ## Business functions
 
-- [public-relations-manager](skills/public-relations-manager/)
-- [marketing-manager](skills/marketing-manager/)
-- [sales-manager](skills/sales-manager/)
-- [legal-manager](skills/legal-manager/)
-- [finance-manager](skills/finance-manager/)
-- [communications-manager](skills/communications-manager/)
-- [operations-manager](skills/operations-manager/)
-- [information-manager](skills/information-manager/)
+- [angel-investor](skills/angel-investor/)
 - [branding](skills/branding/)
-- [joint-venture](skills/joint-venture/)
-- [spinoff](skills/spinoff/)
-- [spinout](skills/spinout/)
 - [business-development](skills/business-development/)
 - [business-model-canvas](skills/business-model-canvas/)
-- [venture-capital](skills/venture-capital/)
-- [angel-investor](skills/angel-investor/)
 - [business-model-innovation](skills/business-model-innovation/)
+- [communications-manager](skills/communications-manager/)
+- [finance-manager](skills/finance-manager/)
+- [information-manager](skills/information-manager/)
+- [joint-venture](skills/joint-venture/)
+- [legal-manager](skills/legal-manager/)
 - [market-expansion](skills/market-expansion/)
+- [marketing-manager](skills/marketing-manager/)
+- [operations-manager](skills/operations-manager/)
 - [product-line-extension](skills/product-line-extension/)
+- [public-relations-manager](skills/public-relations-manager/)
+- [sales-manager](skills/sales-manager/)
+- [spinoff](skills/spinoff/)
+- [spinout](skills/spinout/)
+- [venture-capital](skills/venture-capital/)
 
 ## Business analysis
 
-- [feasibility-analysis](skills/feasibility-analysis/)
-- [stakeholder-analysis](skills/stakeholder-analysis/)
 - [demand-analysis](skills/demand-analysis/)
-- [swot-analysis](skills/swot-analysis/)
+- [feasibility-analysis](skills/feasibility-analysis/)
 - [five-forces-analysis](skills/five-forces-analysis/)
 - [pestle-analysis](skills/pestle-analysis/)
+- [stakeholder-analysis](skills/stakeholder-analysis/)
+- [swot-analysis](skills/swot-analysis/)
 
 ## Strategic effects
 
+- [strategic-flywheel-effects](skills/strategic-flywheel-effects/)
+- [strategic-leverage-effects](skills/strategic-leverage-effects/)
+- [strategic-moat-effects](skills/strategic-moat-effects/)
+- [strategic-monopoly-effects](skills/strategic-monopoly-effects/)
 - [strategic-network-effects](skills/strategic-network-effects/)
 - [strategic-platform-effects](skills/strategic-platform-effects/)
-- [strategic-flywheel-effects](skills/strategic-flywheel-effects/)
-- [strategic-viral-effects](skills/strategic-viral-effects/)
-- [strategic-moat-effects](skills/strategic-moat-effects/)
-- [strategic-threshold-effects](skills/strategic-threshold-effects/)
 - [strategic-scale-effects](skills/strategic-scale-effects/)
-- [strategic-leverage-effects](skills/strategic-leverage-effects/)
-- [strategic-monopoly-effects](skills/strategic-monopoly-effects/)
+- [strategic-threshold-effects](skills/strategic-threshold-effects/)
+- [strategic-viral-effects](skills/strategic-viral-effects/)
 
 ## Productivity tools
 
@@ -376,15 +376,15 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ### Microsoft Office
 
-- [microsoft-office](skills/microsoft-office/)
-- [microsoft-word](skills/microsoft-word/)
 - [microsoft-excel](skills/microsoft-excel/)
+- [microsoft-office](skills/microsoft-office/)
 - [microsoft-powerpoint](skills/microsoft-powerpoint/)
+- [microsoft-word](skills/microsoft-word/)
 
 ### Google Workspace
 
-- [google-drive](skills/google-drive/)
 - [google-docs](skills/google-docs/)
+- [google-drive](skills/google-drive/)
 - [google-sheets](skills/google-sheets/)
 - [google-slides](skills/google-slides/)
 
@@ -393,34 +393,34 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ### AI
 
 - [claude-ai](skills/claude-ai/)
+- [gb1-ai](skills/gb1-ai/)
 - [gemini-ai](skills/gemini-ai/)
+- [glimmer-ai](skills/glimmer-ai/)
 - [gpt-ai](skills/gpt-ai/)
 - [mistral-ai](skills/mistral-ai/)
-- [gb1-ai](skills/gb1-ai/)
-- [glimmer-ai](skills/glimmer-ai/)
 - [ollama-ai](skills/ollama-ai/)
 
 ### Software engineering
 
-- [software-engineering](skills/software-engineering/)
-- [software-engineering-guide](skills/software-engineering-guide/)
-- [software-engineering-body-of-knowledge](skills/software-engineering-body-of-knowledge/)
-- [software-engineering-metrics](skills/software-engineering-metrics/)
-- [software-architecture](skills/software-architecture/)
 - [arc42](skills/arc42/)
-- [domain-driven-design](skills/domain-driven-design/)
-- [refactoring](skills/refactoring/)
-- [root-cause-analysis](skills/root-cause-analysis/)
-- [software-development-life-cycle](skills/software-development-life-cycle/)
-- [front-end-design](skills/front-end-design/)
 - [back-end-design](skills/back-end-design/)
+- [domain-driven-design](skills/domain-driven-design/)
 - [evolutionary-architecture](skills/evolutionary-architecture/)
 - [evolutionary-engineering](skills/evolutionary-engineering/)
-- [model-view-controller](skills/model-view-controller/)
-- [text-to-speech](skills/text-to-speech/)
-- [speech-to-text](skills/speech-to-text/)
+- [front-end-design](skills/front-end-design/)
 - [low-code](skills/low-code/)
+- [model-view-controller](skills/model-view-controller/)
 - [no-code](skills/no-code/)
+- [refactoring](skills/refactoring/)
+- [root-cause-analysis](skills/root-cause-analysis/)
+- [software-architecture](skills/software-architecture/)
+- [software-development-life-cycle](skills/software-development-life-cycle/)
+- [software-engineering](skills/software-engineering/)
+- [software-engineering-body-of-knowledge](skills/software-engineering-body-of-knowledge/)
+- [software-engineering-guide](skills/software-engineering-guide/)
+- [software-engineering-metrics](skills/software-engineering-metrics/)
+- [speech-to-text](skills/speech-to-text/)
+- [text-to-speech](skills/text-to-speech/)
 
 ### Decision records
 
@@ -437,23 +437,23 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ### Version control
 
+- [codeberg](skills/codeberg/)
 - [git](skills/git/)
 - [github](skills/github/)
 - [gitlab](skills/gitlab/)
-- [codeberg](skills/codeberg/)
 
 ### Design & UX
 
+- [anticipatory-design](skills/anticipatory-design/)
+- [copywriting](skills/copywriting/)
 - [figma](skills/figma/)
 - [figma-make](skills/figma-make/)
-- [user-centred-design](skills/user-centred-design/)
+- [iconography](skills/iconography/)
+- [microcopy](skills/microcopy/)
+- [mobile-first-design](skills/mobile-first-design/)
 - [site-map](skills/site-map/)
 - [typography](skills/typography/)
-- [copywriting](skills/copywriting/)
-- [microcopy](skills/microcopy/)
-- [iconography](skills/iconography/)
-- [mobile-first-design](skills/mobile-first-design/)
-- [anticipatory-design](skills/anticipatory-design/)
+- [user-centred-design](skills/user-centred-design/)
 
 ### Internationalization
 
@@ -461,35 +461,35 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ### Software development practices
 
-- [test-driven-development](skills/test-driven-development/)
 - [behavior-driven-development](skills/behavior-driven-development/)
-- [specification-driven-development](skills/specification-driven-development/)
 - [pair-programming](skills/pair-programming/)
+- [specification-driven-development](skills/specification-driven-development/)
+- [test-driven-development](skills/test-driven-development/)
 
 ### Diagramming
 
-- [plantuml-diagram](skills/plantuml-diagram/)
-- [mermaid-diagram](skills/mermaid-diagram/)
 - [activity-diagram](skills/activity-diagram/)
-- [sequence-diagram](skills/sequence-diagram/)
-- [use-case-diagram](skills/use-case-diagram/)
-- [object-diagram](skills/object-diagram/)
+- [cause-and-effect-diagram](skills/cause-and-effect-diagram/)
 - [class-diagram](skills/class-diagram/)
-- [package-diagram](skills/package-diagram/)
 - [component-diagram](skills/component-diagram/)
 - [deployment-diagram](skills/deployment-diagram/)
-- [state-diagram](skills/state-diagram/)
-- [timing-diagram](skills/timing-diagram/)
 - [entity-relationship-diagram](skills/entity-relationship-diagram/)
-- [cause-and-effect-diagram](skills/cause-and-effect-diagram/)
 - [fishbone-diagram](skills/fishbone-diagram/)
 - [ishikawa-diagram](skills/ishikawa-diagram/)
+- [mermaid-diagram](skills/mermaid-diagram/)
+- [object-diagram](skills/object-diagram/)
+- [package-diagram](skills/package-diagram/)
+- [plantuml-diagram](skills/plantuml-diagram/)
+- [sequence-diagram](skills/sequence-diagram/)
+- [state-diagram](skills/state-diagram/)
+- [timing-diagram](skills/timing-diagram/)
+- [use-case-diagram](skills/use-case-diagram/)
 
 ### Systems & safety engineering
 
-- [system-quality-attributes](skills/system-quality-attributes/)
-- [queueing-theory](skills/queueing-theory/)
 - [causal-analysis-based-on-system-theory](skills/causal-analysis-based-on-system-theory/)
+- [queueing-theory](skills/queueing-theory/)
+- [system-quality-attributes](skills/system-quality-attributes/)
 
 ## Lily Design System
 
@@ -507,8 +507,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ### Databases
 
 - [mariadb-database](skills/mariadb-database/)
-- [mysql-database](skills/mysql-database/)
 - [mssql-database](skills/mssql-database/)
+- [mysql-database](skills/mysql-database/)
 - [oracle-database](skills/oracle-database/)
 - [postgresql-database](skills/postgresql-database/)
 - [sqlite-database](skills/sqlite-database/)
@@ -526,34 +526,34 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ### Programming Languages
 
-- [javascript-programming](skills/javascript-programming/)
-- [python-programming](skills/python-programming/)
-- [rust-programming](skills/rust-programming/)
-- [typescript-programming](skills/typescript-programming/)
-- [c-sharp-programming](skills/c-sharp-programming/)
-- [dot-net-programming](skills/dot-net-programming/)
-- [delphi-programming](skills/delphi-programming/)
-- [r-programming](skills/r-programming/)
-- [julia-programming](skills/julia-programming/)
-- [go-programming](skills/go-programming/)
-- [pascal-programming](skills/pascal-programming/)
-- [lisp-programming](skills/lisp-programming/)
-- [scheme-programming](skills/scheme-programming/)
-- [zig-programming](skills/zig-programming/)
 - [c-plus-plus-programming](skills/c-plus-plus-programming/)
 - [c-programming](skills/c-programming/)
-- [objective-c-programming](skills/objective-c-programming/)
-- [swift-programming](skills/swift-programming/)
+- [c-sharp-programming](skills/c-sharp-programming/)
+- [delphi-programming](skills/delphi-programming/)
+- [dot-net-programming](skills/dot-net-programming/)
+- [go-programming](skills/go-programming/)
+- [javascript-programming](skills/javascript-programming/)
+- [julia-programming](skills/julia-programming/)
 - [kotlin-programming](skills/kotlin-programming/)
+- [lisp-programming](skills/lisp-programming/)
+- [objective-c-programming](skills/objective-c-programming/)
+- [pascal-programming](skills/pascal-programming/)
+- [python-programming](skills/python-programming/)
+- [r-programming](skills/r-programming/)
+- [rust-programming](skills/rust-programming/)
+- [scheme-programming](skills/scheme-programming/)
+- [swift-programming](skills/swift-programming/)
+- [typescript-programming](skills/typescript-programming/)
+- [zig-programming](skills/zig-programming/)
 
 ### Web frameworks
 
-- [svelte-programming](skills/svelte-programming/)
 - [angular-programming](skills/angular-programming/)
-- [react-programming](skills/react-programming/)
-- [vue-programming](skills/vue-programming/)
 - [blazor-programming](skills/blazor-programming/)
 - [nunjucks-programming](skills/nunjucks-programming/)
+- [react-programming](skills/react-programming/)
+- [svelte-programming](skills/svelte-programming/)
+- [vue-programming](skills/vue-programming/)
 
 ### Playwright testing
 
@@ -577,8 +577,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ### Org mode
 
-- [org-mode](skills/org-mode/)
 - [org-contacts](skills/org-contacts/)
+- [org-mode](skills/org-mode/)
 - [org-roam](skills/org-roam/)
 
 ## Testing

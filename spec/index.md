@@ -278,3 +278,25 @@ Subprojects:
 - skills-on-ai.github.io — the public catalog site (SvelteKit +
   adapter-static + Lily Design System), published via git subtree per
   [monorepo-github-pages](monorepo-github-pages/index.md).
+
+## Workflow
+
+Adding or editing skills content (`skills/*/SKILL.md`, `README.md`) is
+followed automatically by, without a separate ask each time:
+
+1. Regenerate the generated site data: `bin/generate-skills-data`.
+2. Commit the change on a short-lived branch.
+3. Merge that branch into `main` (fast-forward when possible).
+4. Push `main` to the `origin` remotes (GitHub, GitLab, Codeberg).
+5. Publish the site: `make github-pages` (see
+   [monorepo-github-pages](monorepo-github-pages/index.md)).
+
+This is the default for ordinary skill-content changes. It does not
+cover structural or destructive git operations (rewriting history,
+force-pushing, deleting skills, changing remotes) — those still require
+an explicit ask.
+
+Known caveat: the Codeberg push URL (`git@codeberg.org:skills-for-ai/skills-for-ai.git`)
+has previously failed with "Forgejo: Cannot find repository" — check
+that push's result rather than assuming it always succeeds alongside
+GitHub/GitLab.
