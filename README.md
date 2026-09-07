@@ -185,9 +185,11 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 - [organizational-development](skills/organizational-development/)
 - [people-and-organizational-development](skills/people-and-organizational-development/)
+- [job-description](skills/job-description/)
 - [continuing-professional-development](skills/continuing-professional-development/)
 - [ways-of-working](skills/ways-of-working/)
 - [united-kingdom-government-digital-and-data-profession-capability-framework](skills/united-kingdom-government-digital-and-data-profession-capability-framework/)
+- [job-description-with-uk-gdad-pcf-and-agenda-for-change](skills/job-description-with-uk-gdad-pcf-and-agenda-for-change/)
 - [community-of-practice](skills/community-of-practice/)
 
 ## Management disciplines
@@ -369,6 +371,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [strategic-monopoly-effects](skills/strategic-monopoly-effects/)
 
 ## Productivity tools
+
+- [travel-itinerary](skills/travel-itinerary/)
 
 ### Microsoft Office
 
