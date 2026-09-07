@@ -30,7 +30,8 @@ ACRONYMS = {
     "raci": "RACI", "plantuml": "PlantUML", "ux": "UX", "ui": "UI",
     "gpt": "GPT", "gb1": "GB1", "prince2": "PRINCE2",
     "javascript": "JavaScript", "typescript": "TypeScript",
-    "aria": "ARIA",
+    "aria": "ARIA", "roi": "ROI", "nda": "NDA", "sla": "SLA", "rfp": "RFP",
+    "cv": "CV",
 }
 
 # Whole-slug title overrides for names that don't title-case cleanly
@@ -42,6 +43,8 @@ SLUG_TITLES = {
     "dot-net-programming": ".NET Programming",
     "team-focus": "TEAM FOCUS",
     "smart-criteria": "SMART Criteria",
+    "non-disclosure-agreement": "Non-Disclosure Agreement",
+    "break-even-analysis": "Break-Even Analysis",
 }
 
 
@@ -49,7 +52,7 @@ def slug_to_title(slug: str) -> str:
     if slug in SLUG_TITLES:
         return SLUG_TITLES[slug]
     words = slug.split("-")
-    small = {"a", "an", "of", "the", "and", "or", "to", "in", "on", "vs"}
+    small = {"a", "an", "of", "the", "and", "or", "to", "in", "on", "vs", "for"}
     out = []
     for i, w in enumerate(words):
         if w.lower() in ACRONYMS:

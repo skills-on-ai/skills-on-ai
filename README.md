@@ -185,12 +185,24 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 - [community-of-practice](skills/community-of-practice/)
 - [continuing-professional-development](skills/continuing-professional-development/)
-- [job-description](skills/job-description/)
-- [job-description-with-uk-gdad-pcf-and-agenda-for-change](skills/job-description-with-uk-gdad-pcf-and-agenda-for-change/)
 - [organizational-development](skills/organizational-development/)
 - [people-and-organizational-development](skills/people-and-organizational-development/)
 - [united-kingdom-government-digital-and-data-profession-capability-framework](skills/united-kingdom-government-digital-and-data-profession-capability-framework/)
 - [ways-of-working](skills/ways-of-working/)
+
+## Hiring
+
+- [cover-letter](skills/cover-letter/)
+- [employee-onboarding](skills/employee-onboarding/)
+- [exit-interview](skills/exit-interview/)
+- [interview-scorecard](skills/interview-scorecard/)
+- [job-description](skills/job-description/)
+- [job-description-with-uk-gdad-pcf-and-agenda-for-change](skills/job-description-with-uk-gdad-pcf-and-agenda-for-change/)
+- [job-posting](skills/job-posting/)
+- [offboarding-checklist](skills/offboarding-checklist/)
+- [offer-letter](skills/offer-letter/)
+- [performance-improvement-plan](skills/performance-improvement-plan/)
+- [resume](skills/resume/)
 
 ## Management disciplines
 
@@ -250,6 +262,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ## Meetings
 
 - [all-hands-meeting](skills/all-hands-meeting/)
+- [meeting-agenda](skills/meeting-agenda/)
+- [meeting-minutes](skills/meeting-minutes/)
 - [one-on-one-meeting](skills/one-on-one-meeting/)
 - [performance-review-meeting](skills/performance-review-meeting/)
 - [skip-level-meeting](skills/skip-level-meeting/)
@@ -358,6 +372,24 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [stakeholder-analysis](skills/stakeholder-analysis/)
 - [swot-analysis](skills/swot-analysis/)
 
+## Legal & contracts
+
+- [contract-review](skills/contract-review/)
+- [non-disclosure-agreement](skills/non-disclosure-agreement/)
+- [privacy-policy](skills/privacy-policy/)
+- [request-for-proposal](skills/request-for-proposal/)
+- [service-level-agreement](skills/service-level-agreement/)
+- [terms-of-service](skills/terms-of-service/)
+- [vendor-management](skills/vendor-management/)
+
+## Finance
+
+- [break-even-analysis](skills/break-even-analysis/)
+- [budget-forecasting](skills/budget-forecasting/)
+- [cap-table](skills/cap-table/)
+- [roi-analysis](skills/roi-analysis/)
+- [unit-economics](skills/unit-economics/)
+
 ## Strategic effects
 
 - [strategic-flywheel-effects](skills/strategic-flywheel-effects/)
@@ -372,6 +404,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Productivity tools
 
+- [event-planning](skills/event-planning/)
+- [moving-checklist](skills/moving-checklist/)
 - [travel-itinerary](skills/travel-itinerary/)
 
 ### Microsoft Office
@@ -475,6 +509,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [deployment-diagram](skills/deployment-diagram/)
 - [entity-relationship-diagram](skills/entity-relationship-diagram/)
 - [fishbone-diagram](skills/fishbone-diagram/)
+- [gantt-chart](skills/gantt-chart/)
 - [ishikawa-diagram](skills/ishikawa-diagram/)
 - [mermaid-diagram](skills/mermaid-diagram/)
 - [object-diagram](skills/object-diagram/)
@@ -482,14 +517,25 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [plantuml-diagram](skills/plantuml-diagram/)
 - [sequence-diagram](skills/sequence-diagram/)
 - [state-diagram](skills/state-diagram/)
+- [swimlane-diagram](skills/swimlane-diagram/)
 - [timing-diagram](skills/timing-diagram/)
 - [use-case-diagram](skills/use-case-diagram/)
+- [value-stream-map](skills/value-stream-map/)
+- [wardley-map](skills/wardley-map/)
 
 ### Systems & safety engineering
 
 - [causal-analysis-based-on-system-theory](skills/causal-analysis-based-on-system-theory/)
 - [queueing-theory](skills/queueing-theory/)
 - [system-quality-attributes](skills/system-quality-attributes/)
+
+### Security & operations
+
+- [business-continuity-plan](skills/business-continuity-plan/)
+- [incident-response-plan](skills/incident-response-plan/)
+- [postmortem](skills/postmortem/)
+- [runbook](skills/runbook/)
+- [threat-modeling](skills/threat-modeling/)
 
 ## Lily Design System
 
