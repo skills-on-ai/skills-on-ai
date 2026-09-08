@@ -204,6 +204,15 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [performance-improvement-plan](skills/performance-improvement-plan/)
 - [resume](skills/resume/)
 
+## HR & compensation
+
+- [code-of-conduct](skills/code-of-conduct/)
+- [compensation-benchmarking](skills/compensation-benchmarking/)
+- [employee-handbook](skills/employee-handbook/)
+- [org-chart](skills/org-chart/)
+- [succession-planning](skills/succession-planning/)
+- [total-rewards-statement](skills/total-rewards-statement/)
+
 ## Management disciplines
 
 - [critical-chain](skills/critical-chain/)
@@ -230,6 +239,14 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [enterprise-change-management](skills/enterprise-change-management/)
 - [enterprise-portfolio-project-management](skills/enterprise-portfolio-project-management/)
 - [enterprise-resource-planning](skills/enterprise-resource-planning/)
+
+## Supply chain & operations
+
+- [capacity-planning](skills/capacity-planning/)
+- [demand-forecasting](skills/demand-forecasting/)
+- [inventory-management](skills/inventory-management/)
+- [logistics-planning](skills/logistics-planning/)
+- [supply-chain-risk-assessment](skills/supply-chain-risk-assessment/)
 
 ## Team practices
 
@@ -399,6 +416,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [non-disclosure-agreement](skills/non-disclosure-agreement/)
 - [power-of-attorney](skills/power-of-attorney/)
 - [privacy-policy](skills/privacy-policy/)
+- [property-management](skills/property-management/)
 - [request-for-proposal](skills/request-for-proposal/)
 - [service-level-agreement](skills/service-level-agreement/)
 - [terms-of-service](skills/terms-of-service/)
@@ -421,6 +439,13 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [lesson-plan](skills/lesson-plan/)
 - [training-needs-analysis](skills/training-needs-analysis/)
 
+## Public sector & sustainability
+
+- [environmental-impact-assessment](skills/environmental-impact-assessment/)
+- [freedom-of-information-request](skills/freedom-of-information-request/)
+- [policy-brief](skills/policy-brief/)
+- [sustainability-report](skills/sustainability-report/)
+
 ## Strategic effects
 
 - [strategic-flywheel-effects](skills/strategic-flywheel-effects/)
@@ -436,6 +461,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ## Productivity tools
 
 - [event-planning](skills/event-planning/)
+- [home-inspection-checklist](skills/home-inspection-checklist/)
 - [moving-checklist](skills/moving-checklist/)
 - [travel-itinerary](skills/travel-itinerary/)
 
@@ -464,6 +490,15 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [gpt-ai](skills/gpt-ai/)
 - [mistral-ai](skills/mistral-ai/)
 - [ollama-ai](skills/ollama-ai/)
+
+### Data & ML
+
+- [data-governance](skills/data-governance/)
+- [data-pipeline](skills/data-pipeline/)
+- [data-quality](skills/data-quality/)
+- [machine-learning-model-card](skills/machine-learning-model-card/)
+- [mlops](skills/mlops/)
+- [prompt-engineering](skills/prompt-engineering/)
 
 ### Software engineering
 
@@ -572,9 +607,14 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ### Security & operations
 
 - [business-continuity-plan](skills/business-continuity-plan/)
+- [change-request](skills/change-request/)
+- [configuration-management](skills/configuration-management/)
+- [disaster-recovery-plan](skills/disaster-recovery-plan/)
 - [incident-response-plan](skills/incident-response-plan/)
+- [on-call-rotation](skills/on-call-rotation/)
 - [postmortem](skills/postmortem/)
 - [runbook](skills/runbook/)
+- [service-catalog](skills/service-catalog/)
 - [threat-modeling](skills/threat-modeling/)
 
 ## Lily Design System

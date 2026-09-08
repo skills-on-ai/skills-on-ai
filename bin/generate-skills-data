@@ -45,6 +45,8 @@ SLUG_TITLES = {
     "smart-criteria": "SMART Criteria",
     "non-disclosure-agreement": "Non-Disclosure Agreement",
     "break-even-analysis": "Break-Even Analysis",
+    "mlops": "MLOps",
+    "on-call-rotation": "On-Call Rotation",
 }
 
 
