@@ -32,6 +32,7 @@ ACRONYMS = {
     "javascript": "JavaScript", "typescript": "TypeScript",
     "aria": "ARIA", "roi": "ROI", "nda": "NDA", "sla": "SLA", "rfp": "RFP",
     "cv": "CV", "api": "API", "readme": "README",
+    "soap": "SOAP", "sbar": "SBAR",
 }
 
 # Whole-slug title overrides for names that don't title-case cleanly
@@ -151,6 +152,16 @@ def render_body(body: str) -> str:
             code = html.escape("\n".join(code_lines))
             cls = f' class="language-{lang}"' if lang else ""
             html_parts.append(f"<pre><code{cls}>{code}</code></pre>")
+            continue
+
+        if stripped.startswith("> "):
+            flush_para()
+            quote_lines = []
+            while i < n and lines[i].strip().startswith("> "):
+                quote_lines.append(lines[i].strip()[2:].strip())
+                i += 1
+            quote_text = " ".join(quote_lines)
+            html_parts.append(f"<blockquote><p>{render_inline(quote_text)}</p></blockquote>")
             continue
 
         if stripped.startswith("## "):

@@ -181,6 +181,50 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [yellow-fever-care](skills/yellow-fever-care/)
 - [zika-care](skills/zika-care/)
 
+## Clinical documentation
+
+- [medical-admission-note](skills/medical-admission-note/)
+- [medical-discharge-summary](skills/medical-discharge-summary/)
+- [medical-medication-reconciliation](skills/medical-medication-reconciliation/)
+- [medical-nursing-care-plan](skills/medical-nursing-care-plan/)
+- [medical-referral-letter](skills/medical-referral-letter/)
+- [medical-soap-note](skills/medical-soap-note/)
+
+## Clinical communication
+
+- [medical-family-conference](skills/medical-family-conference/)
+- [medical-morbidity-and-mortality-review](skills/medical-morbidity-and-mortality-review/)
+- [medical-multidisciplinary-team-meeting](skills/medical-multidisciplinary-team-meeting/)
+- [medical-sbar-handoff](skills/medical-sbar-handoff/)
+- [medical-shift-handoff-report](skills/medical-shift-handoff-report/)
+
+## Patient safety & clinical quality
+
+- [medical-adverse-event-review](skills/medical-adverse-event-review/)
+- [medical-clinical-audit](skills/medical-clinical-audit/)
+- [medical-clinical-incident-report](skills/medical-clinical-incident-report/)
+- [medical-medication-error-reporting](skills/medical-medication-error-reporting/)
+- [medical-patient-safety-huddle](skills/medical-patient-safety-huddle/)
+
+## Clinical protocols
+
+- [medical-early-warning-score](skills/medical-early-warning-score/)
+- [medical-fall-prevention-protocol](skills/medical-fall-prevention-protocol/)
+- [medical-hand-hygiene-compliance](skills/medical-hand-hygiene-compliance/)
+- [medical-infection-control-protocol](skills/medical-infection-control-protocol/)
+- [medical-pressure-injury-prevention](skills/medical-pressure-injury-prevention/)
+
+## Consent & end-of-life care
+
+- [medical-advance-directive](skills/medical-advance-directive/)
+- [medical-do-not-resuscitate-order](skills/medical-do-not-resuscitate-order/)
+- [medical-informed-consent](skills/medical-informed-consent/)
+
+## Clinical workforce
+
+- [medical-clinical-supervision](skills/medical-clinical-supervision/)
+- [medical-nurse-staffing-ratio-planning](skills/medical-nurse-staffing-ratio-planning/)
+
 ## Organizations
 
 - [community-of-practice](skills/community-of-practice/)
@@ -210,6 +254,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [compensation-benchmarking](skills/compensation-benchmarking/)
 - [employee-handbook](skills/employee-handbook/)
 - [org-chart](skills/org-chart/)
+- [salary-negotiation](skills/salary-negotiation/)
 - [succession-planning](skills/succession-planning/)
 - [total-rewards-statement](skills/total-rewards-statement/)
 
@@ -217,11 +262,14 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 - [critical-chain](skills/critical-chain/)
 - [critical-path](skills/critical-path/)
+- [feature-prioritization](skills/feature-prioritization/)
 - [functional-specification](skills/functional-specification/)
 - [portfolio-management](skills/portfolio-management/)
 - [practice-management](skills/practice-management/)
 - [prince2](skills/prince2/)
 - [product-management](skills/product-management/)
+- [product-requirements-document](skills/product-requirements-document/)
+- [product-roadmap](skills/product-roadmap/)
 - [program-management](skills/program-management/)
 - [project-charter](skills/project-charter/)
 - [project-management](skills/project-management/)
@@ -231,6 +279,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [responsibility-assignment-matrix](skills/responsibility-assignment-matrix/)
 - [risks-actions-issues-decisions](skills/risks-actions-issues-decisions/)
 - [statement-of-work](skills/statement-of-work/)
+- [user-story](skills/user-story/)
 - [work-breakdown-structure](skills/work-breakdown-structure/)
 
 ## Enterprise
@@ -314,7 +363,11 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [critical-incident-technique](skills/critical-incident-technique/)
 - [diary-study](skills/diary-study/)
 - [hierarchical-task-analysis](skills/hierarchical-task-analysis/)
+- [literature-review](skills/literature-review/)
+- [research-proposal](skills/research-proposal/)
+- [survey-design](skills/survey-design/)
 - [task-analysis](skills/task-analysis/)
+- [user-interview-guide](skills/user-interview-guide/)
 - [workflow-analysis](skills/workflow-analysis/)
 
 ## Accessibility & inclusion
@@ -361,13 +414,16 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ## Business functions
 
 - [angel-investor](skills/angel-investor/)
+- [board-deck](skills/board-deck/)
 - [branding](skills/branding/)
 - [business-development](skills/business-development/)
 - [business-model-canvas](skills/business-model-canvas/)
 - [business-model-innovation](skills/business-model-innovation/)
 - [communications-manager](skills/communications-manager/)
+- [crisis-communication-plan](skills/crisis-communication-plan/)
 - [finance-manager](skills/finance-manager/)
 - [information-manager](skills/information-manager/)
+- [investor-update](skills/investor-update/)
 - [joint-venture](skills/joint-venture/)
 - [legal-manager](skills/legal-manager/)
 - [market-expansion](skills/market-expansion/)
