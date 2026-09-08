@@ -48,6 +48,7 @@ SLUG_TITLES = {
     "break-even-analysis": "Break-Even Analysis",
     "mlops": "MLOps",
     "on-call-rotation": "On-Call Rotation",
+    "3d-printing-hobby": "3D Printing Hobby",
 }
 
 

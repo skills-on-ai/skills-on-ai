@@ -337,6 +337,7 @@ Skills:
 - government-security-clearance-application
 - grant-proposal
 - hindi-language
+- {3d-printing,amateur-radio,astronomy,baking,beekeeping,birdwatching,board-gaming,calligraphy,camping,chess,coin-collecting,cycling,drawing,fishing,gardening,genealogy,geocaching,hiking,home-brewing,journaling,knitting,leatherworking,model-building,painting,photography,pottery,quilting,rock-climbing,running,sewing,video-gaming,woodworking,yoga}-hobby
 - home-inspection-checklist
 - incident-response-plan
 - indonesian-language

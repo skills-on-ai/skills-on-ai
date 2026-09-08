@@ -608,6 +608,42 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [google-sheets](skills/google-sheets/)
 - [google-slides](skills/google-slides/)
 
+## Hobbies
+
+- [3d-printing-hobby](skills/3d-printing-hobby/)
+- [amateur-radio-hobby](skills/amateur-radio-hobby/)
+- [astronomy-hobby](skills/astronomy-hobby/)
+- [baking-hobby](skills/baking-hobby/)
+- [beekeeping-hobby](skills/beekeeping-hobby/)
+- [birdwatching-hobby](skills/birdwatching-hobby/)
+- [board-gaming-hobby](skills/board-gaming-hobby/)
+- [calligraphy-hobby](skills/calligraphy-hobby/)
+- [camping-hobby](skills/camping-hobby/)
+- [chess-hobby](skills/chess-hobby/)
+- [coin-collecting-hobby](skills/coin-collecting-hobby/)
+- [cycling-hobby](skills/cycling-hobby/)
+- [drawing-hobby](skills/drawing-hobby/)
+- [fishing-hobby](skills/fishing-hobby/)
+- [gardening-hobby](skills/gardening-hobby/)
+- [genealogy-hobby](skills/genealogy-hobby/)
+- [geocaching-hobby](skills/geocaching-hobby/)
+- [hiking-hobby](skills/hiking-hobby/)
+- [home-brewing-hobby](skills/home-brewing-hobby/)
+- [journaling-hobby](skills/journaling-hobby/)
+- [knitting-hobby](skills/knitting-hobby/)
+- [leatherworking-hobby](skills/leatherworking-hobby/)
+- [model-building-hobby](skills/model-building-hobby/)
+- [painting-hobby](skills/painting-hobby/)
+- [photography-hobby](skills/photography-hobby/)
+- [pottery-hobby](skills/pottery-hobby/)
+- [quilting-hobby](skills/quilting-hobby/)
+- [rock-climbing-hobby](skills/rock-climbing-hobby/)
+- [running-hobby](skills/running-hobby/)
+- [sewing-hobby](skills/sewing-hobby/)
+- [video-gaming-hobby](skills/video-gaming-hobby/)
+- [woodworking-hobby](skills/woodworking-hobby/)
+- [yoga-hobby](skills/yoga-hobby/)
+
 ## Technology
 
 ### AI
