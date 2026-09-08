@@ -41,6 +41,7 @@ export const categories: Category[] = [
 	{ slug: "marketing-content", title: "Marketing & content" },
 	{ slug: "sales-customer-success", title: "Sales & customer success" },
 	{ slug: "legal-contracts", title: "Legal & contracts" },
+	{ slug: "legal-skills", title: "Legal skills" },
 	{ slug: "finance", title: "Finance" },
 	{ slug: "education-nonprofit", title: "Education & nonprofit" },
 	{ slug: "public-sector-sustainability", title: "Public sector & sustainability" },

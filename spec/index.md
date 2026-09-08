@@ -349,6 +349,7 @@ Skills:
 - job-description-with-uk-gdad-pcf-and-agenda-for-change
 - job-posting
 - korean-language
+- legal-{research,brief-writing,contract-drafting,contract-negotiation,due-diligence,compliance-audit,risk-assessment,intellectual-property-filing,trademark-registration,patent-application,litigation-hold,discovery-request,deposition-preparation,settlement-negotiation,regulatory-filing,corporate-governance,merger-and-acquisition-review,data-privacy-compliance,cease-and-desist-letter,arbitration-and-mediation,conflict-of-interest-check,client-engagement-letter,case-management,whistleblower-complaint-handling}
 - last-will-and-testament
 - lease-agreement
 - lesson-plan

@@ -503,6 +503,33 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [terms-of-service](skills/terms-of-service/)
 - [vendor-management](skills/vendor-management/)
 
+## Legal skills
+
+- [legal-arbitration-and-mediation](skills/legal-arbitration-and-mediation/)
+- [legal-brief-writing](skills/legal-brief-writing/)
+- [legal-case-management](skills/legal-case-management/)
+- [legal-cease-and-desist-letter](skills/legal-cease-and-desist-letter/)
+- [legal-client-engagement-letter](skills/legal-client-engagement-letter/)
+- [legal-compliance-audit](skills/legal-compliance-audit/)
+- [legal-conflict-of-interest-check](skills/legal-conflict-of-interest-check/)
+- [legal-contract-drafting](skills/legal-contract-drafting/)
+- [legal-contract-negotiation](skills/legal-contract-negotiation/)
+- [legal-corporate-governance](skills/legal-corporate-governance/)
+- [legal-data-privacy-compliance](skills/legal-data-privacy-compliance/)
+- [legal-deposition-preparation](skills/legal-deposition-preparation/)
+- [legal-discovery-request](skills/legal-discovery-request/)
+- [legal-due-diligence](skills/legal-due-diligence/)
+- [legal-intellectual-property-filing](skills/legal-intellectual-property-filing/)
+- [legal-litigation-hold](skills/legal-litigation-hold/)
+- [legal-merger-and-acquisition-review](skills/legal-merger-and-acquisition-review/)
+- [legal-patent-application](skills/legal-patent-application/)
+- [legal-regulatory-filing](skills/legal-regulatory-filing/)
+- [legal-research](skills/legal-research/)
+- [legal-risk-assessment](skills/legal-risk-assessment/)
+- [legal-settlement-negotiation](skills/legal-settlement-negotiation/)
+- [legal-trademark-registration](skills/legal-trademark-registration/)
+- [legal-whistleblower-complaint-handling](skills/legal-whistleblower-complaint-handling/)
+
 ## Finance
 
 - [break-even-analysis](skills/break-even-analysis/)
