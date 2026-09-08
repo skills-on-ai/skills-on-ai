@@ -372,10 +372,32 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [stakeholder-analysis](skills/stakeholder-analysis/)
 - [swot-analysis](skills/swot-analysis/)
 
+## Marketing & content
+
+- [brand-style-guide](skills/brand-style-guide/)
+- [competitor-analysis](skills/competitor-analysis/)
+- [content-calendar](skills/content-calendar/)
+- [customer-journey-map](skills/customer-journey-map/)
+- [customer-persona](skills/customer-persona/)
+- [press-release](skills/press-release/)
+
+## Sales & customer success
+
+- [churn-analysis](skills/churn-analysis/)
+- [customer-onboarding](skills/customer-onboarding/)
+- [customer-success-plan](skills/customer-success-plan/)
+- [net-promoter-score](skills/net-promoter-score/)
+- [sales-pitch](skills/sales-pitch/)
+- [sales-proposal](skills/sales-proposal/)
+
 ## Legal & contracts
 
 - [contract-review](skills/contract-review/)
+- [estate-planning](skills/estate-planning/)
+- [last-will-and-testament](skills/last-will-and-testament/)
+- [lease-agreement](skills/lease-agreement/)
 - [non-disclosure-agreement](skills/non-disclosure-agreement/)
+- [power-of-attorney](skills/power-of-attorney/)
 - [privacy-policy](skills/privacy-policy/)
 - [request-for-proposal](skills/request-for-proposal/)
 - [service-level-agreement](skills/service-level-agreement/)
@@ -387,8 +409,17 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [break-even-analysis](skills/break-even-analysis/)
 - [budget-forecasting](skills/budget-forecasting/)
 - [cap-table](skills/cap-table/)
+- [personal-budget](skills/personal-budget/)
 - [roi-analysis](skills/roi-analysis/)
 - [unit-economics](skills/unit-economics/)
+
+## Education & nonprofit
+
+- [curriculum-design](skills/curriculum-design/)
+- [donor-management](skills/donor-management/)
+- [grant-proposal](skills/grant-proposal/)
+- [lesson-plan](skills/lesson-plan/)
+- [training-needs-analysis](skills/training-needs-analysis/)
 
 ## Strategic effects
 
@@ -496,9 +527,18 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ### Software development practices
 
 - [behavior-driven-development](skills/behavior-driven-development/)
+- [code-review-checklist](skills/code-review-checklist/)
 - [pair-programming](skills/pair-programming/)
 - [specification-driven-development](skills/specification-driven-development/)
+- [technical-debt-register](skills/technical-debt-register/)
 - [test-driven-development](skills/test-driven-development/)
+
+### Documentation
+
+- [api-documentation](skills/api-documentation/)
+- [changelog](skills/changelog/)
+- [readme-writing](skills/readme-writing/)
+- [release-notes](skills/release-notes/)
 
 ### Diagramming
 
