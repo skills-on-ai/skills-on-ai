@@ -17,7 +17,7 @@ describes digital and data jobs across UK government: 8 professions, 52
 roles, 205 role levels, 183 named skills. This project restates the official
 framework as plain files and a website, and adds eight further documents for
 every role level. It is a community project, not a government service — for
-anything that affects pay, grading, recruitment or promotion, the official
+anything that affects pay, grading, recruitment, or promotion, the official
 framework at <https://ddat-capability-framework.service.gov.uk/> is the
 source that matters, alongside the person's own organisation.
 
@@ -74,7 +74,7 @@ that names it.
 ## What this project is not
 
 - Not the official framework, and not a substitute for it where pay, grading,
-  recruitment or promotion is on the line.
+  recruitment, or promotion is on the line.
 - Not a validated psychometric or competency assessment instrument — every
   assessment and competency document says so in its own advisory section.
 - Not a service that stores or submits anything. Every page is static;
