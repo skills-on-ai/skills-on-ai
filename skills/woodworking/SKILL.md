@@ -53,4 +53,4 @@ a safety step to save a moment of time.
 
 ## Learn more
 
-- [[pottery-hobby]] and [[leatherworking-hobby]] for other hands-on craft hobbies with similar tool-and-technique learning curves.
+- [[pottery]] and [[leatherworking]] for other hands-on craft hobbies with similar tool-and-technique learning curves.

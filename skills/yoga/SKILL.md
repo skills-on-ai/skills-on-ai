@@ -55,4 +55,4 @@ stress-relief and mindfulness benefits.
 
 ## Learn more
 
-- [[running-hobby]] for a complementary, higher-intensity fitness hobby.
+- [[running]] for a complementary, higher-intensity fitness hobby.
