@@ -43,6 +43,8 @@ export const categories: Category[] = [
 	{ slug: "finance", title: "Finance" },
 	{ slug: "education-nonprofit", title: "Education & nonprofit" },
 	{ slug: "public-sector-sustainability", title: "Public sector & sustainability" },
+	{ slug: "government-accountability-engagement", title: "Government accountability & engagement" },
+	{ slug: "government-operations", title: "Government operations" },
 	{ slug: "strategic-effects", title: "Strategic effects" },
 	{ slug: "productivity-tools", title: "Productivity tools" },
 	{ slug: "productivity-tools-microsoft-office", title: "Productivity tools › Microsoft Office" },

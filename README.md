@@ -499,8 +499,29 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 - [environmental-impact-assessment](skills/environmental-impact-assessment/)
 - [freedom-of-information-request](skills/freedom-of-information-request/)
+- [government-bill-drafting](skills/government-bill-drafting/)
+- [government-legislative-testimony](skills/government-legislative-testimony/)
+- [government-public-comment-response](skills/government-public-comment-response/)
+- [government-public-consultation](skills/government-public-consultation/)
+- [government-regulatory-impact-assessment](skills/government-regulatory-impact-assessment/)
 - [policy-brief](skills/policy-brief/)
 - [sustainability-report](skills/sustainability-report/)
+
+## Government accountability & engagement
+
+- [government-constituent-casework](skills/government-constituent-casework/)
+- [government-ombudsman-complaint-investigation](skills/government-ombudsman-complaint-investigation/)
+- [government-public-hearing](skills/government-public-hearing/)
+
+## Government operations
+
+- [government-contract-proposal](skills/government-contract-proposal/)
+- [government-emergency-management-plan](skills/government-emergency-management-plan/)
+- [government-open-data-publication](skills/government-open-data-publication/)
+- [government-performance-report](skills/government-performance-report/)
+- [government-public-budget-appropriation](skills/government-public-budget-appropriation/)
+- [government-public-records-management](skills/government-public-records-management/)
+- [government-security-clearance-application](skills/government-security-clearance-application/)
 
 ## Strategic effects
 
