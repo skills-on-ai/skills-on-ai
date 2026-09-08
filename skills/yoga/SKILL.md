@@ -1,5 +1,5 @@
 ---
-name: yoga-hobby
+name: yoga
 description: Use when asked for guidance on yoga as a hobby — choosing a style, building a beginner-safe practice, and the difference between flexibility and strength focus.
 ---
 

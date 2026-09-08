@@ -1,5 +1,5 @@
 ---
-name: woodworking-hobby
+name: woodworking
 description: Use when asked for guidance on woodworking as a hobby — tools, wood selection, joinery basics, and shop safety for someone starting out.
 ---
 

@@ -46,4 +46,4 @@ to own.
 
 ## Learn more
 
-- [[woodworking-hobby]] for another hands-on craft hobby with a similar tool-and-technique learning curve.
+- [[woodworking]] for another hands-on craft hobby with a similar tool-and-technique learning curve.

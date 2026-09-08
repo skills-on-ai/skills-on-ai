@@ -641,8 +641,33 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [running-hobby](skills/running-hobby/)
 - [sewing-hobby](skills/sewing-hobby/)
 - [video-gaming-hobby](skills/video-gaming-hobby/)
-- [woodworking-hobby](skills/woodworking-hobby/)
-- [yoga-hobby](skills/yoga-hobby/)
+- [woodworking](skills/woodworking/)
+- [yoga](skills/yoga/)
+
+## Fitness
+
+- [balance-and-stability-fitness](skills/balance-and-stability-fitness/)
+- [bodyweight-fitness](skills/bodyweight-fitness/)
+- [cardio-fitness](skills/cardio-fitness/)
+- [core-fitness](skills/core-fitness/)
+- [crossfit-fitness](skills/crossfit-fitness/)
+- [endurance-fitness](skills/endurance-fitness/)
+- [flexibility-and-mobility-fitness](skills/flexibility-and-mobility-fitness/)
+- [functional-fitness](skills/functional-fitness/)
+- [group-fitness](skills/group-fitness/)
+- [hiit-fitness](skills/hiit-fitness/)
+- [home-gym-fitness](skills/home-gym-fitness/)
+- [injury-prevention-fitness](skills/injury-prevention-fitness/)
+- [personal-training-fitness](skills/personal-training-fitness/)
+- [pilates](skills/pilates/)
+- [powerlifting](skills/powerlifting/)
+- [prenatal-fitness](skills/prenatal-fitness/)
+- [progress-tracking-fitness](skills/progress-tracking-fitness/)
+- [recovery-and-rest-fitness](skills/recovery-and-rest-fitness/)
+- [senior-fitness](skills/senior-fitness/)
+- [sports-nutrition-fitness](skills/sports-nutrition-fitness/)
+- [strength-training-fitness](skills/strength-training-fitness/)
+- [warm-up-and-cool-down-fitness](skills/warm-up-and-cool-down-fitness/)
 
 ## Technology
 

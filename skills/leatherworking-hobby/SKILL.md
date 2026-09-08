@@ -55,4 +55,4 @@ piece looks.
 
 ## Learn more
 
-- [[sewing-hobby]] and [[woodworking-hobby]] for related hands-on craft hobbies with overlapping tool-and-technique concepts.
+- [[sewing-hobby]] and [[woodworking]] for related hands-on craft hobbies with overlapping tool-and-technique concepts.

@@ -45,4 +45,4 @@ over week.
 ## Learn more
 
 - [[cycling-hobby]] for a lower-impact fitness hobby with a similar gradual-progression principle.
-- [[yoga-hobby]] for a complementary flexibility- and recovery-focused practice.
+- [[yoga]] for a complementary flexibility- and recovery-focused practice.

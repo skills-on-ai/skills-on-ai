@@ -313,6 +313,9 @@ Skills:
 - estate-planning
 - event-planning
 - exit-interview
+- {balance-and-stability,bodyweight,cardio,core,crossfit,endurance,flexibility-and-mobility,functional,group,hiit,home-gym,injury-prevention,personal-training,prenatal,progress-tracking,recovery-and-rest,senior,sports-nutrition,strength-training,warm-up-and-cool-down}-fitness
+- pilates
+- powerlifting
 - feature-prioritization
 - freedom-of-information-request
 - french-language
@@ -337,7 +340,9 @@ Skills:
 - government-security-clearance-application
 - grant-proposal
 - hindi-language
-- {3d-printing,amateur-radio,astronomy,baking,beekeeping,birdwatching,board-gaming,calligraphy,camping,chess,coin-collecting,cycling,drawing,fishing,gardening,genealogy,geocaching,hiking,home-brewing,journaling,knitting,leatherworking,model-building,painting,photography,pottery,quilting,rock-climbing,running,sewing,video-gaming,woodworking,yoga}-hobby
+- {3d-printing,amateur-radio,astronomy,baking,beekeeping,birdwatching,board-gaming,calligraphy,camping,chess,coin-collecting,cycling,drawing,fishing,gardening,genealogy,geocaching,hiking,home-brewing,journaling,knitting,leatherworking,model-building,painting,photography,pottery,quilting,rock-climbing,running,sewing,video-gaming}-hobby
+- woodworking
+- yoga
 - home-inspection-checklist
 - incident-response-plan
 - indonesian-language

@@ -52,6 +52,7 @@ export const categories: Category[] = [
 	{ slug: "productivity-tools-microsoft-office", title: "Productivity tools › Microsoft Office" },
 	{ slug: "productivity-tools-google-workspace", title: "Productivity tools › Google Workspace" },
 	{ slug: "hobbies", title: "Hobbies" },
+	{ slug: "fitness", title: "Fitness" },
 	{ slug: "technology-ai", title: "Technology › AI" },
 	{ slug: "technology-data-ml", title: "Technology › Data & ML" },
 	{ slug: "technology-software-engineering", title: "Technology › Software engineering" },
