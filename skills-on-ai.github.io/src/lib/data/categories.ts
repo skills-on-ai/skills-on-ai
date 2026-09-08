@@ -32,6 +32,7 @@ export const categories: Category[] = [
 	{ slug: "strategy-planning-frameworks", title: "Strategy & planning frameworks" },
 	{ slug: "research-analysis-methods", title: "Research & analysis methods" },
 	{ slug: "accessibility-inclusion", title: "Accessibility & inclusion" },
+	{ slug: "human-languages", title: "Human languages" },
 	{ slug: "statistics", title: "Statistics" },
 	{ slug: "communication-thinking", title: "Communication & thinking" },
 	{ slug: "creative-thinking", title: "Creative thinking" },

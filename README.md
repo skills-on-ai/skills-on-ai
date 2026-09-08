@@ -379,6 +379,31 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [screen-reader](skills/screen-reader/)
 - [web-content-accessibility-guidelines](skills/web-content-accessibility-guidelines/)
 
+## Human languages
+
+- [arabic-language](skills/arabic-language/)
+- [cymraeg-language](skills/cymraeg-language/)
+- [dutch-language](skills/dutch-language/)
+- [french-language](skills/french-language/)
+- [gaeilge-language](skills/gaeilge-language/)
+- [gaidhlig-language](skills/gaidhlig-language/)
+- [german-language](skills/german-language/)
+- [hindi-language](skills/hindi-language/)
+- [indonesian-language](skills/indonesian-language/)
+- [italian-language](skills/italian-language/)
+- [japanese-language](skills/japanese-language/)
+- [korean-language](skills/korean-language/)
+- [mandarin-chinese-language](skills/mandarin-chinese-language/)
+- [polish-language](skills/polish-language/)
+- [portuguese-language](skills/portuguese-language/)
+- [russian-language](skills/russian-language/)
+- [scots-language](skills/scots-language/)
+- [spanish-language](skills/spanish-language/)
+- [swedish-language](skills/swedish-language/)
+- [thai-language](skills/thai-language/)
+- [turkish-language](skills/turkish-language/)
+- [vietnamese-language](skills/vietnamese-language/)
+
 ## Statistics
 
 - [anomaly-analysis](skills/anomaly-analysis/)
