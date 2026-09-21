@@ -181,7 +181,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [yellow-fever-care](skills/yellow-fever-care/)
 - [zika-care](skills/zika-care/)
 
-## Clinical documentation
+## Medical › Documentation
 
 - [medical-admission-note](skills/medical-admission-note/)
 - [medical-discharge-summary](skills/medical-discharge-summary/)
@@ -190,7 +190,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [medical-referral-letter](skills/medical-referral-letter/)
 - [medical-soap-note](skills/medical-soap-note/)
 
-## Clinical communication
+## Medical › Communication
 
 - [medical-family-conference](skills/medical-family-conference/)
 - [medical-morbidity-and-mortality-review](skills/medical-morbidity-and-mortality-review/)
@@ -198,7 +198,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [medical-sbar-handoff](skills/medical-sbar-handoff/)
 - [medical-shift-handoff-report](skills/medical-shift-handoff-report/)
 
-## Patient safety & clinical quality
+## Clinical › Clinical quality/safety
 
 - [medical-adverse-event-review](skills/medical-adverse-event-review/)
 - [medical-clinical-audit](skills/medical-clinical-audit/)
@@ -206,7 +206,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [medical-medication-error-reporting](skills/medical-medication-error-reporting/)
 - [medical-patient-safety-huddle](skills/medical-patient-safety-huddle/)
 
-## Clinical protocols
+## Medical › Protocols
 
 - [medical-early-warning-score](skills/medical-early-warning-score/)
 - [medical-fall-prevention-protocol](skills/medical-fall-prevention-protocol/)
@@ -336,7 +336,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [weekly-planning-meeting](skills/weekly-planning-meeting/)
 - [yearly-planning-meeting](skills/yearly-planning-meeting/)
 
-## Strategy & planning frameworks
+## Business › Strategy & planning frameworks
 
 - [big-hairy-audacious-goal](skills/big-hairy-audacious-goal/)
 - [critical-success-factors](skills/critical-success-factors/)
@@ -488,7 +488,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [sales-pitch](skills/sales-pitch/)
 - [sales-proposal](skills/sales-proposal/)
 
-## Legal & contracts
+## Legal › Contracts
 
 - [contract-review](skills/contract-review/)
 - [estate-planning](skills/estate-planning/)
@@ -539,13 +539,51 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [roi-analysis](skills/roi-analysis/)
 - [unit-economics](skills/unit-economics/)
 
-## Education & nonprofit
+## Teaching
 
-- [curriculum-design](skills/curriculum-design/)
-- [donor-management](skills/donor-management/)
-- [grant-proposal](skills/grant-proposal/)
+### Classroom practice
+
+- [classroom-management](skills/classroom-management/)
+- [classroom-seating-chart](skills/classroom-seating-chart/)
+- [classroom-technology-integration](skills/classroom-technology-integration/)
+- [cooperative-learning-structures](skills/cooperative-learning-structures/)
+- [differentiated-instruction](skills/differentiated-instruction/)
+- [english-language-learner-support](skills/english-language-learner-support/)
+- [exit-ticket](skills/exit-ticket/)
+- [formative-assessment](skills/formative-assessment/)
+- [gifted-and-talented-enrichment](skills/gifted-and-talented-enrichment/)
+- [individualized-education-program](skills/individualized-education-program/)
 - [lesson-plan](skills/lesson-plan/)
+- [parent-teacher-conference](skills/parent-teacher-conference/)
+- [report-card-comments](skills/report-card-comments/)
+- [restorative-classroom-circle](skills/restorative-classroom-circle/)
+- [student-behavior-intervention-plan](skills/student-behavior-intervention-plan/)
+- [substitute-lesson-plan](skills/substitute-lesson-plan/)
+
+### Curriculum development
+
+- [competency-based-education-design](skills/competency-based-education-design/)
+- [course-syllabus-design](skills/course-syllabus-design/)
+- [curriculum-design](skills/curriculum-design/)
+- [curriculum-mapping](skills/curriculum-mapping/)
+- [instructional-materials-selection](skills/instructional-materials-selection/)
+- [learning-standards-alignment](skills/learning-standards-alignment/)
+- [program-evaluation](skills/program-evaluation/)
+- [rubric-design](skills/rubric-design/)
+- [summative-assessment](skills/summative-assessment/)
 - [training-needs-analysis](skills/training-needs-analysis/)
+- [unit-plan](skills/unit-plan/)
+
+## Nonprofits
+
+- [donor-management](skills/donor-management/)
+- [fundraising-event-planning](skills/fundraising-event-planning/)
+- [grant-proposal](skills/grant-proposal/)
+- [membership-program-design](skills/membership-program-design/)
+- [nonprofit-board-governance](skills/nonprofit-board-governance/)
+- [nonprofit-impact-report](skills/nonprofit-impact-report/)
+- [nonprofit-strategic-plan](skills/nonprofit-strategic-plan/)
+- [volunteer-management](skills/volunteer-management/)
 
 ## Public sector & sustainability
 
@@ -565,7 +603,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [government-ombudsman-complaint-investigation](skills/government-ombudsman-complaint-investigation/)
 - [government-public-hearing](skills/government-public-hearing/)
 
-## Government operations
+## Government › Operations
 
 - [government-contract-proposal](skills/government-contract-proposal/)
 - [government-emergency-management-plan](skills/government-emergency-management-plan/)
