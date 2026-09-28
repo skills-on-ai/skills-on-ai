@@ -1,0 +1,34 @@
+---
+name: locale-hi-001
+description: Use when working with the Hindi locale (`hi-001`) — its endonym हिन्दी, Devanagari script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+---
+
+# Locale: Hindi (hi-001)
+
+Reference data for the **Hindi** locale — endonym **हिन्दी**, written in the Devanagari script, left-to-right (LTR).
+
+## Identifiers
+
+- **BCP 47 tag:** `hi-001`
+- **ISO 639-1:** `hi`
+- **ISO 639-3:** `hin`
+- **Script:** Deva (Devanagari)
+- **Region:** 001 (World)
+- **Text direction:** ltr — left-to-right (LTR)
+
+## Speakers (approximate)
+
+- **L1 (native):** 528,000,000
+- **L2 (additional):** 274,000,000
+- **L1+L2 (total):** 802,000,000
+
+## Regional variants
+
+This is the base/macro locale for Hindi. Region-specific variants in this dataset:
+
+- [[locale-hi-in]] (Hindi (India))
+
+## Learn more
+
+- [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
+- [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.

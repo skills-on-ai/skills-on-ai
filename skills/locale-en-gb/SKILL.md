@@ -1,0 +1,32 @@
+---
+name: locale-en-gb
+description: Use when working with the English (Great Britain) locale (`en-GB`) — its endonym English (Great Britain), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+---
+
+# Locale: English (Great Britain) (en-GB)
+
+Reference data for the **English (Great Britain)** locale — endonym **English (Great Britain)**, written in the Latin script, left-to-right (LTR).
+
+## Identifiers
+
+- **BCP 47 tag:** `en-GB`
+- **ISO 639-1:** `en`
+- **ISO 639-3:** `eng`
+- **Script:** Latn (Latin)
+- **Region:** GB (United Kingdom)
+- **Text direction:** ltr — left-to-right (LTR)
+
+## Speakers (approximate)
+
+- **L1 (native):** 59,300,000
+- **L2 (additional):** 4,400,000
+- **L1+L2 (total):** 63,700,000
+
+## Base locale
+
+This is a regional variant of [[locale-en-001]] (English), the base/macro locale for this language.
+
+## Learn more
+
+- [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
+- [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
