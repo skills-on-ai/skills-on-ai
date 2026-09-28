@@ -702,6 +702,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [nunjucks-programming](skills/nunjucks-programming/)
 - [react-programming](skills/react-programming/)
 - [svelte-programming](skills/svelte-programming/)
+- [sveltia-i18n](skills/sveltia-i18n/)
 - [vue-programming](skills/vue-programming/)
 
 ### Playwright testing
@@ -880,6 +881,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 ### Internationalization
 
 - [locale](skills/locale/)
+- [unicode-messageformat](skills/unicode-messageformat/)
 
 ### Software development practices
 

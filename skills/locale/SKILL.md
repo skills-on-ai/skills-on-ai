@@ -109,3 +109,5 @@ not just a translated string table.
 - [MDN: Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) — JavaScript's built-in locale-aware formatting APIs.
 - [BCP 47 language tags](https://www.rfc-editor.org/info/bcp47)
 - [W3C Internationalization](https://www.w3.org/International/) — broader i18n/l10n guidance beyond just formatting.
+- [[unicode-messageformat]] for the standardized placeholder/plural/selection message syntax (MF2) this skill recommends over string concatenation.
+- [[sveltia-i18n]] for a Svelte library built on that syntax.

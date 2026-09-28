@@ -81,3 +81,4 @@ for hosts like GitHub Pages.
 - [SvelteKit documentation](https://svelte.dev/docs/kit)
 - [[javascript-programming]], [[typescript-programming]] for the underlying language.
 - [[lily-design-system-svelte]] for a specific component package built on Svelte.
+- [[sveltia-i18n]] for a Svelte 5 runes-based internationalization library.
