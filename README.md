@@ -620,6 +620,15 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [google-sheets](skills/google-sheets/)
 - [google-slides](skills/google-slides/)
 
+### OpenDocument
+
+- [open-document-database](skills/open-document-database/)
+- [open-document-formula](skills/open-document-formula/)
+- [open-document-graphics](skills/open-document-graphics/)
+- [open-document-presentation](skills/open-document-presentation/)
+- [open-document-spreadsheet](skills/open-document-spreadsheet/)
+- [open-document-text](skills/open-document-text/)
+
 ## Public sector & sustainability
 
 - [environmental-impact-assessment](skills/environmental-impact-assessment/)
