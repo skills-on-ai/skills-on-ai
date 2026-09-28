@@ -49,8 +49,9 @@ well as a continuous-flow model does.
 ## Often used alongside other methodologies
 
 Kanban is commonly combined with Agile and Lean practices, and adapted
-to fit different teams — some teams run "Scrumban," blending Scrum's
-planning cadence with Kanban's continuous-flow board and WIP limits.
+to fit different teams — some teams run [[scrumban]], blending
+Scrum's planning cadence with Kanban's continuous-flow board and WIP
+limits.
 
 ## Common pitfalls
 
@@ -72,5 +73,6 @@ planning cadence with Kanban's continuous-flow board and WIP limits.
 ## Learn more
 
 - [[scrum]] for the contrasting fixed-sprint framework.
+- [[scrumban]] for the Scrum/Kanban hybrid some teams run instead.
 - [[kaizen]] for the continuous-improvement philosophy Kanban shares.
 - [[queueing-theory]] for the underlying flow/utilization mathematics WIP limits are grounded in.

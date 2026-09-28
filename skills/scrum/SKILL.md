@@ -53,7 +53,7 @@ Scrum commits to a fixed-length sprint with a planned Sprint Backlog;
 [[kanban]] uses continuous flow with WIP limits and no fixed
 iteration length. Scrum's fixed cadence gives predictable planning and
 review rhythm; Kanban's continuous flow suits work with unpredictable
-arrival patterns better. Some teams blend the two ("Scrumban").
+arrival patterns better. Some teams blend the two (see [[scrumban]]).
 
 ## Common pitfalls
 
@@ -75,5 +75,8 @@ arrival patterns better. Some teams blend the two ("Scrumban").
 ## Learn more
 
 - [[kanban]] for the contrasting continuous-flow framework.
+- [[scrumban]] for the Scrum/Kanban hybrid some teams run instead.
+- [[extreme-programming]] for the complementary engineering practices commonly run inside Scrum's cadence.
+- [[scrum-of-scrums]], [[large-scale-scrum]], [[scaled-agile-framework]] for scaling Scrum across multiple teams.
 - [[agile-standup]], [[agile-showcase]], [[agile-reflection]] for the individual Scrum events covered in depth.
 - [[product-management]] for the broader discipline the Product Owner role draws on.

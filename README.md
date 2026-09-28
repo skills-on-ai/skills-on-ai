@@ -75,6 +75,8 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [critical-to-quality](skills/critical-to-quality/)
 - [dmaic](skills/dmaic/)
 - [kaizen](skills/kaizen/)
+- [six-sigma](skills/six-sigma/)
+- [vanguard-method](skills/vanguard-method/)
 
 ### Agile
 
@@ -88,8 +90,14 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [agile-showcase](skills/agile-showcase/)
 - [agile-standown](skills/agile-standown/)
 - [agile-standup](skills/agile-standup/)
+- [disciplined-agile](skills/disciplined-agile/)
+- [extreme-programming](skills/extreme-programming/)
 - [kanban](skills/kanban/)
+- [large-scale-scrum](skills/large-scale-scrum/)
+- [scaled-agile-framework](skills/scaled-agile-framework/)
 - [scrum](skills/scrum/)
+- [scrum-of-scrums](skills/scrum-of-scrums/)
+- [scrumban](skills/scrumban/)
 
 ## Clinical workforce
 
@@ -103,6 +111,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [getting-feedback](skills/getting-feedback/)
 - [giving-feedback](skills/giving-feedback/)
 - [inclusive-language](skills/inclusive-language/)
+- [systems-thinking](skills/systems-thinking/)
 
 ## Consent & end-of-life care
 

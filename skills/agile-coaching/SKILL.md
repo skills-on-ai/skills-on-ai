@@ -6,8 +6,9 @@ description: Use when asked about the agile coach role — facilitating ceremoni
 # Agile Coaching
 
 An agile coach is a facilitator, mentor, and change agent who helps teams
-adopt and master agile methodologies (Scrum, Kanban, Extreme Programming)
-— distinct from a traditional project manager: an agile coach focuses on
+adopt and master agile methodologies ([[scrum]], [[kanban]],
+[[extreme-programming]]) — distinct from a traditional project
+manager: an agile coach focuses on
 empowering teams to self-organize, continuously improve, and deliver
 value incrementally, rather than directing the work themselves.
 

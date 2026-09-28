@@ -5,8 +5,8 @@ description: Use when asked to define Critical to Quality (CTQ) requirements in 
 
 # Critical to Quality (CTQ)
 
-Critical to Quality (CTQ) is a Six Sigma term for a metric that captures
-a customer requirement in a measurable, quantifiable way — identifying
+Critical to Quality (CTQ) is a [[six-sigma]] term for a metric that
+captures a customer requirement in a measurable, quantifiable way — identifying
 where an organization's processes fall short of customer expectations
 and can be improved to raise customer satisfaction.
 
@@ -72,6 +72,6 @@ matter to engineering without being directly customer-visible at all.
 
 ## Learn more
 
-- [[dmaic]] for the broader Six Sigma methodology CTQ identification fits within.
+- [[six-sigma]], [[dmaic]] for the broader Six Sigma methodology CTQ identification fits within.
 - [[voice-of-the-customer]] for grounding CTQs in real customer feedback.
 - [[system-quality-attributes]] for the broader, more technical quality-attribute catalog CTQs are a customer-focused subset of.

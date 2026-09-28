@@ -5,11 +5,11 @@ description: Use when asked to run a Six Sigma DMAIC improvement project — Def
 
 # DMAIC
 
-DMAIC is the core problem-solving methodology of the Six Sigma approach to
-continuous improvement — Define, Measure, Analyze, Improve, Control —
-each stage building the data and consensus the next stage needs, aimed at
-achieving a measurably higher level of quality and efficiency in an
-existing process.
+DMAIC is the core problem-solving methodology of the [[six-sigma]]
+approach to continuous improvement — Define, Measure, Analyze, Improve,
+Control — each stage building the data and consensus the next stage
+needs, aimed at achieving a measurably higher level of quality and
+efficiency in an existing process.
 
 ## The five stages
 
@@ -73,6 +73,7 @@ Plan, Improve to Do, Control to Check/Act).
 
 ## Learn more
 
+- [[six-sigma]] for the broader methodology DMAIC is the core cycle of.
 - [[kaizen]] for the contrasting continuous, incremental improvement model.
 - [[plan-do-check-act]] for the general iterative-improvement cycle DMAIC's stages loosely parallel.
 - [[project-charter]] for the Define stage's charter artifact.
