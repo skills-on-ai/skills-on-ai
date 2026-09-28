@@ -1,6 +1,6 @@
 ---
 name: share-on-linkedin
-description: Use when asked to write a LinkedIn post (≤3000 characters) announcing a personal project to busy professionals — generating interest, asking for help/advice, and inviting shares in a humble, personal voice — as distinct from [[share-on-bluesky]], [[share-on-instagram]], and [[share-on-mastodon]] (same announcement, different platform conventions), or [[press-release]] and [[copywriting]] (formal/persuasive registers this deliberately avoids).
+description: Use when asked to write a LinkedIn post (≤3000 characters) announcing a personal project to busy professionals — generating interest, asking for help/advice, and inviting shares in a humble, personal voice — as distinct from [[share-on-linkedin-projects]] (a static profile entry, not a feed post) and [[share-on-bluesky]], [[share-on-facebook]], [[share-on-instagram]], [[share-on-mastodon]], and [[share-on-threads]] (same announcement, different platform conventions), or [[press-release]] and [[copywriting]] (formal/persuasive registers this deliberately avoids).
 ---
 
 # Share on LinkedIn
@@ -101,12 +101,16 @@ announcement posts run 150-400 words even with a 3000-character ceiling.
 
 ## Learn more
 
-- [[share-on-bluesky]], [[share-on-instagram]], and
-  [[share-on-mastodon]] for the same announcement adapted to each
-  platform's own norms and character budget.
+- [[share-on-linkedin-projects]] for the companion, evergreen profile
+  entry this feed post can drive people to — the two work together,
+  not as alternatives.
+- [[share-on-bluesky]], [[share-on-facebook]], [[share-on-instagram]],
+  [[share-on-mastodon]], and [[share-on-threads]] for the same
+  announcement adapted to each platform's own norms and character
+  budget.
 - [[copywriting]] for persuasive-copy technique this style
   deliberately underplays in favor of a plainer, personal voice.
 - [[content-calendar]] for coordinating the announcement's timing
-  across all four platforms.
+  across all platforms.
 - [[communications-manager]] for the broader announcement/messaging
   planning this single post sits inside.

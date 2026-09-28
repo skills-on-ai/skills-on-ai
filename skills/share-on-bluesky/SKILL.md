@@ -1,6 +1,6 @@
 ---
 name: share-on-bluesky
-description: Use when asked to write a Bluesky post (≤300 characters) announcing a personal project to busy professionals — generating interest, asking for help/advice, and inviting shares in a humble, personal voice — as distinct from [[share-on-linkedin]], [[share-on-instagram]], and [[share-on-mastodon]] (same announcement, different platform conventions), or [[press-release]] and [[copywriting]] (formal/persuasive registers this deliberately avoids).
+description: Use when asked to write a Bluesky post (≤300 characters) announcing a personal project to busy professionals — generating interest, asking for help/advice, and inviting shares in a humble, personal voice — as distinct from [[share-on-facebook]], [[share-on-instagram]], [[share-on-linkedin]], [[share-on-mastodon]], and [[share-on-threads]] (same announcement, different platform conventions), or [[press-release]] and [[copywriting]] (formal/persuasive registers this deliberately avoids).
 ---
 
 # Share on Bluesky
@@ -101,9 +101,10 @@ not a run-up to it.
 
 ## Learn more
 
-- [[share-on-linkedin]], [[share-on-instagram]], and
-  [[share-on-mastodon]] for the same announcement adapted to each
-  platform's own norms and character budget.
+- [[share-on-facebook]], [[share-on-instagram]], [[share-on-linkedin]],
+  [[share-on-mastodon]], and [[share-on-threads]] for the same
+  announcement adapted to each platform's own norms and character
+  budget.
 - [[copywriting]] for persuasive-copy technique this style
   deliberately underplays in favor of a plainer, personal voice.
 - [[content-calendar]] for coordinating the announcement's timing

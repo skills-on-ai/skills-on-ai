@@ -528,9 +528,12 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [customer-persona](skills/customer-persona/)
 - [press-release](skills/press-release/)
 - [share-on-bluesky](skills/share-on-bluesky/)
+- [share-on-facebook](skills/share-on-facebook/)
 - [share-on-instagram](skills/share-on-instagram/)
 - [share-on-linkedin](skills/share-on-linkedin/)
+- [share-on-linkedin-projects](skills/share-on-linkedin-projects/)
 - [share-on-mastodon](skills/share-on-mastodon/)
+- [share-on-threads](skills/share-on-threads/)
 
 ## Medical › Communication
 
