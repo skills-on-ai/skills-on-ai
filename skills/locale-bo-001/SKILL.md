@@ -22,6 +22,12 @@ Reference data for the **Tibetan** locale — endonym **བོད་སྐད་
 - **L2 (additional):** 1,000,000
 - **L1+L2 (total):** 6,000,000
 
+## Regional variants
+
+This is the base/macro locale for Tibetan. Region-specific variants in this dataset:
+
+- [[locale-bo-cn]] (Tibetan (China))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

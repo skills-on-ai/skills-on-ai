@@ -22,6 +22,12 @@ Reference data for the **Maltese** locale — endonym **Malti**, written in the 
 - **L2 (additional):** 30,000
 - **L1+L2 (total):** 550,000
 
+## Regional variants
+
+This is the base/macro locale for Maltese. Region-specific variants in this dataset:
+
+- [[locale-mt-mt]] (Maltese (Malta))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **other** (5 forms).

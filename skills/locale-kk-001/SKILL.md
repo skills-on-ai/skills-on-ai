@@ -22,6 +22,12 @@ Reference data for the **Kazakh** locale — endonym **Қазақ тілі**, wr
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 19,000,000
 
+## Regional variants
+
+This is the base/macro locale for Kazakh. Region-specific variants in this dataset:
+
+- [[locale-kk-kz]] (Kazakh (Kazakhstan))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

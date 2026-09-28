@@ -22,6 +22,12 @@ Reference data for the **Assamese** locale — endonym **অসমীয়া**
 - **L2 (additional):** 8,300,000
 - **L1+L2 (total):** 23,300,000
 
+## Regional variants
+
+This is the base/macro locale for Assamese. Region-specific variants in this dataset:
+
+- [[locale-as-in]] (Assamese (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

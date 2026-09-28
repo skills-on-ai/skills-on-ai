@@ -22,6 +22,13 @@ Reference data for the **Greek** locale — endonym **Ελληνικά**, writte
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 16,500,000
 
+## Regional variants
+
+This is the base/macro locale for Greek. Region-specific variants in this dataset:
+
+- [[locale-el-cy]] (Greek (Cyprus))
+- [[locale-el-gr]] (Greek (Greece))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

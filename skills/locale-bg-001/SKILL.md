@@ -22,6 +22,12 @@ Reference data for the **Bulgarian** locale — endonym **Български**, 
 - **L2 (additional):** 1,200,000
 - **L1+L2 (total):** 7,900,000
 
+## Regional variants
+
+This is the base/macro locale for Bulgarian. Region-specific variants in this dataset:
+
+- [[locale-bg-bg]] (Bulgarian (Bulgaria))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

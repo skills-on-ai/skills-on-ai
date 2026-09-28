@@ -22,6 +22,12 @@ Reference data for the **Sinhala** locale — endonym **සිංහල**, writt
 - **L2 (additional):** 2,000,000
 - **L1+L2 (total):** 20,000,000
 
+## Regional variants
+
+This is the base/macro locale for Sinhala. Region-specific variants in this dataset:
+
+- [[locale-si-lk]] (Sinhala (Sri Lanka))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

@@ -22,6 +22,12 @@ Reference data for the **Lao** locale — endonym **ລາວ**, written in the 
 - **L2 (additional):** 800,000
 - **L1+L2 (total):** 4,200,000
 
+## Regional variants
+
+This is the base/macro locale for Lao. Region-specific variants in this dataset:
+
+- [[locale-lo-la]] (Lao (Laos))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

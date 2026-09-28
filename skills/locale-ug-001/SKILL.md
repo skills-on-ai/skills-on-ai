@@ -24,6 +24,12 @@ Reference data for the **Uyghur** locale — endonym **ئۇيغۇرچە**, writt
 
 Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rather than assuming left-to-right layout.
 
+## Regional variants
+
+This is the base/macro locale for Uyghur. Region-specific variants in this dataset:
+
+- [[locale-ug-cn]] (Uyghur (China))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

@@ -22,6 +22,12 @@ Reference data for the **Slovenian** locale — endonym **Slovenščina**, writt
 - **L2 (additional):** 300,000
 - **L1+L2 (total):** 2,800,000
 
+## Regional variants
+
+This is the base/macro locale for Slovenian. Region-specific variants in this dataset:
+
+- [[locale-sl-si]] (Slovenian (Slovenia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **two**, **few**, **other** (4 forms).

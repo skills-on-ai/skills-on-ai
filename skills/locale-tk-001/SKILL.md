@@ -22,6 +22,12 @@ Reference data for the **Turkmen** locale — endonym **Türkmençe**, written i
 - **L2 (additional):** 1,000,000
 - **L1+L2 (total):** 7,800,000
 
+## Regional variants
+
+This is the base/macro locale for Turkmen. Region-specific variants in this dataset:
+
+- [[locale-tk-tm]] (Turkmen (Turkmenistan))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

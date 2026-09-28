@@ -22,6 +22,12 @@ Reference data for the **Welsh** locale — endonym **Cymraeg**, written in the 
 - **L2 (additional):** 338,000
 - **L1+L2 (total):** 900,000
 
+## Regional variants
+
+This is the base/macro locale for Welsh. Region-specific variants in this dataset:
+
+- [[locale-cy-gb]] (Welsh (United Kingdom))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **many**, **other** (6 forms).

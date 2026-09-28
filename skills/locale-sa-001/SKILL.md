@@ -22,6 +22,12 @@ Reference data for the **Sanskrit** locale — endonym **संस्कृत�
 - **L2 (additional):** 5,000,000
 - **L1+L2 (total):** 5,020,000
 
+## Regional variants
+
+This is the base/macro locale for Sanskrit. Region-specific variants in this dataset:
+
+- [[locale-sa-in]] (Sanskrit (India))
+
 ## Pluralization
 
 CLDR has no explicit plural rule defined for this language; it falls back to the root rule of a single **other** category (1 form) — every count uses the same word form, as in Japanese or Chinese.

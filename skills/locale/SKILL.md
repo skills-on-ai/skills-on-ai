@@ -111,4 +111,4 @@ not just a translated string table.
 - [W3C Internationalization](https://www.w3.org/International/) — broader i18n/l10n guidance beyond just formatting.
 - [[unicode-messageformat]] for the standardized placeholder/plural/selection message syntax (MF2) this skill recommends over string concatenation.
 - [[sveltia-i18n]] for a Svelte library built on that syntax.
-- `locale-<bcp47-slug>` skills (e.g. [[locale-en-us]], [[locale-zh-cn]], [[locale-ar-001]]) for reference data — endonym, script, ISO 639 codes, text direction, speaker counts — on 135 specific locales.
+- `locale-<bcp47-slug>` skills (e.g. [[locale-en-us]], [[locale-zh-cn]], [[locale-ar-001]]) for reference data — endonym, script, ISO 639 codes, text direction, speaker counts — on 305 specific locales.

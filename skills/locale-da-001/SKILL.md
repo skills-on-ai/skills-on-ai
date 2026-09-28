@@ -22,6 +22,12 @@ Reference data for the **Danish** locale — endonym **Dansk**, written in the L
 - **L2 (additional):** 300,000
 - **L1+L2 (total):** 5,900,000
 
+## Regional variants
+
+This is the base/macro locale for Danish. Region-specific variants in this dataset:
+
+- [[locale-da-dk]] (Danish (Denmark))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

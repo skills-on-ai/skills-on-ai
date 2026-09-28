@@ -26,8 +26,12 @@ Reference data for the **French** locale — endonym **Français**, written in t
 
 This is the base/macro locale for French. Region-specific variants in this dataset:
 
+- [[locale-fr-be]] (French (Belgium))
 - [[locale-fr-ca]] (French (Canada))
+- [[locale-fr-ch]] (French (Switzerland))
 - [[locale-fr-fr]] (French (France))
+- [[locale-fr-lu]] (French (Luxembourg))
+- [[locale-fr-mc]] (French (Monaco))
 
 ## Pluralization
 

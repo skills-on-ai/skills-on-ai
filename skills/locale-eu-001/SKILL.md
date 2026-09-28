@@ -22,6 +22,12 @@ Reference data for the **Basque** locale — endonym **Euskara**, written in the
 - **L2 (additional):** 250,000
 - **L1+L2 (total):** 1,000,000
 
+## Regional variants
+
+This is the base/macro locale for Basque. Region-specific variants in this dataset:
+
+- [[locale-eu-es]] (Basque (Spain))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

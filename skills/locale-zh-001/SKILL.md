@@ -28,6 +28,8 @@ This is the base/macro locale for Chinese. Region-specific variants in this data
 
 - [[locale-zh-cn]] (Chinese (Simplified, China))
 - [[locale-zh-hk]] (Chinese (Traditional, Hong Kong))
+- [[locale-zh-mo]] (Chinese (Traditional, Macao))
+- [[locale-zh-sg]] (Chinese (Simplified, Singapore))
 - [[locale-zh-tw]] (Chinese (Traditional, Taiwan))
 
 ## Pluralization

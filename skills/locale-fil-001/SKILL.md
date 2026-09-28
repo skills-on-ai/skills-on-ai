@@ -22,6 +22,12 @@ Reference data for the **Filipino** locale — endonym **Filipino**, written in 
 - **L2 (additional):** 54,000,000
 - **L1+L2 (total):** 83,000,000
 
+## Regional variants
+
+This is the base/macro locale for Filipino. Region-specific variants in this dataset:
+
+- [[locale-fil-ph]] (Filipino (Philippines))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

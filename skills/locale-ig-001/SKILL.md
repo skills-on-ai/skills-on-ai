@@ -22,6 +22,12 @@ Reference data for the **Igbo** locale — endonym **Igbo**, written in the Lati
 - **L2 (additional):** 6,000,000
 - **L1+L2 (total):** 37,000,000
 
+## Regional variants
+
+This is the base/macro locale for Igbo. Region-specific variants in this dataset:
+
+- [[locale-ig-ng]] (Igbo (Nigeria))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

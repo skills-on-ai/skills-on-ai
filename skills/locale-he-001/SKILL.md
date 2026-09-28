@@ -24,6 +24,12 @@ Reference data for the **Hebrew** locale — endonym **עברית**, written in 
 
 Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rather than assuming left-to-right layout.
 
+## Regional variants
+
+This is the base/macro locale for Hebrew. Region-specific variants in this dataset:
+
+- [[locale-he-il]] (Hebrew (Israel))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **two**, **other** (3 forms).

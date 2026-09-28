@@ -22,6 +22,12 @@ Reference data for the **Thai** locale — endonym **ไทย**, written in the
 - **L2 (additional):** 44,000,000
 - **L1+L2 (total):** 71,000,000
 
+## Regional variants
+
+This is the base/macro locale for Thai. Region-specific variants in this dataset:
+
+- [[locale-th-th]] (Thai (Thailand))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

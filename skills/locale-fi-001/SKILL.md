@@ -22,6 +22,12 @@ Reference data for the **Finnish** locale — endonym **Suomi**, written in the 
 - **L2 (additional):** 500,000
 - **L1+L2 (total):** 5,700,000
 
+## Regional variants
+
+This is the base/macro locale for Finnish. Region-specific variants in this dataset:
+
+- [[locale-fi-fi]] (Finnish (Finland))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

@@ -22,6 +22,12 @@ Reference data for the **Albanian** locale — endonym **Shqip**, written in the
 - **L2 (additional):** 1,000,000
 - **L1+L2 (total):** 8,500,000
 
+## Regional variants
+
+This is the base/macro locale for Albanian. Region-specific variants in this dataset:
+
+- [[locale-sq-al]] (Albanian (Albania))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

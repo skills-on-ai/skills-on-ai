@@ -22,6 +22,12 @@ Reference data for the **Belarusian** locale — endonym **Беларуская*
 - **L2 (additional):** 1,300,000
 - **L1+L2 (total):** 6,300,000
 
+## Regional variants
+
+This is the base/macro locale for Belarusian. Region-specific variants in this dataset:
+
+- [[locale-be-by]] (Belarusian (Belarus))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

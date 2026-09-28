@@ -22,6 +22,12 @@ Reference data for the **Japanese** locale — endonym **日本語**, written in
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 126,000,000
 
+## Regional variants
+
+This is the base/macro locale for Japanese. Region-specific variants in this dataset:
+
+- [[locale-ja-jp]] (Japanese (Japan))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

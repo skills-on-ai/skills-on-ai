@@ -22,6 +22,12 @@ Reference data for the **Afrikaans** locale — endonym **Afrikaans**, written i
 - **L2 (additional):** 10,300,000
 - **L1+L2 (total):** 17,500,000
 
+## Regional variants
+
+This is the base/macro locale for Afrikaans. Region-specific variants in this dataset:
+
+- [[locale-af-za]] (Afrikaans (South Africa))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

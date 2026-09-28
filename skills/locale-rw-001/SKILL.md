@@ -22,6 +22,12 @@ Reference data for the **Kinyarwanda** locale — endonym **Ikinyarwanda**, writ
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 18,000,000
 
+## Regional variants
+
+This is the base/macro locale for Kinyarwanda. Region-specific variants in this dataset:
+
+- [[locale-rw-rw]] (Kinyarwanda (Rwanda))
+
 ## Pluralization
 
 CLDR has no explicit plural rule defined for this language; it falls back to the root rule of a single **other** category (1 form) — every count uses the same word form, as in Japanese or Chinese.

@@ -22,6 +22,13 @@ Reference data for the **Croatian** locale — endonym **Hrvatski**, written in 
 - **L2 (additional):** 1,400,000
 - **L1+L2 (total):** 6,500,000
 
+## Regional variants
+
+This is the base/macro locale for Croatian. Region-specific variants in this dataset:
+
+- [[locale-hr-ba]] (Croatian (Bosnia and Herzegovina))
+- [[locale-hr-hr]] (Croatian (Croatia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).

@@ -28,9 +28,21 @@ This is the base/macro locale for English. Region-specific variants in this data
 
 - [[locale-en-150]] (English (Europe))
 - [[locale-en-au]] (English (Australia))
+- [[locale-en-bz]] (English (Belize))
 - [[locale-en-ca]] (English (Canada))
 - [[locale-en-gb]] (English (Great Britain))
+- [[locale-en-ie]] (English (Ireland))
+- [[locale-en-in]] (English (India))
+- [[locale-en-jm]] (English (Jamaica))
+- [[locale-en-mt]] (English (Malta))
+- [[locale-en-my]] (English (Malaysia))
+- [[locale-en-nz]] (English (New Zealand))
+- [[locale-en-ph]] (English (Philippines))
+- [[locale-en-sg]] (English (Singapore))
+- [[locale-en-tt]] (English (Trinidad and Tobago))
 - [[locale-en-us]] (English (United States))
+- [[locale-en-za]] (English (South Africa))
+- [[locale-en-zw]] (English (Zimbabwe))
 
 ## Pluralization
 

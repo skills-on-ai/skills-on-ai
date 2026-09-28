@@ -22,6 +22,12 @@ Reference data for the **Khmer** locale — endonym **ខ្មែរ**, written
 - **L2 (additional):** 1,000,000
 - **L1+L2 (total):** 21,000,000
 
+## Regional variants
+
+This is the base/macro locale for Khmer. Region-specific variants in this dataset:
+
+- [[locale-km-kh]] (Khmer (Cambodia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

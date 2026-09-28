@@ -22,6 +22,12 @@ Reference data for the **Zulu** locale — endonym **isiZulu**, written in the L
 - **L2 (additional):** 16,000,000
 - **L1+L2 (total):** 28,000,000
 
+## Regional variants
+
+This is the base/macro locale for Zulu. Region-specific variants in this dataset:
+
+- [[locale-zu-za]] (Zulu (South Africa))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

@@ -22,6 +22,12 @@ Reference data for the **Czech** locale — endonym **Čeština**, written in th
 - **L2 (additional):** 2,700,000
 - **L1+L2 (total):** 12,000,000
 
+## Regional variants
+
+This is the base/macro locale for Czech. Region-specific variants in this dataset:
+
+- [[locale-cs-cz]] (Czech (Czech Republic))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

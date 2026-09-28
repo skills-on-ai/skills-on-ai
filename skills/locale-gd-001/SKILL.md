@@ -22,6 +22,12 @@ Reference data for the **Scottish Gaelic** locale — endonym **Gàidhlig**, wri
 - **L2 (additional):** 70,000
 - **L1+L2 (total):** 90,000
 
+## Regional variants
+
+This is the base/macro locale for Scottish Gaelic. Region-specific variants in this dataset:
+
+- [[locale-gd-gb]] (Scottish Gaelic (United Kingdom))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **two**, **few**, **other** (4 forms).

@@ -27,8 +27,26 @@ Reference data for the **Spanish** locale — endonym **Español**, written in t
 This is the base/macro locale for Spanish. Region-specific variants in this dataset:
 
 - [[locale-es-419]] (Spanish (Latin America))
+- [[locale-es-ar]] (Spanish (Argentina))
+- [[locale-es-bo]] (Spanish (Bolivia))
+- [[locale-es-cl]] (Spanish (Chile))
+- [[locale-es-co]] (Spanish (Colombia))
+- [[locale-es-cr]] (Spanish (Costa Rica))
+- [[locale-es-do]] (Spanish (Dominican Republic))
+- [[locale-es-ec]] (Spanish (Ecuador))
 - [[locale-es-es]] (Spanish (Spain))
+- [[locale-es-gt]] (Spanish (Guatemala))
+- [[locale-es-hn]] (Spanish (Honduras))
 - [[locale-es-mx]] (Spanish (Mexico))
+- [[locale-es-ni]] (Spanish (Nicaragua))
+- [[locale-es-pa]] (Spanish (Panama))
+- [[locale-es-pe]] (Spanish (Peru))
+- [[locale-es-pr]] (Spanish (Puerto Rico))
+- [[locale-es-py]] (Spanish (Paraguay))
+- [[locale-es-sv]] (Spanish (El Salvador))
+- [[locale-es-us]] (Spanish (United States))
+- [[locale-es-uy]] (Spanish (Uruguay))
+- [[locale-es-ve]] (Spanish (Venezuela))
 
 ## Pluralization
 

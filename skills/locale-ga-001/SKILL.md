@@ -22,6 +22,12 @@ Reference data for the **Irish** locale — endonym **Gaeilge**, written in the 
 - **L2 (additional):** 1,730,000
 - **L1+L2 (total):** 1,900,000
 
+## Regional variants
+
+This is the base/macro locale for Irish. Region-specific variants in this dataset:
+
+- [[locale-ga-ie]] (Irish (Ireland))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **other** (5 forms).

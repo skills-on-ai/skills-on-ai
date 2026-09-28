@@ -22,6 +22,12 @@ Reference data for the **Amharic** locale — endonym **አማርኛ**, written 
 - **L2 (additional):** 25,100,000
 - **L1+L2 (total):** 58,800,000
 
+## Regional variants
+
+This is the base/macro locale for Amharic. Region-specific variants in this dataset:
+
+- [[locale-am-et]] (Amharic (Ethiopia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

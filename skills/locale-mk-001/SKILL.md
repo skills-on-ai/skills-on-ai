@@ -22,6 +22,12 @@ Reference data for the **Macedonian** locale — endonym **Македонски*
 - **L2 (additional):** 1,800,000
 - **L1+L2 (total):** 3,500,000
 
+## Regional variants
+
+This is the base/macro locale for Macedonian. Region-specific variants in this dataset:
+
+- [[locale-mk-mk]] (Macedonian (North Macedonia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

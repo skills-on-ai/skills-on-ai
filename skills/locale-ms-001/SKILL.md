@@ -22,6 +22,13 @@ Reference data for the **Malay** locale — endonym **Bahasa Melayu**, written i
 - **L2 (additional):** 200,000,000
 - **L1+L2 (total):** 290,000,000
 
+## Regional variants
+
+This is the base/macro locale for Malay. Region-specific variants in this dataset:
+
+- [[locale-ms-bn]] (Malay (Brunei))
+- [[locale-ms-my]] (Malay (Malaysia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

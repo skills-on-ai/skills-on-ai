@@ -22,6 +22,12 @@ Reference data for the **Lithuanian** locale — endonym **Lietuvių**, written 
 - **L2 (additional):** 500,000
 - **L1+L2 (total):** 4,500,000
 
+## Regional variants
+
+This is the base/macro locale for Lithuanian. Region-specific variants in this dataset:
+
+- [[locale-lt-lt]] (Lithuanian (Lithuania))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

@@ -22,6 +22,12 @@ Reference data for the **Odia** locale — endonym **ଓଡ଼ିଆ**, written 
 - **L2 (additional):** 4,000,000
 - **L1+L2 (total):** 38,000,000
 
+## Regional variants
+
+This is the base/macro locale for Odia. Region-specific variants in this dataset:
+
+- [[locale-or-in]] (Odia (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

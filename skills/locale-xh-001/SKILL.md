@@ -22,6 +22,12 @@ Reference data for the **Xhosa** locale — endonym **isiXhosa**, written in the
 - **L2 (additional):** 11,800,000
 - **L1+L2 (total):** 20,000,000
 
+## Regional variants
+
+This is the base/macro locale for Xhosa. Region-specific variants in this dataset:
+
+- [[locale-xh-za]] (Xhosa (South Africa))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

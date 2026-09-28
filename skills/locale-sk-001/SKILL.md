@@ -22,6 +22,12 @@ Reference data for the **Slovak** locale — endonym **Slovenčina**, written in
 - **L2 (additional):** 1,000,000
 - **L1+L2 (total):** 6,000,000
 
+## Regional variants
+
+This is the base/macro locale for Slovak. Region-specific variants in this dataset:
+
+- [[locale-sk-sk]] (Slovak (Slovakia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

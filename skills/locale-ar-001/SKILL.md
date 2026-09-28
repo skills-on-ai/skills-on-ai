@@ -28,8 +28,23 @@ Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rathe
 
 This is the base/macro locale for Arabic. Region-specific variants in this dataset:
 
+- [[locale-ar-ae]] (Arabic (United Arab Emirates))
+- [[locale-ar-bh]] (Arabic (Bahrain))
+- [[locale-ar-dz]] (Arabic (Algeria))
 - [[locale-ar-eg]] (Arabic (Egypt))
+- [[locale-ar-iq]] (Arabic (Iraq))
+- [[locale-ar-jo]] (Arabic (Jordan))
+- [[locale-ar-kw]] (Arabic (Kuwait))
+- [[locale-ar-lb]] (Arabic (Lebanon))
+- [[locale-ar-ly]] (Arabic (Libya))
+- [[locale-ar-ma]] (Arabic (Morocco))
+- [[locale-ar-om]] (Arabic (Oman))
+- [[locale-ar-qa]] (Arabic (Qatar))
 - [[locale-ar-sa]] (Arabic (Saudi Arabia))
+- [[locale-ar-sd]] (Arabic (Sudan))
+- [[locale-ar-sy]] (Arabic (Syria))
+- [[locale-ar-tn]] (Arabic (Tunisia))
+- [[locale-ar-ye]] (Arabic (Yemen))
 
 ## Pluralization
 

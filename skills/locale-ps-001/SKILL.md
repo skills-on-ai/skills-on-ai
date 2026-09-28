@@ -24,6 +24,12 @@ Reference data for the **Pashto** locale — endonym **پښتو**, written in th
 
 Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rather than assuming left-to-right layout.
 
+## Regional variants
+
+This is the base/macro locale for Pashto. Region-specific variants in this dataset:
+
+- [[locale-ps-af]] (Pashto (Afghanistan))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

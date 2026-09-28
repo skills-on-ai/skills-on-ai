@@ -22,6 +22,13 @@ Reference data for the **Italian** locale — endonym **Italiano**, written in t
 - **L2 (additional):** 20,000,000
 - **L1+L2 (total):** 85,000,000
 
+## Regional variants
+
+This is the base/macro locale for Italian. Region-specific variants in this dataset:
+
+- [[locale-it-ch]] (Italian (Switzerland))
+- [[locale-it-it]] (Italian (Italy))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **many**, **other** (3 forms).

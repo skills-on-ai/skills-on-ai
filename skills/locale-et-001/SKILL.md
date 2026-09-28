@@ -22,6 +22,12 @@ Reference data for the **Estonian** locale — endonym **Eesti**, written in the
 - **L2 (additional):** 200,000
 - **L1+L2 (total):** 1,300,000
 
+## Regional variants
+
+This is the base/macro locale for Estonian. Region-specific variants in this dataset:
+
+- [[locale-et-ee]] (Estonian (Estonia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

@@ -22,6 +22,12 @@ Reference data for the **Ukrainian** locale — endonym **Українська**
 - **L2 (additional):** 6,900,000
 - **L1+L2 (total):** 39,000,000
 
+## Regional variants
+
+This is the base/macro locale for Ukrainian. Region-specific variants in this dataset:
+
+- [[locale-uk-ua]] (Ukrainian (Ukraine))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

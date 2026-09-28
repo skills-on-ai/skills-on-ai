@@ -22,6 +22,12 @@ Reference data for the **Korean** locale — endonym **한국어**, written in t
 - **L2 (additional):** 5,000,000
 - **L1+L2 (total):** 82,000,000
 
+## Regional variants
+
+This is the base/macro locale for Korean. Region-specific variants in this dataset:
+
+- [[locale-ko-kr]] (Korean (Korea))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

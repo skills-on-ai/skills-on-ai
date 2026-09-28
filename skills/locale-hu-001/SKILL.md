@@ -22,6 +22,12 @@ Reference data for the **Hungarian** locale — endonym **Magyar**, written in t
 - **L2 (additional):** 1,500,000
 - **L1+L2 (total):** 14,000,000
 
+## Regional variants
+
+This is the base/macro locale for Hungarian. Region-specific variants in this dataset:
+
+- [[locale-hu-hu]] (Hungarian (Hungary))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

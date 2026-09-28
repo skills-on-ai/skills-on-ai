@@ -27,6 +27,7 @@ Reference data for the **Bengali** locale — endonym **বাংলা**, writt
 This is the base/macro locale for Bengali. Region-specific variants in this dataset:
 
 - [[locale-bn-bd]] (Bengali (Bangladesh))
+- [[locale-bn-in]] (Bengali (India))
 
 ## Pluralization
 

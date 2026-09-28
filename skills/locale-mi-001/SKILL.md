@@ -22,6 +22,12 @@ Reference data for the **Maori** locale — endonym **Māori**, written in the L
 - **L2 (additional):** 150,000
 - **L1+L2 (total):** 200,000
 
+## Regional variants
+
+This is the base/macro locale for Maori. Region-specific variants in this dataset:
+
+- [[locale-mi-nz]] (Maori (New Zealand))
+
 ## Pluralization
 
 CLDR has no explicit plural rule defined for this language; it falls back to the root rule of a single **other** category (1 form) — every count uses the same word form, as in Japanese or Chinese.

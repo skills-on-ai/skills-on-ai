@@ -22,6 +22,12 @@ Reference data for the **Romanian** locale — endonym **Română**, written in 
 - **L2 (additional):** 4,000,000
 - **L1+L2 (total):** 28,000,000
 
+## Regional variants
+
+This is the base/macro locale for Romanian. Region-specific variants in this dataset:
+
+- [[locale-ro-ro]] (Romanian (Romania))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).

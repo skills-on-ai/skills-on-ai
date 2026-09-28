@@ -22,6 +22,12 @@ Reference data for the **Vietnamese** locale — endonym **Tiếng Việt**, wri
 - **L2 (additional):** 11,000,000
 - **L1+L2 (total):** 97,000,000
 
+## Regional variants
+
+This is the base/macro locale for Vietnamese. Region-specific variants in this dataset:
+
+- [[locale-vi-vn]] (Vietnamese (Vietnam))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

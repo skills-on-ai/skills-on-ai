@@ -22,6 +22,12 @@ Reference data for the **Nepali** locale — endonym **नेपाली**, wri
 - **L2 (additional):** 14,000,000
 - **L1+L2 (total):** 33,000,000
 
+## Regional variants
+
+This is the base/macro locale for Nepali. Region-specific variants in this dataset:
+
+- [[locale-ne-np]] (Nepali (Nepal))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

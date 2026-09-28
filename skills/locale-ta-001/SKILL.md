@@ -22,6 +22,12 @@ Reference data for the **Tamil** locale — endonym **தமிழ்**, written
 - **L2 (additional):** 7,000,000
 - **L1+L2 (total):** 86,000,000
 
+## Regional variants
+
+This is the base/macro locale for Tamil. Region-specific variants in this dataset:
+
+- [[locale-ta-in]] (Tamil (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

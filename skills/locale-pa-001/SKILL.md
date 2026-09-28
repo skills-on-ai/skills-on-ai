@@ -22,6 +22,12 @@ Reference data for the **Punjabi** locale — endonym **ਪੰਜਾਬੀ**, wr
 - **L2 (additional):** 37,000,000
 - **L1+L2 (total):** 150,000,000
 
+## Regional variants
+
+This is the base/macro locale for Punjabi. Region-specific variants in this dataset:
+
+- [[locale-pa-in]] (Punjabi (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

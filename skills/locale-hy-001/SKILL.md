@@ -22,6 +22,12 @@ Reference data for the **Armenian** locale — endonym **Հայերեն**, writt
 - **L2 (additional):** 1,400,000
 - **L1+L2 (total):** 6,700,000
 
+## Regional variants
+
+This is the base/macro locale for Armenian. Region-specific variants in this dataset:
+
+- [[locale-hy-am]] (Armenian (Armenia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

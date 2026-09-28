@@ -22,6 +22,12 @@ Reference data for the **Luxembourgish** locale — endonym **Lëtzebuergesch**,
 - **L2 (additional):** 200,000
 - **L1+L2 (total):** 600,000
 
+## Regional variants
+
+This is the base/macro locale for Luxembourgish. Region-specific variants in this dataset:
+
+- [[locale-lb-lu]] (Luxembourgish (Luxembourg))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

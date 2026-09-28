@@ -22,6 +22,12 @@ Reference data for the **Yoruba** locale — endonym **Yorùbá**, written in th
 - **L2 (additional):** 2,000,000
 - **L1+L2 (total):** 50,000,000
 
+## Regional variants
+
+This is the base/macro locale for Yoruba. Region-specific variants in this dataset:
+
+- [[locale-yo-ng]] (Yoruba (Nigeria))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **other** (1 form).

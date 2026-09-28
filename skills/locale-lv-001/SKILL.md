@@ -22,6 +22,12 @@ Reference data for the **Latvian** locale — endonym **Latviešu**, written in 
 - **L2 (additional):** 600,000
 - **L1+L2 (total):** 2,100,000
 
+## Regional variants
+
+This is the base/macro locale for Latvian. Region-specific variants in this dataset:
+
+- [[locale-lv-lv]] (Latvian (Latvia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **zero**, **one**, **other** (3 forms).

@@ -26,7 +26,11 @@ Reference data for the **German** locale — endonym **Deutsch**, written in the
 
 This is the base/macro locale for German. Region-specific variants in this dataset:
 
+- [[locale-de-at]] (German (Austria))
+- [[locale-de-ch]] (German (Switzerland))
 - [[locale-de-de]] (German (Germany))
+- [[locale-de-li]] (German (Liechtenstein))
+- [[locale-de-lu]] (German (Luxembourg))
 
 ## Pluralization
 

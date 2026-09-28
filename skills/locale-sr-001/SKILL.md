@@ -22,6 +22,14 @@ Reference data for the **Serbian** locale — endonym **Српски**, written 
 - **L2 (additional):** 3,800,000
 - **L1+L2 (total):** 12,000,000
 
+## Regional variants
+
+This is the base/macro locale for Serbian. Region-specific variants in this dataset:
+
+- [[locale-sr-ba]] (Serbian (Bosnia and Herzegovina))
+- [[locale-sr-me]] (Serbian (Montenegro))
+- [[locale-sr-rs]] (Serbian (Serbia))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).

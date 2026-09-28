@@ -22,6 +22,12 @@ Reference data for the **Telugu** locale — endonym **తెలుగు**, wri
 - **L2 (additional):** 13,000,000
 - **L1+L2 (total):** 96,000,000
 
+## Regional variants
+
+This is the base/macro locale for Telugu. Region-specific variants in this dataset:
+
+- [[locale-te-in]] (Telugu (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

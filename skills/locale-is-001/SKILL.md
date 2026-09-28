@@ -22,6 +22,12 @@ Reference data for the **Icelandic** locale — endonym **Íslenska**, written i
 - **L2 (additional):** 50,000
 - **L1+L2 (total):** 364,000
 
+## Regional variants
+
+This is the base/macro locale for Icelandic. Region-specific variants in this dataset:
+
+- [[locale-is-is]] (Icelandic (Iceland))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

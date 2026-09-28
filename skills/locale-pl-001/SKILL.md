@@ -22,6 +22,12 @@ Reference data for the **Polish** locale — endonym **Polski**, written in the 
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 43,000,000
 
+## Regional variants
+
+This is the base/macro locale for Polish. Region-specific variants in this dataset:
+
+- [[locale-pl-pl]] (Polish (Poland))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).

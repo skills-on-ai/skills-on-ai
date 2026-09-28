@@ -22,6 +22,12 @@ Reference data for the **Frisian** locale — endonym **Frysk**, written in the 
 - **L2 (additional):** 100,000
 - **L1+L2 (total):** 550,000
 
+## Regional variants
+
+This is the base/macro locale for Frisian. Region-specific variants in this dataset:
+
+- [[locale-fy-nl]] (Frisian (Netherlands))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

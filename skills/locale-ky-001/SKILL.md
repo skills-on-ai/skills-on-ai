@@ -22,6 +22,12 @@ Reference data for the **Kyrgyz** locale — endonym **Кыргызча**, writt
 - **L2 (additional):** 700,000
 - **L1+L2 (total):** 6,300,000
 
+## Regional variants
+
+This is the base/macro locale for Kyrgyz. Region-specific variants in this dataset:
+
+- [[locale-ky-kg]] (Kyrgyz (Kyrgyzstan))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

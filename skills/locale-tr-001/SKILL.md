@@ -22,6 +22,12 @@ Reference data for the **Turkish** locale — endonym **Türkçe**, written in t
 - **L2 (additional):** 6,000,000
 - **L1+L2 (total):** 91,000,000
 
+## Regional variants
+
+This is the base/macro locale for Turkish. Region-specific variants in this dataset:
+
+- [[locale-tr-tr]] (Turkish (Turkey))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

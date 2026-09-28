@@ -22,6 +22,13 @@ Reference data for the **Swedish** locale — endonym **Svenska**, written in th
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 13,000,000
 
+## Regional variants
+
+This is the base/macro locale for Swedish. Region-specific variants in this dataset:
+
+- [[locale-sv-fi]] (Swedish (Finland))
+- [[locale-sv-se]] (Swedish (Sweden))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

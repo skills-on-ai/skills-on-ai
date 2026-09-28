@@ -22,6 +22,13 @@ Reference data for the **Dutch** locale — endonym **Nederlands**, written in t
 - **L2 (additional):** 5,000,000
 - **L1+L2 (total):** 30,000,000
 
+## Regional variants
+
+This is the base/macro locale for Dutch. Region-specific variants in this dataset:
+
+- [[locale-nl-be]] (Dutch (Belgium))
+- [[locale-nl-nl]] (Dutch (Netherlands))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).

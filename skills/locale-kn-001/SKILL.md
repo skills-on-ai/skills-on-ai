@@ -22,6 +22,12 @@ Reference data for the **Kannada** locale — endonym **ಕನ್ನಡ**, writt
 - **L2 (additional):** 15,000,000
 - **L1+L2 (total):** 59,000,000
 
+## Regional variants
+
+This is the base/macro locale for Kannada. Region-specific variants in this dataset:
+
+- [[locale-kn-in]] (Kannada (India))
+
 ## Pluralization
 
 CLDR plural categories for this locale: **one**, **other** (2 forms).
