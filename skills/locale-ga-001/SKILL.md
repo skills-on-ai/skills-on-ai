@@ -22,6 +22,18 @@ Reference data for the **Irish** locale — endonym **Gaeilge**, written in the 
 - **L2 (additional):** 1,730,000
 - **L1+L2 (total):** 1,900,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **other** (5 forms).
+
+- **one** — `n = 1` (e.g. 1)
+- **two** — `n = 2` (e.g. 2)
+- **few** — `n = 3..6` (e.g. 3~6)
+- **many** — `n = 7..10` (e.g. 7~10)
+- **other** — everything else (e.g. 0, 11~25, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

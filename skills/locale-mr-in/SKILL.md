@@ -26,6 +26,15 @@ Reference data for the **Marathi (India)** locale — endonym **मराठी 
 
 This is a regional variant of [[locale-mr-001]] (Marathi), the base/macro locale for this language.
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `n = 1` (e.g. 1)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

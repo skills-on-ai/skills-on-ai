@@ -22,6 +22,14 @@ Reference data for the **Thai** locale — endonym **ไทย**, written in the
 - **L2 (additional):** 44,000,000
 - **L1+L2 (total):** 71,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **other** (1 form).
+
+- **other** — everything else (e.g. 0~15, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

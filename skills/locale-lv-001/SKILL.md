@@ -22,6 +22,16 @@ Reference data for the **Latvian** locale — endonym **Latviešu**, written in 
 - **L2 (additional):** 600,000
 - **L1+L2 (total):** 2,100,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **zero**, **one**, **other** (3 forms).
+
+- **zero** — `n % 10 = 0 or n % 100 = 11..19 or v = 2 and f % 100 = 11..19` (e.g. 0, 10~20, 30, 40, …)
+- **one** — `n % 10 = 1 and n % 100 != 11 or v = 2 and f % 10 = 1 and f % 100 != 11 or v != 2 and f % 10 = 1` (e.g. 1, 21, 31, 41, …)
+- **other** — everything else (e.g. 2~9, 22~29, 102, 1002, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

@@ -22,6 +22,16 @@ Reference data for the **Romanian** locale — endonym **Română**, written in 
 - **L2 (additional):** 4,000,000
 - **L1+L2 (total):** 28,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
+
+- **one** — `i = 1 and v = 0` (e.g. 1)
+- **few** — `v != 0 or n = 0 or n != 1 and n % 100 = 1..19` (e.g. 0, 2~16, 101, 1001, …)
+- **other** — everything else (e.g. 20~35, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

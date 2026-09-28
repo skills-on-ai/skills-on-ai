@@ -22,6 +22,15 @@ Reference data for the **Filipino** locale — endonym **Filipino**, written in 
 - **L2 (additional):** 54,000,000
 - **L1+L2 (total):** 83,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `v = 0 and i = 1,2,3 or v = 0 and i % 10 != 4,6,9 or v != 0 and f % 10 != 4,6,9` (e.g. 0~3, 5, 7, 8, …)
+- **other** — everything else (e.g. 4, 6, 9, 14, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

@@ -22,6 +22,15 @@ Reference data for the **Macedonian** locale — endonym **Македонски*
 - **L2 (additional):** 1,800,000
 - **L1+L2 (total):** 3,500,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `v = 0 and i % 10 = 1 and i % 100 != 11 or f % 10 = 1 and f % 100 != 11` (e.g. 1, 21, 31, 41, …)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

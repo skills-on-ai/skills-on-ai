@@ -22,6 +22,17 @@ Reference data for the **Czech** locale — endonym **Čeština**, written in th
 - **L2 (additional):** 2,700,000
 - **L1+L2 (total):** 12,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).
+
+- **one** — `i = 1 and v = 0` (e.g. 1)
+- **few** — `i = 2..4 and v = 0` (e.g. 2~4)
+- **many** — `v != 0`
+- **other** — everything else (e.g. 0, 5~19, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

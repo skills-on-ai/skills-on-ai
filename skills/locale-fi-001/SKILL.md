@@ -22,6 +22,15 @@ Reference data for the **Finnish** locale — endonym **Suomi**, written in the 
 - **L2 (additional):** 500,000
 - **L1+L2 (total):** 5,700,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `i = 1 and v = 0` (e.g. 1)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

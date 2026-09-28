@@ -30,6 +30,14 @@ This is the base/macro locale for Chinese. Region-specific variants in this data
 - [[locale-zh-hk]] (Chinese (Traditional, Hong Kong))
 - [[locale-zh-tw]] (Chinese (Traditional, Taiwan))
 
+## Pluralization
+
+CLDR plural categories for this locale: **other** (1 form).
+
+- **other** — everything else (e.g. 0~15, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

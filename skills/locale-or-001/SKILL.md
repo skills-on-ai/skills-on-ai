@@ -22,6 +22,15 @@ Reference data for the **Odia** locale — endonym **ଓଡ଼ିଆ**, written 
 - **L2 (additional):** 4,000,000
 - **L1+L2 (total):** 38,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `n = 1` (e.g. 1)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

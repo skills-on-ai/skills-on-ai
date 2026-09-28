@@ -28,6 +28,19 @@ Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rathe
 
 This is a regional variant of [[locale-ar-001]] (Arabic), the base/macro locale for this language.
 
+## Pluralization
+
+CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **many**, **other** (6 forms).
+
+- **zero** — `n = 0` (e.g. 0)
+- **one** — `n = 1` (e.g. 1)
+- **two** — `n = 2` (e.g. 2)
+- **few** — `n % 100 = 3..10` (e.g. 3~10, 103~110, 1003, …)
+- **many** — `n % 100 = 11..99` (e.g. 11~26, 111, 1011, …)
+- **other** — everything else (e.g. 100~102, 200~202, 300~302, 400~402, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

@@ -22,6 +22,17 @@ Reference data for the **Polish** locale — endonym **Polski**, written in the 
 - **L2 (additional):** 3,000,000
 - **L1+L2 (total):** 43,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).
+
+- **one** — `i = 1 and v = 0` (e.g. 1)
+- **few** — `v = 0 and i % 10 = 2..4 and i % 100 != 12..14` (e.g. 2~4, 22~24, 32~34, 42~44, …)
+- **many** — `v = 0 and i != 1 and i % 10 = 0..1 or v = 0 and i % 10 = 5..9 or v = 0 and i % 100 = 12..14` (e.g. 0, 5~19, 100, 1000, …)
+- **other** — everything else
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

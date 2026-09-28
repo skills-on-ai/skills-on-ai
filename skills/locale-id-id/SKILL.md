@@ -26,6 +26,14 @@ Reference data for the **Indonesian (Indonesia)** locale — endonym **Bahasa In
 
 This is a regional variant of [[locale-id-001]] (Indonesian), the base/macro locale for this language.
 
+## Pluralization
+
+CLDR plural categories for this locale: **other** (1 form).
+
+- **other** — everything else (e.g. 0~15, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

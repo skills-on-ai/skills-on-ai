@@ -22,6 +22,15 @@ Reference data for the **Zulu** locale — endonym **isiZulu**, written in the L
 - **L2 (additional):** 16,000,000
 - **L1+L2 (total):** 28,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `i = 0 or n = 1` (e.g. 0, 1)
+- **other** — everything else (e.g. 2~17, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

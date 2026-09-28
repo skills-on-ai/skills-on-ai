@@ -32,6 +32,15 @@ This is the base/macro locale for English. Region-specific variants in this data
 - [[locale-en-gb]] (English (Great Britain))
 - [[locale-en-us]] (English (United States))
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `i = 1 and v = 0` (e.g. 1)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

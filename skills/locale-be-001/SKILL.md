@@ -22,6 +22,17 @@ Reference data for the **Belarusian** locale — endonym **Беларуская*
 - **L2 (additional):** 1,300,000
 - **L1+L2 (total):** 6,300,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4 forms).
+
+- **one** — `n % 10 = 1 and n % 100 != 11` (e.g. 1, 21, 31, 41, …)
+- **few** — `n % 10 = 2..4 and n % 100 != 12..14` (e.g. 2~4, 22~24, 32~34, 42~44, …)
+- **many** — `n % 10 = 0 or n % 10 = 5..9 or n % 100 = 11..14` (e.g. 0, 5~19, 100, 1000, …)
+- **other** — everything else
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

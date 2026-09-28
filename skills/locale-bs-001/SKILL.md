@@ -22,6 +22,16 @@ Reference data for the **Bosnian** locale — endonym **Bosanski**, written in t
 - **L2 (additional):** 500,000
 - **L1+L2 (total):** 3,600,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
+
+- **one** — `v = 0 and i % 10 = 1 and i % 100 != 11 or f % 10 = 1 and f % 100 != 11` (e.g. 1, 21, 31, 41, …)
+- **few** — `v = 0 and i % 10 = 2..4 and i % 100 != 12..14 or f % 10 = 2..4 and f % 100 != 12..14` (e.g. 2~4, 22~24, 32~34, 42~44, …)
+- **other** — everything else (e.g. 0, 5~19, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

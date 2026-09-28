@@ -24,6 +24,16 @@ Reference data for the **Hebrew** locale — endonym **עברית**, written in 
 
 Set `dir="rtl"` for this locale (per [[locale]]'s text-direction guidance) rather than assuming left-to-right layout.
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **two**, **other** (3 forms).
+
+- **one** — `i = 1 and v = 0 or i = 0 and v != 0` (e.g. 1)
+- **two** — `i = 2 and v = 0` (e.g. 2)
+- **other** — everything else (e.g. 0, 3~17, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

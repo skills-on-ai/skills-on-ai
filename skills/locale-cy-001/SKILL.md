@@ -22,6 +22,19 @@ Reference data for the **Welsh** locale — endonym **Cymraeg**, written in the 
 - **L2 (additional):** 338,000
 - **L1+L2 (total):** 900,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **many**, **other** (6 forms).
+
+- **zero** — `n = 0` (e.g. 0)
+- **one** — `n = 1` (e.g. 1)
+- **two** — `n = 2` (e.g. 2)
+- **few** — `n = 3` (e.g. 3)
+- **many** — `n = 6` (e.g. 6)
+- **other** — everything else (e.g. 4, 5, 7~20, 100, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

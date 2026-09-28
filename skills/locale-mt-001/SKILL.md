@@ -22,6 +22,18 @@ Reference data for the **Maltese** locale — endonym **Malti**, written in the 
 - **L2 (additional):** 30,000
 - **L1+L2 (total):** 550,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **other** (5 forms).
+
+- **one** — `n = 1` (e.g. 1)
+- **two** — `n = 2` (e.g. 2)
+- **few** — `n = 0 or n % 100 = 3..10` (e.g. 0, 3~10, 103~109, 1003, …)
+- **many** — `n % 100 = 11..19` (e.g. 11~19, 111~117, 1011, …)
+- **other** — everything else (e.g. 20~35, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

@@ -22,6 +22,15 @@ Reference data for the **Malagasy** locale — endonym **Malagasy**, written in 
 - **L2 (additional):** 2,000,000
 - **L1+L2 (total):** 27,000,000
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `n = 0..1` (e.g. 0, 1)
+- **other** — everything else (e.g. 2~17, 100, 1000, 10000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

@@ -28,6 +28,15 @@ This is the base/macro locale for Hausa. Region-specific variants in this datase
 
 - [[locale-ha-ng]] (Hausa (Nigeria))
 
+## Pluralization
+
+CLDR plural categories for this locale: **one**, **other** (2 forms).
+
+- **one** — `n = 1` (e.g. 1)
+- **other** — everything else (e.g. 0, 2~16, 100, 1000, …)
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.

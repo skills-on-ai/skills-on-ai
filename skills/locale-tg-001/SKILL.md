@@ -22,6 +22,12 @@ Reference data for the **Tajik** locale — endonym **Тоҷикӣ**, written in
 - **L2 (additional):** 1,500,000
 - **L1+L2 (total):** 12,000,000
 
+## Pluralization
+
+CLDR has no explicit plural rule defined for this language; it falls back to the root rule of a single **other** category (1 form) — every count uses the same word form, as in Japanese or Chinese.
+
+See [[unicode-messageformat]] for writing plural messages using these categories.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
