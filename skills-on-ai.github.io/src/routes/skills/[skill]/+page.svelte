@@ -32,6 +32,7 @@
 
 			<p class="skill-source">
 				<a href="{REPO_URL}/tree/main/skills/{data.skill.slug}">View <code>{data.skill.slug}/SKILL.md</code> on GitHub</a>
+				· <a href="/skills/{data.skill.slug}/SKILL.md">Raw <code>SKILL.md</code></a>
 			</p>
 		</article>
 	</ContainerWithFixedWidth>

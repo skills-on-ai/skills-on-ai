@@ -256,6 +256,7 @@ for d in sorted(SKILLS_DIR.iterdir()):
         "description": description,
         "category": category,
         "bodyHtml": body_html,
+        "raw": text,
     })
 
 print(f"Parsed {len(skills)} skills, {len(order)} categories")
@@ -289,7 +290,7 @@ with skills_ts.open("w") as f:
     f.write("// Regenerate with bin/generate-skills-data (from the monorepo\n")
     f.write("// root) whenever skills/*/SKILL.md content changes.\n\n")
     f.write("export interface Skill {\n")
-    f.write("\tslug: string;\n\ttitle: string;\n\tdescription: string;\n\tcategory: string;\n\tbodyHtml: string;\n")
+    f.write("\tslug: string;\n\ttitle: string;\n\tdescription: string;\n\tcategory: string;\n\tbodyHtml: string;\n\traw: string;\n")
     f.write("}\n\n")
     f.write("export const skills: Skill[] = [\n")
     for s in skills:
@@ -298,7 +299,8 @@ with skills_ts.open("w") as f:
         f.write(f"\t\ttitle: {ts_str(s['title'])},\n")
         f.write(f"\t\tdescription: {ts_str(s['description'])},\n")
         f.write(f"\t\tcategory: {ts_str(s['category'])},\n")
-        f.write(f"\t\tbodyHtml: {ts_str(s['bodyHtml'])}\n")
+        f.write(f"\t\tbodyHtml: {ts_str(s['bodyHtml'])},\n")
+        f.write(f"\t\traw: {ts_str(s['raw'])}\n")
         f.write("\t},\n")
     f.write("];\n\n")
     f.write("export const totalSkillCount = skills.length;\n")
