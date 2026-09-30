@@ -24,6 +24,9 @@
 
 		<article class="skill">
 			<h1>{data.skill.title}</h1>
+			<p class="skill-download">
+				<a href="/skills/{data.skill.slug}/SKILL.md" download="SKILL.md">Download raw <code>SKILL.md</code></a>
+			</p>
 			<p class="skill-trigger">{data.skill.description}</p>
 
 			<div class="skill-body">
@@ -32,13 +35,15 @@
 
 			<p class="skill-source">
 				<a href="{REPO_URL}/tree/main/skills/{data.skill.slug}">View <code>{data.skill.slug}/SKILL.md</code> on GitHub</a>
-				· <a href="/skills/{data.skill.slug}/SKILL.md">Raw <code>SKILL.md</code></a>
 			</p>
 		</article>
 	</ContainerWithFixedWidth>
 </main>
 
 <style>
+	.skill-download {
+		font-size: 0.95rem;
+	}
 	.skill-trigger {
 		font-size: 1.05rem;
 		opacity: 0.85;
