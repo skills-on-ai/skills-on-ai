@@ -512,6 +512,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [functional-specification](skills/functional-specification/)
 - [portfolio-management](skills/portfolio-management/)
 - [practice-management](skills/practice-management/)
+- [premortem](skills/premortem/)
 - [prince2](skills/prince2/)
 - [product-management](skills/product-management/)
 - [product-requirements-document](skills/product-requirements-document/)
