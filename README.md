@@ -50,6 +50,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Business › Strategy & planning frameworks
 
+- [adversary](skills/adversary/)
 - [big-hairy-audacious-goal](skills/big-hairy-audacious-goal/)
 - [critical-success-factors](skills/critical-success-factors/)
 - [emergent-task-planning](skills/emergent-task-planning/)
