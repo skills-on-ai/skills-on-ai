@@ -54,6 +54,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [big-hairy-audacious-goal](skills/big-hairy-audacious-goal/)
 - [critical-success-factors](skills/critical-success-factors/)
 - [emergent-task-planning](skills/emergent-task-planning/)
+- [foresight](skills/foresight/)
 - [guide-star](skills/guide-star/)
 - [key-performance-indicators](skills/key-performance-indicators/)
 - [key-risk-indicators](skills/key-risk-indicators/)
