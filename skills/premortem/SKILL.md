@@ -98,6 +98,7 @@ rerun. Treat the result as input to your judgment, not a forecast.
 - [[root-cause-analysis]] for the structured technique of tracing a
   failure back to its underlying cause.
 - [[adversary]] for adding a motivated opponent who attacks the plan.
+- [[tripwire]] for turning each warning sign into a measurable threshold with a check time.
 - [[swot-analysis]] for the broader situational survey that precedes
   a focused premortem.
 - [[risks-actions-issues-decisions]] for tracking the mitigations and

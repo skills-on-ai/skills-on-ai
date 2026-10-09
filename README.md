@@ -66,6 +66,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [smart-criteria](skills/smart-criteria/)
 - [strategic-balanced-scorecard](skills/strategic-balanced-scorecard/)
 - [total-project-control](skills/total-project-control/)
+- [tripwire](skills/tripwire/)
 - [vision-mission-values](skills/vision-mission-values/)
 - [voice-of-the-customer](skills/voice-of-the-customer/)
 - [volatile-uncertain-complex-ambiguous](skills/volatile-uncertain-complex-ambiguous/)
