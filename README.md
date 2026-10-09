@@ -524,6 +524,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [project-scope](skills/project-scope/)
 - [raci-matrix](skills/raci-matrix/)
 - [responsibility-assignment-matrix](skills/responsibility-assignment-matrix/)
+- [risk-register](skills/risk-register/)
 - [risks-actions-issues-decisions](skills/risks-actions-issues-decisions/)
 - [statement-of-work](skills/statement-of-work/)
 - [user-story](skills/user-story/)
