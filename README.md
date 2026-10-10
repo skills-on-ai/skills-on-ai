@@ -593,6 +593,7 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [medical-clinical-incident-report](skills/medical-clinical-incident-report/)
 - [medical-medication-error-reporting](skills/medical-medication-error-reporting/)
 - [medical-patient-safety-huddle](skills/medical-patient-safety-huddle/)
+- [united-kingdom-national-health-service-digital-technology-assessment-criteria](skills/united-kingdom-national-health-service-digital-technology-assessment-criteria/)
 
 ## Meetings
 
