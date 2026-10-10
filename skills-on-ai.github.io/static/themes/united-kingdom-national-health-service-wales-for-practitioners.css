@@ -535,6 +535,14 @@
         /* Primary body-copy colour. Maps to the theme's high-contrast
            reading colour. */
         --lily-text: var(--color-base-content);
+        /* Error text: the theme's error colour pulled toward the theme's own reading colour (`--color-base-content`, not `--lily-text`, which a host page may override) so it
+           keeps WCAG contrast as text on the page and on the error-tinted
+           callout surface (`--color-error` itself is a fill colour). */
+        --lily-error-text: color-mix(
+            in oklch,
+            var(--color-error) 22%,
+            var(--color-base-content)
+        );
         /* Muted / secondary text — mixed 70% with transparent to keep the
            hue but lower contrast for captions, helptext, placeholders. */
         --lily-text-muted: color-mix(
@@ -1586,7 +1594,7 @@
     }
     :where(.dont-list-item)::marker {
         content: "✗ ";
-        color: var(--color-error);
+        color: var(--lily-error-text);
     }
 
     /* --- Tree --------------------------------------------------------------- */
@@ -1668,7 +1676,7 @@
         color: var(--color-success);
     }
     :where(.validation-list-item[data-status="failed"]) {
-        color: var(--color-error);
+        color: var(--lily-error-text);
     }
     :where(.validation-list-item[data-status="pending"]) {
         color: var(--lily-text-muted);
@@ -2154,7 +2162,7 @@
 
     /* Error message — inline form-validation message. */
     :where(.error-message) {
-        color: var(--color-error);
+        color: var(--lily-error-text);
         font-weight: 600;
     }
     /* Error summary — heavyweight border (GOV.UK pattern) so users scrolling
@@ -3026,6 +3034,8 @@
         .theme-picker,
         .locale-picker,
         .text-size-picker,
+        .search-picker,
+        .link-picker,
         .share-picker,
         .date-time-picker
     ) {
@@ -3037,6 +3047,8 @@
         .theme-picker-button,
         .locale-picker-button,
         .text-size-picker-button,
+        .search-picker-button,
+        .link-picker-button,
         .share-picker-button,
         .date-time-picker-button
     ) {
@@ -3055,92 +3067,56 @@
         cursor: pointer;
     }
 
-    /* The glyph is decorative (aria-hidden); the button's aria-label
-       carries the accessible name. Sized up a little so a single
-       character reads as an affordance.
-
-       The two glyphs do NOT have the same ink-to-em ratio, so a single
-       font-size makes them look mismatched. Measured against the
-       components' own resolved fonts: U+25D1 (half circle) inks 0.842
-       of its em box, U+1F310 (globe) inks 0.996 — the globe reads
-       1.183x larger at equal font-size. Each icon therefore carries its
-       own optical correction so the two buttons look the same size.
-
-       The ratio depends on the consumer's font stack, so the factor is
-       a custom property rather than a baked-in number: override
-       --lily-picker-icon-scale if your stack resolves these glyphs to
-       different faces than the reference measurement. */
+    /* The icon is decorative (aria-hidden); the button's aria-label
+       carries the accessible name. Reversed 2026-09-16: five of the
+       six picker icons (theme, locale, text-size, motion, share) are
+       now bundled SVGs, not Unicode glyphs. Each ships its own
+       explicit width="1.05rem" height="1.05rem" on the <svg> element,
+       so unlike a font-dependent character glyph -- where different
+       glyphs ink different fractions of their em box, needing a
+       per-glyph optical correction -- every icon in this family
+       already inks the same visual size by construction (the icon's
+       own author controls its viewBox). This rule only supplies flex
+       centering; override the icon's own width/height if you need a
+       different size. */
     :where(
         .theme-picker-icon,
         .locale-picker-icon,
         .text-size-picker-icon,
         .motion-picker-icon,
+        .link-picker-icon,
         .share-picker-icon,
-        .date-time-picker-icon
+        .search-picker-icon
     ) {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        font-size: calc(1.25em * var(--lily-picker-icon-scale, 1));
-        line-height: 1;
     }
 
-    /* U+25D1 is the reference: no correction. Baseline for every factor
-       below (re-measured 2026-09-03, plan P8-T10): in a real browser,
-       against each icon's computed font, U+25D1 inks 0.850 of its em box
-       (max ink extent; width and height are equal for this glyph). */
-    :where(.theme-picker-icon) {
-        --lily-picker-icon-scale: 1;
-    }
+    /* date-time-picker's calendar icon is still a Unicode glyph
+       (U+1F4C5 + U+FE0E) -- out of scope for the 2026-09-16 SVG-icon
+       reversal, since date-time-picker was not part of that change
+       (see AGENTS/helpers.md) -- so it keeps the font-size-based
+       sizing the other five used to share.
 
-    /* U+1F310 inks 1.000 of its em box (max extent) against U+25D1's
-       0.850, so it scales DOWN: 0.850/1.000 ≈ 0.85 (shipped as 0.845 since
-       the original measurement; the 0.6% difference is invisible). */
-    :where(.locale-picker-icon) {
-        --lily-picker-icon-scale: 0.845;
-    }
-
-    /* U+0041 "A" is a cap-height letter: it inks 0.675 of its em box in
-       WIDTH (0.720 in height, the cap height) against U+25D1's 0.850 —
-       its factor is taken on width, 0.850/0.675 ≈ 1.26, shipped as 1.25.
-       The one glyph here whose width and height differ materially. */
-    :where(.text-size-picker-icon) {
-        --lily-picker-icon-scale: 1.25;
-    }
-
-    /* U+23F8 (pause sign) is a small dingbat: measured 2026-09-03 in a
-       real browser against this icon's computed font (the same method
-       as U+25D1 / U+1F310 / "A", which it reproduced to within 1%), it
-       inks only 0.495 of its em box against U+25D1's 0.850, so it scales
-       up by 0.850/0.495. Like every factor here it is font-stack
-       dependent — override it if your stack resolves U+23F8 to a
-       different face. */
-    :where(.motion-picker-icon) {
-        --lily-picker-icon-scale: 1.72;
-    }
-
-    /* U+27A4 "➤" inks 0.850 of its em box in width (0.685 in height)
-       against U+25D1's 0.850 — the same max extent, so no correction.
-       Re-baselined 2026-09-03 (plan P8-T10): the earlier 1.268 was
-       measured under a different resolved face (against a U+25D1 of
-       0.777) and was not comparable to the other factors here. (➤
-       replaced U+21AA "↪" in July 2026.) */
-    :where(.share-picker-icon) {
-        --lily-picker-icon-scale: 1;
-    }
-
-    /* U+1F4C5 calendar takes the SAME correction as U+1F310 globe, and
-       that is an identity rather than a coincidence: a colour-emoji font
-       paints every one of its glyphs into one identical em square. On the
-       reference stack, globe, calendar, rocket and heart all measure an
-       ink box of 1.015 x 1.015 with an advance of 1.000 — indistinguishable.
-       So any emoji helper icon carries the globe's factor, and any new one
-       should too, without re-measuring.
+       U+1F4C5 calendar inks 1.000 of its em box (max extent) against
+       U+25D1 half-circle's reference 0.850 (the pre-reversal
+       baseline, still valid here since this is the same glyph
+       measurement, unchanged): 0.850/1.000 ≈ 0.85, shipped as 0.845.
+       A colour-emoji font paints every one of its glyphs into one
+       identical em square, so globe, calendar, rocket and heart all
+       measure the same ink box -- any future emoji helper icon can
+       reuse this factor without re-measuring.
 
        (Measuring also confirms the U+FE0E text-presentation selector is
        ignored here: the bare and VS-15 forms are metrically identical. It
        stays in the source as a hint to the platforms that do honour it.) */
     :where(.date-time-picker-icon) {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(1.25em * var(--lily-picker-icon-scale, 1));
+        line-height: 1;
         --lily-picker-icon-scale: 0.845;
     }
 
@@ -3167,19 +3143,411 @@
         background-color: var(--lily-surface-alt);
     }
 
+    /* link-picker's list holds real page links (a disclosure, not a menu),
+       so its items get the share list's treatment; the current page is
+       marked by aria-current and shown in bold. */
+    :where(.link-picker-list) > :where(.link-picker-list-item) {
+        list-style: none;
+    }
+
+    :where(.link-picker-link) {
+        display: block;
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        color: var(--lily-text);
+        text-decoration: none;
+        border-radius: var(--lily-radius-sm);
+        cursor: pointer;
+    }
+
+    :where(.link-picker-link:hover) {
+        background-color: var(--lily-surface-alt);
+    }
+
+    :where(.link-picker-link[aria-current="page"]) {
+        font-weight: 600;
+        background-color: var(--lily-surface-sunken);
+    }
+
     /* Copy feedback. Never display:none this — that silences the live
        region for screen-reader users. */
     :where(.share-picker-status) {
-        margin-block-start: var(--lily-space-xs);
+        margin: var(--lily-space-xs) 0 0;
         font-size: 0.875em;
         color: var(--lily-text-muted);
+    }
+
+    /* The status paragraph is always rendered so the aria-live region
+       exists before the first announcement (see above); empty, it still
+       generates a line box and carries the margin-top set above, both of
+       which push the button row out of alignment in a flex layout like
+       picker-bar (found independently by two downstream consumers, each
+       patching around it locally). :empty here matches a Svelte-rendered
+       {status} of "" (a zero-length text node doesn't count as a child
+       per the CSS spec), so this only applies while there is nothing to
+       announce, and normal spacing returns the moment status has text. */
+    :where(.share-picker-status:empty) {
+        margin: 0;
+        line-height: 0;
+    }
+
+    /* Components added 2026-10-05: kbd-shortcut, show-more, thinking,
+       empty-state, file-tree, one-time-password-input, multi-select, and
+       the four calendar views. The calendar views reuse the
+       calendar-table-* sub-element hooks, so they only need the table
+       root rule. show-more's clamp is keyed on data-expanded (the
+       component never sets an inline style); file-tree hides a closed
+       folder's group via aria-expanded. */
+    :where(.calendar-year-table, .calendar-month-table, .calendar-week-table, .calendar-day-table) {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    :where(.kbd-shortcut) {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--lily-space-xs);
+    }
+
+    :where(.kbd-shortcut-key) {
+        display: inline-block;
+        padding: 0.125rem 0.4rem;
+        font-family: var(--lily-font-mono);
+        font-size: 0.85em;
+        background-color: var(--lily-surface-alt);
+        border: var(--border) solid var(--lily-border-strong);
+        border-bottom-width: 2px;
+        border-radius: var(--lily-radius-sm);
+    }
+
+    :where(.show-more-content[data-expanded="false"]) {
+        max-height: 6em;
+        overflow: hidden;
+    }
+
+    :where(.show-more-button) {
+        margin-block-start: var(--lily-space-xs);
+        padding: var(--lily-space-xs);
+        font: inherit;
+        color: inherit;
+        text-decoration: underline;
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
+
+    :where(.thinking) {
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        color: var(--lily-text-muted);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-md);
+    }
+
+    :where(.thinking-summary) {
+        cursor: pointer;
+    }
+
+    :where(.thinking[data-streaming] .thinking-summary) {
+        font-style: italic;
+    }
+
+    :where(.empty-state) {
+        padding: var(--lily-space-lg);
+        text-align: center;
+        color: var(--lily-text-muted);
+    }
+
+    :where(.file-tree, .file-tree [role="group"]) {
+        margin: 0;
+        padding-inline-start: 0;
+        list-style: none;
+    }
+
+    :where(.file-tree [role="group"]) {
+        padding-inline-start: var(--lily-space-md);
+    }
+
+    :where(.file-tree [role="treeitem"]) {
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        cursor: pointer;
+    }
+
+    :where(.file-tree [role="treeitem"][aria-expanded="false"] > [role="group"]) {
+        display: none;
+    }
+
+    :where(.file-tree [role="treeitem"]:focus-visible) {
+        outline: var(--lily-focus-ring);
+        outline-offset: -2px;
+    }
+
+    :where(.one-time-password-input, .multi-select, .multi-select-with-extras select) {
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        font: inherit;
+        color: var(--lily-text);
+        background-color: var(--lily-surface);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-sm);
+    }
+
+    :where(.one-time-password-input) {
+        font-family: var(--lily-font-mono);
+        letter-spacing: 0.25em;
+    }
+
+    /* Chart containers added 2026-10-05 (gauge, heatmap, radar, sankey, pie,
+       ring, funnel, candlestick, composed, choropleth, sunburst) join the
+       existing five as block figures. Every chart's optional data-table
+       wrapper sits below the graphic; the table itself inherits the
+       catalog's table styling. */
+    :where(
+        .gauge-chart,
+        .heatmap-chart,
+        .radar-chart,
+        .sankey-chart,
+        .pie-chart,
+        .ring-chart,
+        .funnel-chart,
+        .candlestick-chart,
+        .composed-chart,
+        .choropleth-chart,
+        .sunburst-chart
+    ) {
+        display: block;
+        margin: 0;
+    }
+
+    :where(
+        .area-chart-data-table,
+        .bar-chart-data-table,
+        .column-chart-data-table,
+        .line-chart-data-table,
+        .scatter-chart-data-table,
+        .gauge-chart-data-table,
+        .heatmap-chart-data-table,
+        .radar-chart-data-table,
+        .sankey-chart-data-table,
+        .pie-chart-data-table,
+        .ring-chart-data-table,
+        .funnel-chart-data-table,
+        .candlestick-chart-data-table,
+        .composed-chart-data-table,
+        .choropleth-chart-data-table,
+        .sunburst-chart-data-table
+    ) {
+        margin-block-start: var(--lily-space-sm);
+        overflow-x: auto;
+    }
+
+    /* tool-call (2026-10-05): a bordered disclosure; the status word sits next
+       to the name in the summary and is never the only cue. [data-status] is
+       the consumer hook for a spinner or icon. */
+    :where(.tool-call) {
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-md);
+        background-color: var(--lily-surface);
+        color: var(--lily-text);
+    }
+
+    :where(.tool-call-summary) {
+        display: flex;
+        align-items: center;
+        gap: var(--lily-space-sm);
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        cursor: pointer;
+    }
+
+    :where(.tool-call-content) {
+        display: grid;
+        gap: var(--lily-space-xs);
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        border-block-start: var(--border) solid var(--lily-border-strong);
+    }
+
+    :where(.tool-call-name) {
+        font-family: var(--lily-font-mono);
+    }
+
+    :where(.tool-call-status) {
+        color: var(--lily-text-muted);
+    }
+
+    :where(.tool-call-input pre, .tool-call-output pre) {
+        margin: 0;
+        overflow-x: auto;
+        font-family: var(--lily-font-mono);
+    }
+
+    :where(.tool-call-error) {
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-sm);
+        font-weight: 600;
+    }
+
+    /* mark (2026-10-05): the native <mark> highlight. The UA default is a
+       fixed yellow; this uses the theme's own surface and text tokens so the
+       pair keeps its contrast in every theme (including dark ones). */
+    :where(.mark) {
+        padding-inline: 0.15em;
+        color: var(--lily-text);
+        background-color: var(--lily-surface-alt);
+        border-radius: var(--lily-radius-sm);
+        box-shadow: 0 0 0 1px var(--lily-border-strong);
+    }
+
+    /* chat-composer (2026-10-05): one row, textarea growing, one button. The
+       button's visible word is its accessible name — hide it visually, never
+       with display:none, if you replace it with an icon. */
+    :where(.chat-composer) {
+        display: flex;
+        align-items: flex-end;
+        gap: var(--lily-space-xs);
+    }
+
+    :where(.chat-composer-input) {
+        flex: 1;
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        font: inherit;
+        color: var(--lily-text);
+        background-color: var(--lily-surface);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-md);
+        resize: none;
+    }
+
+    :where(.chat-composer-button) {
+        min-width: 2.5rem;
+        min-height: 2.5rem;
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        font: inherit;
+        color: var(--lily-text);
+        background-color: var(--lily-surface);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-md);
+        cursor: pointer;
+    }
+
+    :where(.chat-composer-button:disabled) {
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+
+    /* Picker tooltips (added 2026-10-04): a visual-only role="tooltip"
+       element beside each picker's icon button, holding the same text as
+       its aria-label. The component toggles [hidden]; position and look
+       are here. It sits just below the button, in the inverse of the
+       page colours so it never disappears into the surface. A ::before
+       strip bridges the gap to the button so the pointer can travel onto
+       the tooltip without it closing (WCAG 1.4.13, hoverable). */
+    :where(.motion-picker) {
+        position: relative;
+        display: inline-block;
+    }
+
+    :where(
+        .theme-picker-tooltip,
+        .locale-picker-tooltip,
+        .text-size-picker-tooltip,
+        .motion-picker-tooltip,
+        .link-picker-tooltip,
+        .share-picker-tooltip,
+        .search-picker-tooltip,
+        .date-time-picker-tooltip
+    ) {
+        position: absolute;
+        z-index: 11;
+        inset-inline-start: 0;
+        inset-block-start: 100%;
+        margin-block-start: var(--lily-space-xs);
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        font-size: 0.875em;
+        line-height: 1.3;
+        white-space: nowrap;
+        color: var(--lily-surface);
+        background-color: var(--lily-text);
+        border-radius: var(--lily-radius-sm);
+        box-shadow: var(--lily-shadow-md);
+    }
+
+    :where(
+        .theme-picker-tooltip,
+        .locale-picker-tooltip,
+        .text-size-picker-tooltip,
+        .motion-picker-tooltip,
+        .link-picker-tooltip,
+        .share-picker-tooltip,
+        .search-picker-tooltip,
+        .date-time-picker-tooltip
+    )::before {
+        content: "";
+        position: absolute;
+        inset-inline: 0;
+        inset-block-end: 100%;
+        height: var(--lily-space-xs);
+    }
+
+    :where(
+        .theme-picker-tooltip,
+        .locale-picker-tooltip,
+        .text-size-picker-tooltip,
+        .motion-picker-tooltip,
+        .link-picker-tooltip,
+        .share-picker-tooltip,
+        .search-picker-tooltip,
+        .date-time-picker-tooltip
+    )[hidden] {
+        display: none;
+    }
+
+    /* search-picker's panel holds a search form rather than a list: the
+       field and the ⏎ submit button sit in one row, the button at the
+       field's inline end (right in LTR, left under dir="rtl"). The ⏎
+       button matches the picker trigger buttons' size and border. */
+    :where(.search-picker-form) {
+        display: flex;
+        align-items: stretch;
+        gap: var(--lily-space-xs);
+        margin: 0;
+    }
+
+    :where(.search-picker-input) {
+        min-width: 14rem;
+        padding: var(--lily-space-xs) var(--lily-space-sm);
+        font: inherit;
+        color: var(--lily-text);
+        background-color: var(--lily-surface);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-sm);
+    }
+
+    :where(.search-picker-submit) {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 2.5rem;
+        min-height: 2.5rem;
+        padding: var(--lily-space-xs);
+        font: inherit;
+        line-height: 1;
+        color: var(--lily-text);
+        background-color: var(--lily-surface);
+        border: var(--border) solid var(--lily-border-strong);
+        border-radius: var(--lily-radius-md);
+        cursor: pointer;
+    }
+
+    :where(.search-picker-submit:hover) {
+        background-color: var(--lily-surface-alt);
     }
 
     :where(
         .theme-picker-list,
         .locale-picker-list,
         .text-size-picker-list,
-        .share-picker-list
+        .motion-picker-list,
+        .link-picker-list,
+        .share-picker-list,
+        .search-picker-panel
     ) {
         position: absolute;
         z-index: 10;
@@ -3203,16 +3571,60 @@
         .theme-picker-list,
         .locale-picker-list,
         .text-size-picker-list,
-        .share-picker-list
+        .motion-picker-list,
+        .link-picker-list,
+        .share-picker-list,
+        .search-picker-panel
     )[hidden] {
         display: none;
     }
 
-    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list)
+    /* Popups open under their button, aligned to its start edge, and flip to
+       its end edge (or above it) when they would run off the viewport. A header
+       picker near the right edge otherwise overflows, and focusing the popup
+       scrolls the whole page sideways. `position: fixed` makes the viewport the
+       containing block that the flip fallbacks are checked against; browsers
+       without anchor positioning keep the absolute placement above. */
+    @supports (position-area: block-end) {
+        :where(.theme-picker) { anchor-name: --lily-theme-picker; }
+        :where(.locale-picker) { anchor-name: --lily-locale-picker; }
+        :where(.text-size-picker) { anchor-name: --lily-text-size-picker; }
+        :where(.motion-picker) { anchor-name: --lily-motion-picker; }
+        :where(.link-picker) { anchor-name: --lily-link-picker; }
+        :where(.share-picker) { anchor-name: --lily-share-picker; }
+        :where(.search-picker) { anchor-name: --lily-search-picker; }
+        :where(.theme-picker-list) { position-anchor: --lily-theme-picker; }
+        :where(.locale-picker-list) { position-anchor: --lily-locale-picker; }
+        :where(.text-size-picker-list) { position-anchor: --lily-text-size-picker; }
+        :where(.motion-picker-list) { position-anchor: --lily-motion-picker; }
+        :where(.link-picker-list) { position-anchor: --lily-link-picker; }
+        :where(.share-picker-list) { position-anchor: --lily-share-picker; }
+        :where(.search-picker-panel) { position-anchor: --lily-search-picker; }
+        :where(
+            .theme-picker-list,
+            .locale-picker-list,
+            .text-size-picker-list,
+            .motion-picker-list,
+            .link-picker-list,
+            .share-picker-list,
+            .search-picker-panel
+        ) {
+            position: fixed;
+            inset: auto;
+            position-area: block-end span-inline-end;
+            position-try-fallbacks: flip-inline, flip-block, flip-block flip-inline;
+            min-width: 0;
+            width: max-content;
+            max-width: calc(100vw - 1rem);
+        }
+    }
+
+    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list, .motion-picker-list)
         > :where(
             .theme-picker-option,
             .locale-picker-option,
-            .text-size-picker-option
+            .text-size-picker-option,
+            .motion-picker-option
         ) {
         padding: var(--lily-space-xs) var(--lily-space-sm);
         border-radius: var(--lily-radius-sm);
@@ -3221,7 +3633,7 @@
 
     /* data-active is the keyboard cursor (aria-activedescendant); focus
        stays on the listbox, so this is the only visible cue for it. */
-    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list)
+    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list, .motion-picker-list)
         > :where([data-active]) {
         background-color: var(--lily-surface-alt);
         outline: var(--lily-focus-ring);
@@ -3230,7 +3642,7 @@
 
     /* aria-selected marks the applied theme/locale, which is not the
        same thing as the keyboard cursor. Both can be visible at once. */
-    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list)
+    :where(.theme-picker-list, .locale-picker-list, .text-size-picker-list, .motion-picker-list)
         > :where([aria-selected="true"]) {
         font-weight: 600;
         background-color: var(--lily-surface-sunken);
