@@ -50,24 +50,20 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 ## Business › Strategy & planning frameworks
 
-- [adversary](skills/adversary/)
 - [big-hairy-audacious-goal](skills/big-hairy-audacious-goal/)
 - [critical-success-factors](skills/critical-success-factors/)
 - [emergent-task-planning](skills/emergent-task-planning/)
-- [foresight](skills/foresight/)
 - [guide-star](skills/guide-star/)
 - [key-performance-indicators](skills/key-performance-indicators/)
 - [key-risk-indicators](skills/key-risk-indicators/)
 - [maturity-models](skills/maturity-models/)
 - [north-star](skills/north-star/)
 - [objectives-and-key-results](skills/objectives-and-key-results/)
-- [ooda-loop](skills/ooda-loop/)
 - [pitch-deck](skills/pitch-deck/)
 - [plan-do-check-act](skills/plan-do-check-act/)
 - [smart-criteria](skills/smart-criteria/)
 - [strategic-balanced-scorecard](skills/strategic-balanced-scorecard/)
 - [total-project-control](skills/total-project-control/)
-- [tripwire](skills/tripwire/)
 - [vision-mission-values](skills/vision-mission-values/)
 - [voice-of-the-customer](skills/voice-of-the-customer/)
 - [volatile-uncertain-complex-ambiguous](skills/volatile-uncertain-complex-ambiguous/)
@@ -126,7 +122,6 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 
 - [brainstorming](skills/brainstorming/)
 - [creative-thinking](skills/creative-thinking/)
-- [decision-tree](skills/decision-tree/)
 - [flowchart](skills/flowchart/)
 - [futurespective](skills/futurespective/)
 - [ideation](skills/ideation/)
@@ -135,6 +130,24 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [oblique-strategies](skills/oblique-strategies/)
 - [scamper](skills/scamper/)
 - [thinking-hats](skills/thinking-hats/)
+
+## Decision making
+
+- [adversary](skills/adversary/)
+- [decision-analysis](skills/decision-analysis/)
+- [decision-journal](skills/decision-journal/)
+- [decision-tree](skills/decision-tree/)
+- [expected-value-analysis](skills/expected-value-analysis/)
+- [foresight](skills/foresight/)
+- [game-theory](skills/game-theory/)
+- [ooda-loop](skills/ooda-loop/)
+- [premortem](skills/premortem/)
+- [prospect-theory](skills/prospect-theory/)
+- [regret-minimization](skills/regret-minimization/)
+- [second-order-thinking](skills/second-order-thinking/)
+- [tripwire](skills/tripwire/)
+- [two-way-door-decisions](skills/two-way-door-decisions/)
+- [weighted-decision-matrix](skills/weighted-decision-matrix/)
 
 ## Enterprise
 
@@ -515,7 +528,6 @@ Browse the catalog at <https://skills-on-ai.org/> (site source:
 - [functional-specification](skills/functional-specification/)
 - [portfolio-management](skills/portfolio-management/)
 - [practice-management](skills/practice-management/)
-- [premortem](skills/premortem/)
 - [prince2](skills/prince2/)
 - [product-management](skills/product-management/)
 - [product-requirements-document](skills/product-requirements-document/)
