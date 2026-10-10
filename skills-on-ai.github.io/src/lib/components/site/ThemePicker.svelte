@@ -4,7 +4,7 @@
 	// Each theme is a standalone stylesheet (static/themes/<id>.css) that
 	// styles every Lily component hook. Uses Lily's own theme-picker helper
 	// (an icon button that opens a WAI-ARIA APG listbox) rather than a
-	// native <select> — see lily-design-system-svelte-theme-picker's own
+	// native <select> — see @lilydesignsystem/svelte-theme-picker's own
 	// spec/index.md.
 	//
 	// The helper manages its own `<link data-lily-theme-picker="theme">`,
@@ -13,7 +13,7 @@
 	// rather than creating a second one. Choice persists to localStorage
 	// under the same "skills-on-ai-theme" key app.html's inline script
 	// already reads before first paint.
-	import ThemePicker from 'lily-design-system-svelte-theme-picker';
+	import ThemePicker from '@lilydesignsystem/svelte-theme-picker';
 	import { themes, DEFAULT_THEME_ID } from '$lib/data/themes';
 
 	const STORAGE_KEY = 'skills-on-ai-theme';

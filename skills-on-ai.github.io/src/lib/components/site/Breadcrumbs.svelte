@@ -3,7 +3,7 @@
 		BreadcrumbNav,
 		BreadcrumbList,
 		BreadcrumbListItem
-	} from 'lily-design-system-svelte-headless';
+	} from '@lilydesignsystem/svelte-headless';
 
 	// `trail` is Home-first; every item but the last is a link, the last
 	// is the current page (rendered as plain text, current=true) — the

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ContainerWithFixedWidth } from 'lily-design-system-svelte-headless';
+	import { ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
 	import Seo from '$lib/components/site/Seo.svelte';
 	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
 	import { REPO_URL } from '$lib/site';

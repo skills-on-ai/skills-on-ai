@@ -5,7 +5,7 @@
 	// The package ships no social-network URLs by design — a share list is
 	// an editorial/privacy decision for the consumer, not the library — so
 	// every destination href is supplied here.
-	import SharePicker, { type ShareTarget } from 'lily-design-system-svelte-share-picker';
+	import SharePicker, { type ShareTarget } from '@lilydesignsystem/svelte-share-picker';
 	import { SITE_NAME } from '$lib/site';
 
 	let { title = SITE_NAME }: { title?: string } = $props();

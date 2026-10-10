@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ContainerWithFixedWidth, Badge } from 'lily-design-system-svelte-headless';
+	import { ContainerWithFixedWidth, Badge } from '@lilydesignsystem/svelte-headless';
 	import Seo from '$lib/components/site/Seo.svelte';
 	import { skills } from '$lib/data/skills';
 	import { categories } from '$lib/data/categories';

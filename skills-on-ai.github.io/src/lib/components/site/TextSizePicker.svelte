@@ -9,7 +9,7 @@
 	// entirely in CSS. Choice persists to localStorage under
 	// "skills-on-ai-text-size"; app.html applies it before paint to avoid
 	// a flash of unscaled text.
-	import TextSizePicker from 'lily-design-system-svelte-text-size-picker';
+	import TextSizePicker from '@lilydesignsystem/svelte-text-size-picker';
 
 	const STORAGE_KEY = 'skills-on-ai-text-size';
 	const SIZES = ['small', 'default', 'large', 'larger', 'largest'];

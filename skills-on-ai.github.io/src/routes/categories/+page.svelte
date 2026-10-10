@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ContainerWithFixedWidth, Card, Grid, Badge } from 'lily-design-system-svelte-headless';
+	import { ContainerWithFixedWidth, Card, Grid, Badge } from '@lilydesignsystem/svelte-headless';
 	import Seo from '$lib/components/site/Seo.svelte';
 	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
 	import { categories } from '$lib/data/categories';

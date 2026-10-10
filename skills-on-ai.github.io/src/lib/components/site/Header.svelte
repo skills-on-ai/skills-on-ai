@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Header, ContainerWithFixedWidth } from 'lily-design-system-svelte-headless';
+	import { Header, ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
 	import ThemePicker from './ThemePicker.svelte';
 	import TextSizePicker from './TextSizePicker.svelte';
 	import SharePicker from './SharePicker.svelte';
