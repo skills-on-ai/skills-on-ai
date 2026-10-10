@@ -36,7 +36,7 @@ preserved — see [[legal-litigation-hold]] for the preservation
 obligation that should already be in place before requests are
 exchanged. The technical process of searching, reviewing, and producing
 electronic material in response to a request is
-[[legal-e-discovery]].
+e-discovery.
 
 ## Common pitfalls
 
@@ -56,5 +56,5 @@ electronic material in response to a request is
 ## Learn more
 
 - [[legal-litigation-hold]] for the preservation obligation that precedes discovery.
-- [[legal-e-discovery]] for the technical process of searching and producing electronic material.
+- E-discovery, the technical process of searching and producing electronic material.
 - [[legal-deposition-preparation]] for preparing a witness for deposition testimony.

@@ -477,11 +477,31 @@ Skills:
 - vietnamese-language
 - wardley-map
 
+- {adversary,foresight,premortem,tripwire}
+- {decision-analysis,decision-journal,expected-value-analysis,game-theory,prospect-theory}
+- {regret-minimization,second-order-thinking,two-way-door-decisions,weighted-decision-matrix}
+- {disciplined-agile,extreme-programming,large-scale-scrum,scaled-agile-framework,scrum-of-scrums,scrumban,vanguard-method}
+- {risk-register,six-sigma,systems-thinking,sveltia-i18n,unicode-messageformat}
+- open-document-{database,formula,graphics,presentation,spreadsheet,text}
+- share-on-{bluesky,facebook,instagram,linkedin,linkedin-projects,mastodon,threads}
+- united-kingdom-national-health-service-digital-technology-assessment-criteria
+- locale-{language}-{region} (one skill per BCP 47 locale, for example `locale-cy-gb`; the `locale` skill is the parent)
+
 Subprojects:
 
 - skills-on-ai.github.io — the public catalog site (SvelteKit +
   adapter-static + Lily Design System), published via git subtree per
-  [monorepo-github-pages](monorepo-github-pages/index.md).
+  [monorepo-github-pages](monorepo-github-pages/index.md) and described in
+  [site](site/index.md).
+
+Topics:
+
+- [skill-format](skill-format/index.md) — what a `SKILL.md` file must contain.
+- [catalog](catalog/index.md) — categories, the README, and generated files.
+- [site](site/index.md) — the SvelteKit site's stack, tooling, and deploy.
+- [agent-files](agent-files/index.md) — `AGENTS.md`, `CLAUDE.md`, and `llms.*`.
+- [monorepo-github-pages](monorepo-github-pages/index.md) — publishing the site.
+- [serial-comma](serial-comma/index.md) — prose style.
 
 ## Workflow
 
@@ -500,7 +520,13 @@ cover structural or destructive git operations (rewriting history,
 force-pushing, deleting skills, changing remotes) — those still require
 an explicit ask.
 
-Known caveat: the Codeberg push URL (`git@codeberg.org:skills-for-ai/skills-for-ai.git`)
-has previously failed with "Forgejo: Cannot find repository" — check
-that push's result rather than assuming it always succeeds alongside
-GitHub/GitLab.
+`origin` has one fetch URL (GitHub) and three push URLs (GitHub, GitLab, and
+Codeberg, all `skills-on-ai/skills-on-ai`), so one `git push` fans out to all
+three. The Codeberg push has previously failed with "Forgejo: Cannot find
+repository" — check each push's result rather than assuming all three succeed.
+
+After the site is published, confirm the deploy: the standalone repo's
+"Deploy to GitHub Pages" workflow must finish with `success`
+(`gh run list -R skills-on-ai/skills-on-ai.github.io -L 1`), and
+<https://skills-on-ai.org/> must serve the change. A failed deploy leaves the
+old site live.

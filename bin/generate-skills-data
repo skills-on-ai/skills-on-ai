@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
-"""Generate skills-on-ai.github.io/src/lib/data/{skills,categories}.ts
-from skills/*/SKILL.md (source of truth for content) and README.md
-(source of truth for category grouping).
+"""Generate the site's data files from skills/*/SKILL.md (source of truth
+for content) and README.md (source of truth for category grouping):
+
+    skills-on-ai.github.io/src/lib/data/skills.ts
+    skills-on-ai.github.io/src/lib/data/categories.ts
+    skills-on-ai.github.io/static/llms.txt    (llmstxt.org index for AI agents)
+    skills-on-ai.github.io/static/llms.json   (the same index, machine-readable)
+
+It also audits the catalog and prints warnings for: [[wikilinks]] that
+point at no skill, skills missing from README.md, and frontmatter whose
+name differs from its folder.
 
 Run this from anywhere; it locates the monorepo root relative to this
 script (bin/../). Run it whenever a skill is added, renamed, removed, or
@@ -19,6 +27,13 @@ ROOT = Path(__file__).resolve().parent.parent
 SKILLS_DIR = ROOT / "skills"
 README = ROOT / "README.md"
 OUT_DIR = ROOT / "skills-on-ai.github.io/src/lib/data"
+STATIC_DIR = ROOT / "skills-on-ai.github.io/static"
+SITE_URL = "https://skills-on-ai.org"
+REPO_URL = "https://github.com/skills-on-ai/skills-on-ai"
+
+# Slugs of every skill folder, so [[wikilinks]] only become links when the
+# target exists (TOML's literal [[table]] syntax, for one, is not a link).
+KNOWN_SLUGS = {d.name for d in SKILLS_DIR.iterdir() if d.is_dir()}
 
 
 ACRONYMS = {
@@ -106,6 +121,8 @@ def render_inline(text: str, escape=True) -> str:
     # wikilinks [[name]]
     def wikilink(m):
         slug = m.group(1)
+        if slug not in KNOWN_SLUGS:
+            return m.group(0)
         return f'<a href="/skills/{slug}/">{slug_to_title(slug)}</a>'
     text = re.sub(r"\[\[([a-z0-9-]+)\]\]", wikilink, text)
     # markdown links [text](url)
@@ -307,3 +324,68 @@ with skills_ts.open("w") as f:
 
 print("Wrote", categories_ts)
 print("Wrote", skills_ts)
+
+# ---------- 5. llms.txt and llms.json ----------
+
+def first_sentence(text: str, limit: int = 200) -> str:
+    text = re.sub(r"\s+", " ", text).strip()
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+by_category = {}
+for s in skills:
+    by_category.setdefault(s["category"], []).append(s)
+
+STATIC_DIR.mkdir(parents=True, exist_ok=True)
+with (STATIC_DIR / "llms.txt").open("w") as f:
+    f.write("# Skills on AI\n\n")
+    f.write(f"> A catalog of {len(skills)} AI agent skills in {len(order)} categories. ")
+    f.write("Each skill is one SKILL.md file: YAML frontmatter (name, description with ")
+    f.write("trigger conditions) followed by a Markdown body. Fetch a skill's raw file at ")
+    f.write(f"{SITE_URL}/skills/<name>/SKILL.md.\n\n")
+    f.write(f"Source: {REPO_URL}\n\n")
+    for title in order:
+        if title not in by_category:
+            continue
+        f.write(f"## {title}\n\n")
+        for s in by_category[title]:
+            f.write(f"- [{s['title']}]({SITE_URL}/skills/{s['slug']}/SKILL.md): {first_sentence(s['description'])}\n")
+        f.write("\n")
+
+with (STATIC_DIR / "llms.json").open("w") as f:
+    json.dump({
+        "name": "Skills on AI",
+        "url": SITE_URL + "/",
+        "repository": REPO_URL,
+        "skillCount": len(skills),
+        "categories": [
+            {
+                "title": title,
+                "skills": [
+                    {
+                        "name": s["slug"],
+                        "title": s["title"],
+                        "description": s["description"],
+                        "page": f"{SITE_URL}/skills/{s['slug']}/",
+                        "raw": f"{SITE_URL}/skills/{s['slug']}/SKILL.md",
+                    }
+                    for s in by_category[title]
+                ],
+            }
+            for title in order
+            if title in by_category
+        ],
+    }, f, ensure_ascii=False, indent=1)
+    f.write("\n")
+print("Wrote", STATIC_DIR / "llms.txt")
+print("Wrote", STATIC_DIR / "llms.json")
+
+# ---------- 6. Audit ----------
+
+dangling = {}
+for s in skills:
+    prose = re.sub(r"```.*?```|`[^`\n]*`", "", s["raw"], flags=re.S)  # code isn't prose
+    for target in set(re.findall(r"\[\[([a-z0-9-]+)\]\]", prose)):
+        if target not in KNOWN_SLUGS:
+            dangling.setdefault(target, []).append(s["slug"])
+for target, where in sorted(dangling.items()):
+    print(f"WARN: [[{target}]] has no skill folder (used in: {', '.join(where)})")

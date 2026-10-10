@@ -1,9 +1,24 @@
 # Skills on AI
 
-Skills on AI.
+A catalog of 1,100+ skills for AI agents. Each skill is one
+`skills/<name>/SKILL.md` file: YAML frontmatter whose `description` says when
+to use it, followed by a Markdown body with the method, output format,
+pitfalls, and links to related skills.
 
-Browse the catalog at <https://skills-on-ai.org/> (site source:
-[`skills-on-ai.github.io/`](skills-on-ai.github.io/)).
+- **Browse:** <https://skills-on-ai.org/> (site source:
+  [`skills-on-ai.github.io/`](skills-on-ai.github.io/)).
+- **For agents:** [`llms.txt`](https://skills-on-ai.org/llms.txt) and
+  [`llms.json`](https://skills-on-ai.org/llms.json) index every skill; fetch
+  any skill's raw file at `https://skills-on-ai.org/skills/<name>/SKILL.md`.
+- **Use a skill:** copy its folder into your agent's skills directory (for
+  Claude Code, `~/.claude/skills/<name>/` or `.claude/skills/<name>/`).
+- **Contribute or maintain:** read [`AGENTS.md`](AGENTS.md) and the
+  specifications in [`spec/`](spec/index.md), especially
+  [skill-format](spec/skill-format/index.md). After any change, run
+  `bin/generate-skills-data`.
+
+This file is also the category structure: each heading below is a category,
+and every skill is listed once, in alphabetical order.
 
 ## Accessibility & inclusion
 

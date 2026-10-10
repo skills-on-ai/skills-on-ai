@@ -50,8 +50,8 @@ site's own `README.md` at [`skills-on-ai.github.io/`](../../skills-on-ai.github.
 
 | What | Where |
 | --- | --- |
-| Monorepo (source of truth) | `~/git/skills-for-ai/skills-for-ai/` (local clone path; the GitHub/GitLab remotes are `skills-on-ai/skills-on-ai`) |
-| Docs site subproject (edit here) | `~/git/skills-for-ai/skills-for-ai/skills-on-ai.github.io/` |
+| Monorepo (source of truth) | the local clone of `skills-on-ai/skills-on-ai` (GitHub, GitLab, Codeberg) |
+| Docs site subproject (edit here) | `skills-on-ai.github.io/` at the monorepo root |
 | Standalone export (read-only, derived) | `skills-on-ai/skills-on-ai.github.io` on GitHub |
 | Live site | <https://skills-on-ai.org/> (custom domain; GitHub Pages repo is still named `skills-on-ai.github.io` per the platform naming requirement) |
 | Publish shortcut | `make github-pages` (root `Makefile`) → `bin/make-github-pages` |
@@ -64,7 +64,13 @@ site's own `README.md` at [`skills-on-ai.github.io/`](../../skills-on-ai.github.
    — either splits that subdirectory's history and pushes it to the
    standalone remote(s).
 3. The standalone repo's own `deploy.yml` (installed at its root once the
-   subtree lands there) builds and deploys to GitHub Pages.
+   subtree lands there) builds and deploys to GitHub Pages. It runs
+   `npm ci` on Node 26, so `package.json` and `package-lock.json` must be in
+   sync, and the Node version in the workflow, `package.json` `engines`, and
+   the Lily packages' own `engines` must agree.
+4. Verify: `gh run list -R skills-on-ai/skills-on-ai.github.io -L 1` shows
+   `success`, and the live site serves the change. A failed run leaves the
+   previous site in place.
 
 ### Prerequisite: the standalone repo and remote must exist first
 

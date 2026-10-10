@@ -39,7 +39,10 @@
 		<p>
 			The skills directory, this website, the root <code>README.md</code>, and a compact
 			<code>spec/index.md</code> manifest are kept in sync with each other — every skill appears in
-			all of them, under the same name, with no gaps in either direction.
+			all of them, under the same name, with no gaps in either direction. The site data, plus
+			<a href="/llms.txt">llms.txt</a> and <a href="/llms.json">llms.json</a> for AI agents, are
+			generated from the skill files, never edited by hand. Any skill's raw file is available at
+			<code>/skills/&lt;name&gt;/SKILL.md</code>.
 		</p>
 
 		<h2>Source</h2>

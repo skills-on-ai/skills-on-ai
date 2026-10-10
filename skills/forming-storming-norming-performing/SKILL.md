@@ -55,7 +55,7 @@ facilitation) rather than blame.
   team stuck.
 - **Skipping deliberate norm-setting** — assuming a team will
   automatically progress from Storming to Norming without any deliberate
-  facilitation (see [[retrospective]] and [[agile-reflection]]
+  facilitation (see [[agile-reflection]]
   for tools that support this) can leave conflict unresolved instead of
   transformed into working norms.
 - **Using the model to label people rather than the team's current
