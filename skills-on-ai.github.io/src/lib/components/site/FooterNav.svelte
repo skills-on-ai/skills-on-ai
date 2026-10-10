@@ -1,8 +1,8 @@
 <script lang="ts">
 	// Footer sitemap — a second, exhaustive nav grouping the catalog's
 	// top-level categories, rather than a one-line afterthought.
-	import { categories } from '$lib/data/categories';
-	import { REPO_URL } from '$lib/site';
+	import { categories } from '#lib/data/categories.js';
+	import { REPO_URL } from '#lib/site.js';
 
 	// Split the (already README-ordered) category list into three
 	// roughly even columns for the footer.

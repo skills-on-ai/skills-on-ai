@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { skills } from '$lib/data/skills';
+import { skills } from '#lib/data/skills.js';
 
 export const prerender = true;
 

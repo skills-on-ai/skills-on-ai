@@ -6,8 +6,6 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [
 		sveltekit({
-			// SvelteKit 3 removed the built-in $lib alias; keep using it.
-			alias: { $lib: 'src/lib' },
 			preprocess: vitePreprocess(),
 			// Fully static output for GitHub Pages (org site, served from the domain root
 			// once this subdirectory is exported to the standalone skills-on-ai.github.io

@@ -14,7 +14,7 @@
 	// under the same "skills-on-ai-theme" key app.html's inline script
 	// already reads before first paint.
 	import ThemePicker from '@lilydesignsystem/svelte-theme-picker';
-	import { themes, DEFAULT_THEME_ID } from '$lib/data/themes';
+	import { themes, DEFAULT_THEME_ID } from '#lib/data/themes.js';
 
 	const STORAGE_KEY = 'skills-on-ai-theme';
 	const themeSlugs = themes.map((t) => t.id);

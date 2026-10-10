@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
-	import Seo from '$lib/components/site/Seo.svelte';
-	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
-	import { REPO_URL } from '$lib/site';
+	import Seo from '#lib/components/site/Seo.svelte';
+	import Breadcrumbs from '#lib/components/site/Breadcrumbs.svelte';
+	import { REPO_URL } from '#lib/site.js';
 
 	let { data } = $props();
 

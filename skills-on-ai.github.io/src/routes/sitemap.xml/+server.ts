@@ -1,6 +1,6 @@
-import { skills } from '$lib/data/skills';
-import { categories } from '$lib/data/categories';
-import { SITE_URL } from '$lib/site';
+import { skills } from '#lib/data/skills.js';
+import { categories } from '#lib/data/categories.js';
+import { SITE_URL } from '#lib/site.js';
 
 export const prerender = true;
 

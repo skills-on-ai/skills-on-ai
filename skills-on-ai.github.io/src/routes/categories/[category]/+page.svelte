@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { ContainerWithFixedWidth, Card, Grid } from '@lilydesignsystem/svelte-headless';
-	import Seo from '$lib/components/site/Seo.svelte';
-	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
+	import Seo from '#lib/components/site/Seo.svelte';
+	import Breadcrumbs from '#lib/components/site/Breadcrumbs.svelte';
 
 	let { data } = $props();
 </script>

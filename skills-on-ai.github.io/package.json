@@ -38,5 +38,9 @@
 	"homepage": "https://skills-on-ai.org/",
 	"bugs": {
 		"url": "https://github.com/skills-on-ai/skills-on-ai/issues"
+	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
 	}
 }

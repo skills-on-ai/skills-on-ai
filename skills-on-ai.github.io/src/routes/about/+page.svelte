@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
-	import Seo from '$lib/components/site/Seo.svelte';
-	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
-	import { totalSkillCount } from '$lib/data/skills';
-	import { categories } from '$lib/data/categories';
-	import { REPO_URL } from '$lib/site';
+	import Seo from '#lib/components/site/Seo.svelte';
+	import Breadcrumbs from '#lib/components/site/Breadcrumbs.svelte';
+	import { totalSkillCount } from '#lib/data/skills.js';
+	import { categories } from '#lib/data/categories.js';
+	import { REPO_URL } from '#lib/site.js';
 </script>
 
 <Seo

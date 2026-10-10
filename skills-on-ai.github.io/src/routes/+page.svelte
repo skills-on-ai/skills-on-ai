@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { ContainerWithFixedWidth, Badge } from '@lilydesignsystem/svelte-headless';
-	import Seo from '$lib/components/site/Seo.svelte';
-	import { skills } from '$lib/data/skills';
-	import { categories } from '$lib/data/categories';
-	import { SITE_DESCRIPTION } from '$lib/site';
+	import Seo from '#lib/components/site/Seo.svelte';
+	import { skills } from '#lib/data/skills.js';
+	import { categories } from '#lib/data/categories.js';
+	import { SITE_DESCRIPTION } from '#lib/site.js';
 
 	let query = $state('');
 

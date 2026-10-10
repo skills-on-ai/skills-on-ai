@@ -3,7 +3,7 @@
 	// canonical link, Open Graph, and Twitter card meta. `path` is the
 	// route's own trailing-slash path (e.g. "/skills/kanban/"), used to
 	// build the canonical and og:url.
-	import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '$lib/site';
+	import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '#lib/site.js';
 
 	let {
 		title,

@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { skills } from '$lib/data/skills';
-import { categories } from '$lib/data/categories';
+import { skills } from '#lib/data/skills.js';
+import { categories } from '#lib/data/categories.js';
 
 export const prerender = true;
 

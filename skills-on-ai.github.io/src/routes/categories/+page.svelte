@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { ContainerWithFixedWidth, Card, Grid, Badge } from '@lilydesignsystem/svelte-headless';
-	import Seo from '$lib/components/site/Seo.svelte';
-	import Breadcrumbs from '$lib/components/site/Breadcrumbs.svelte';
-	import { categories } from '$lib/data/categories';
-	import { skills } from '$lib/data/skills';
+	import Seo from '#lib/components/site/Seo.svelte';
+	import Breadcrumbs from '#lib/components/site/Breadcrumbs.svelte';
+	import { categories } from '#lib/data/categories.js';
+	import { skills } from '#lib/data/skills.js';
 
 	const counts = new Map(
 		categories.map((cat) => [cat.slug, skills.filter((s) => s.category === cat.title).length])
