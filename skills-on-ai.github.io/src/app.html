@@ -10,10 +10,10 @@
 		<script>
 			// Apply the stored theme and text-size choices before first
 			// paint, so returning visitors never see a flash of the wrong
-			// theme or scale. Mirrors ThemePicker.svelte / TextSizePicker.svelte,
-			// thin wrappers around Lily's theme-picker / text-size-picker
-			// helpers — both persist a slug, not a computed value, so this
-			// script only ever sets data-* attributes, never CSS values
+			// theme or scale. Mirrors the theme and text-size pickers in
+			// Header.svelte (Lily's picker-bar) — both persist a slug, not a
+			// computed value, so this script only ever sets data-* attributes,
+			// never CSS values
 			// directly (theme.css maps data-text-size to --user-font-scale).
 			(function () {
 				try {

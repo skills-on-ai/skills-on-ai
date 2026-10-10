@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { ContainerWithFixedWidth, Badge } from '@lilydesignsystem/svelte-headless';
 	import Seo from '#lib/components/site/Seo.svelte';
 	import { skills } from '#lib/data/skills.js';
@@ -6,6 +7,13 @@
 	import { SITE_DESCRIPTION } from '#lib/site.js';
 
 	let query = $state('');
+
+	// The header's search picker navigates to /?<terms>; load those terms
+	// into the filter, both on arrival and on later navigations.
+	$effect(() => {
+		const raw = page.url.search.slice(1);
+		if (raw && !raw.includes('=')) query = decodeURIComponent(raw.replace(/\+/g, ' '));
+	});
 
 	const skillsByCategory = new Map(
 		categories.map((cat) => [cat.slug, skills.filter((s) => s.category === cat.title)])
