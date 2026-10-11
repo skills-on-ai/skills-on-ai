@@ -2,7 +2,6 @@
 	import '../lib/styles/theme.css';
 	import { ContainerWithFixedWidth, Footer, SkipLink } from '@lilydesignsystem/svelte-headless';
 	import SiteHeader from '#lib/components/site/Header.svelte';
-	import SiteNav from '#lib/components/site/SiteNav.svelte';
 	import FooterNav from '#lib/components/site/FooterNav.svelte';
 	import { REPO_URL } from '#lib/site.js';
 
@@ -13,7 +12,6 @@
 
 <SkipLink href="#content" label="Skip to content" />
 <SiteHeader />
-<SiteNav />
 
 {@render children()}
 

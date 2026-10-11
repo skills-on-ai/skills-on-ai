@@ -15,8 +15,7 @@
 <nav class="footer-nav" aria-label="Footer">
 	{#each columns as column, i (i)}
 		<div class="footer-nav-column">
-			<h2>Categories</h2>
-			<ul>
+			<ul class="footer-nav-categories">
 				{#each column as link (link.href)}
 					<li><a href={link.href}>{link.label}</a></li>
 				{/each}
@@ -54,6 +53,10 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.35rem;
+	}
+	/* Align the category lists with the "More" list, whose heading sits above it. */
+	.footer-nav ul.footer-nav-categories {
+		margin-top: 1.7rem;
 	}
 	.footer-nav a {
 		color: inherit;

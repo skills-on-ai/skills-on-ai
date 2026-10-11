@@ -43,6 +43,7 @@
 	<ContainerWithFixedWidth maxWidth="72rem">
 		<section class="hero">
 			<h1>Skills on AI</h1>
+			<p class="subheadline">You can do more faster with your AI</p>
 			<p class="lede">
 				A catalog of AI coding skills — reference material an AI agent loads on demand for
 				testing frameworks, cloud platforms, databases, design systems, programming languages,
@@ -84,7 +85,7 @@
 
 <style>
 	.hero {
-		padding-block: 3.5rem 2rem;
+		padding-block: 1.5rem 2rem;
 		background: none;
 		text-align: center;
 		color: #111827;
@@ -92,6 +93,13 @@
 	.hero h1 {
 		font-size: 3.25rem;
 		line-height: 1.1;
+		margin-block: 0 0.5rem;
+		color: inherit;
+	}
+	.subheadline {
+		font-size: 1.5rem;
+		font-weight: 600;
+		line-height: 1.3;
 		margin-block: 0 1rem;
 		color: inherit;
 	}

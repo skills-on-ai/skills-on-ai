@@ -28,7 +28,9 @@ in [catalog](../catalog/index.md).
 - **Imports:** use `#lib/...` subpath imports (declared in `package.json`
   `imports`), not `$lib`. TypeScript modules are imported with a `.js`
   extension, for example `#lib/data/skills.js`.
-- **Header order, left to right:** Home, LinkedIn, GitHub, then the picker bar.
+- **Header, left to right:** brand and site navigation (Home, Categories,
+  About), then the Home, LinkedIn, and GitHub icons, then the picker bar. The
+  footer's category columns have no heading.
   Text size uses the picker bar's default seven steps (`largest`, `larger`,
   `large`, `normal`, `small`, `smaller`, `smallest`); `src/lib/styles/theme.css`
   maps each slug to a font scale.

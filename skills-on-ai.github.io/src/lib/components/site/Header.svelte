@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Header, ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
+	import SiteNav from './SiteNav.svelte';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
 	import type { ShareTarget } from '@lilydesignsystem/svelte-share-picker';
 	import { themes, DEFAULT_THEME_ID } from '#lib/data/themes.js';
@@ -54,6 +55,7 @@
 			<a class="brand" href="/">
 				<strong>Skills on AI</strong>
 			</a>
+			<SiteNav />
 			<div class="site-header-controls">
 				<a class="icon-button" href="/" aria-label="Home">
 					<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -114,6 +116,7 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 1rem;
+		flex-wrap: wrap;
 		padding-block: 0.75rem;
 	}
 	.brand {
@@ -124,6 +127,7 @@
 		color: inherit;
 	}
 	.site-header-controls {
+		margin-inline-start: auto;
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;

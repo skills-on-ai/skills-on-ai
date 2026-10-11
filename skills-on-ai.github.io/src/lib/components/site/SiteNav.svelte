@@ -1,6 +1,7 @@
 <script lang="ts">
 	// SiteNav — global page navigation, so every route is reachable
-	// without relying on the browser back button.
+	// without relying on the browser back button. Rendered inside the
+	// header bar, beside the brand.
 	import { page } from '$app/state';
 
 	const links = [
@@ -26,11 +27,10 @@
 	.site-nav ul {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
 		gap: 1.25rem;
 		list-style: none;
 		margin: 0;
-		padding-block: 0.5rem;
+		padding: 0;
 	}
 	.site-nav a {
 		text-decoration: none;
