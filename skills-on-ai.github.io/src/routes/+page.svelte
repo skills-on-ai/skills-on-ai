@@ -43,7 +43,7 @@
 	<ContainerWithFixedWidth maxWidth="72rem">
 		<section class="hero">
 			<h1>Skills on AI</h1>
-			<p class="subheadline">You can do more faster with your AI</p>
+			<p class="subheadline">Do more faster with your AI</p>
 			<p class="lede">
 				A catalog of AI coding skills — reference material an AI agent loads on demand for
 				testing frameworks, cloud platforms, databases, design systems, programming languages,
