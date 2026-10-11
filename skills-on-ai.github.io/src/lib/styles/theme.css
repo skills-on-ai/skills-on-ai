@@ -1,6 +1,6 @@
 /*
  * Minimal structural CSS layered on top of a Lily theme stylesheet
- * (see static/themes/*.css, swapped in by ThemePicker.svelte). Lily's
+ * (see static/themes/*.css, swapped in by the header's theme picker). Lily's
  * headless components carry no CSS of their own — this file supplies only
  * page-level layout and the handful of local class hooks this site's own
  * markup uses; component-level visuals come entirely from the active theme.
@@ -11,12 +11,19 @@
 }
 
 html {
-	/* TextSizePicker.svelte only ever sets data-text-size on <html>; the
-	   scale factor for each slug lives here. "default" is deliberately
-	   absent — the fallback below already resolves to 1. */
+	/* The header's text-size picker (Lily picker-bar) only ever sets
+	   data-text-size on <html>; the scale factor for each of its seven
+	   slugs lives here. "normal" is deliberately absent — the fallback
+	   below already resolves to 1. */
 	font-size: calc(100% * var(--user-font-scale, 1));
 }
 
+html[data-text-size='smallest'] {
+	--user-font-scale: 0.75;
+}
+html[data-text-size='smaller'] {
+	--user-font-scale: 0.8125;
+}
 html[data-text-size='small'] {
 	--user-font-scale: 0.875;
 }

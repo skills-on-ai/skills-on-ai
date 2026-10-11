@@ -28,6 +28,10 @@ in [catalog](../catalog/index.md).
 - **Imports:** use `#lib/...` subpath imports (declared in `package.json`
   `imports`), not `$lib`. TypeScript modules are imported with a `.js`
   extension, for example `#lib/data/skills.js`.
+- **Header order, left to right:** Home, LinkedIn, GitHub, then the picker bar.
+  Text size uses the picker bar's default seven steps (`largest`, `larger`,
+  `large`, `normal`, `small`, `smaller`, `smallest`); `src/lib/styles/theme.css`
+  maps each slug to a font scale.
 - **State kept in the browser:** theme and text size persist to
   `localStorage` under `skills-on-ai-theme` and `skills-on-ai-text-size`;
   `src/app.html` applies them before first paint.
