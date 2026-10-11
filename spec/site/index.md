@@ -30,7 +30,8 @@ in [catalog](../catalog/index.md).
   extension, for example `#lib/data/skills.js`.
 - **Header, left to right:** brand and site navigation (Home, Categories,
   About), then the Home, LinkedIn, and GitHub icons, then the picker bar. The
-  footer's category columns have no heading.
+  footer has only a "More" column (About, source, README); categories are
+  listed on `/categories/`.
   Text size uses the picker bar's default seven steps (`largest`, `larger`,
   `large`, `normal`, `small`, `smaller`, `smallest`); `src/lib/styles/theme.css`
   maps each slug to a font scale.

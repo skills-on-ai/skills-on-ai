@@ -1,27 +1,9 @@
 <script lang="ts">
-	// Footer sitemap — a second, exhaustive nav grouping the catalog's
-	// top-level categories, rather than a one-line afterthought.
-	import { categories } from '#lib/data/categories.js';
+	// Footer links. The category list lives on /categories/, not here.
 	import { REPO_URL } from '#lib/site.js';
-
-	// Split the (already README-ordered) category list into three
-	// roughly even columns for the footer.
-	const columns: { label: string; href: string }[][] = [[], [], []];
-	categories.forEach((cat, i) => {
-		columns[i % 3].push({ href: `/categories/${cat.slug}/`, label: cat.title });
-	});
 </script>
 
 <nav class="footer-nav" aria-label="Footer">
-	{#each columns as column, i (i)}
-		<div class="footer-nav-column">
-			<ul class="footer-nav-categories">
-				{#each column as link (link.href)}
-					<li><a href={link.href}>{link.label}</a></li>
-				{/each}
-			</ul>
-		</div>
-	{/each}
 	<div class="footer-nav-column">
 		<h2>More</h2>
 		<ul>
@@ -53,10 +35,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.35rem;
-	}
-	/* Align the category lists with the "More" list, whose heading sits above it. */
-	.footer-nav ul.footer-nav-categories {
-		margin-top: 1.7rem;
 	}
 	.footer-nav a {
 		color: inherit;
