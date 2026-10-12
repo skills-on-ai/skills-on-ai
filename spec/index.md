@@ -4,6 +4,7 @@ Skills:
 
 - agile-principles
 - architecture-decision-record
+- citation-style-{apa,mla,chicago,harvard,vancouver,ieee,ama,oscola}
 - continuing-professional-development
 - css
 - decision-records

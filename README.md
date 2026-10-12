@@ -113,6 +113,17 @@ and every skill is listed once, in alphabetical order.
 - [scrum-of-scrums](skills/scrum-of-scrums/)
 - [scrumban](skills/scrumban/)
 
+## Citations
+
+- [citation-style-ama](skills/citation-style-ama/)
+- [citation-style-apa](skills/citation-style-apa/)
+- [citation-style-chicago](skills/citation-style-chicago/)
+- [citation-style-harvard](skills/citation-style-harvard/)
+- [citation-style-ieee](skills/citation-style-ieee/)
+- [citation-style-mla](skills/citation-style-mla/)
+- [citation-style-oscola](skills/citation-style-oscola/)
+- [citation-style-vancouver](skills/citation-style-vancouver/)
+
 ## Clinical workforce
 
 - [medical-clinical-supervision](skills/medical-clinical-supervision/)

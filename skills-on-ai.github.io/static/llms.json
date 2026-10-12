@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1105,
+ "skillCount": 1113,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -556,6 +556,67 @@
      "description": "Use when asked to run Scrumban — a hybrid blending scrum's planning structure with kanban's continuous-flow board and WIP limits, pulling work on demand rather than committing to a fixed sprint backlog — for a team that needs more structure than pure Kanban but finds Scrum's fixed sprint commitment a poor fit for their work's variability.",
      "page": "https://skills-on-ai.org/skills/scrumban/",
      "raw": "https://skills-on-ai.org/skills/scrumban/SKILL.md"
+    }
+   ]
+  },
+  {
+   "title": "Citations",
+   "skills": [
+    {
+     "name": "citation-style-ama",
+     "title": "Citation Style Ama",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in AMA (American Medical Association) citation style, 11th edition, used in medical journals and the clinical sciences; numbered like [[citation-style-vancouver]], but with superscript numbers and its own manual.",
+     "page": "https://skills-on-ai.org/skills/citation-style-ama/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-ama/SKILL.md"
+    },
+    {
+     "name": "citation-style-apa",
+     "title": "Citation Style Apa",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in APA (American Psychological Association) citation style, 7th edition, used in psychology, education, the social sciences, nursing, and business; author-date like [[citation-style-harvard]], but with a fixed official manual; unlike the numbered [[citation-style-ieee]] and [[citation-style-vancouver]].",
+     "page": "https://skills-on-ai.org/skills/citation-style-apa/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-apa/SKILL.md"
+    },
+    {
+     "name": "citation-style-chicago",
+     "title": "Citation Style Chicago",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in Chicago Manual of Style citation, in both of its systems, used in history, the arts, the humanities (notes-bibliography), and the sciences and social sciences (author-date); a style with two systems, unlike the single-system [[citation-style-apa]] and [[citation-style-mla]].",
+     "page": "https://skills-on-ai.org/skills/citation-style-chicago/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-chicago/SKILL.md"
+    },
+    {
+     "name": "citation-style-harvard",
+     "title": "Citation Style Harvard",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in Harvard citation style, used in business, the sciences, and the social sciences, especially in the United Kingdom and Australia; author-date like [[citation-style-apa]], but with no single official manual.",
+     "page": "https://skills-on-ai.org/skills/citation-style-harvard/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-harvard/SKILL.md"
+    },
+    {
+     "name": "citation-style-ieee",
+     "title": "Citation Style Ieee",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in IEEE (Institute of Electrical and Electronics Engineers) citation style, used in engineering, computer science, and electronics; numbered like [[citation-style-vancouver]], but with initials first and a distinct punctuation pattern.",
+     "page": "https://skills-on-ai.org/skills/citation-style-ieee/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-ieee/SKILL.md"
+    },
+    {
+     "name": "citation-style-mla",
+     "title": "Citation Style Mla",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in MLA (Modern Language Association) citation style, 9th edition, used in literature, languages, the humanities, and cultural studies; author-page rather than author-date like [[citation-style-apa]], with a Works Cited list rather than numbered references.",
+     "page": "https://skills-on-ai.org/skills/citation-style-mla/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-mla/SKILL.md"
+    },
+    {
+     "name": "citation-style-oscola",
+     "title": "Citation Style Oscola",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in OSCOLA (Oxford Standard for the Citation of Legal Authorities), used in law, especially in the United Kingdom; a footnote-based legal style, unlike the author-date [[citation-style-apa]] and numbered [[citation-style-ieee]].",
+     "page": "https://skills-on-ai.org/skills/citation-style-oscola/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-oscola/SKILL.md"
+    },
+    {
+     "name": "citation-style-vancouver",
+     "title": "Citation Style Vancouver",
+     "description": "Use when asked to cite sources, format in-text citations, or build a reference list in Vancouver citation style, used in medicine, nursing, and the biomedical sciences; numbered like [[citation-style-ieee]] and [[citation-style-ama]], with a plain, compact reference format.",
+     "page": "https://skills-on-ai.org/skills/citation-style-vancouver/",
+     "raw": "https://skills-on-ai.org/skills/citation-style-vancouver/SKILL.md"
     }
    ]
   },

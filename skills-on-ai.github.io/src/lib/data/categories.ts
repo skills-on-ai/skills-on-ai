@@ -15,6 +15,7 @@ export const categories: Category[] = [
 	{ slug: "business-strategy-planning-frameworks", title: "Business › Strategy & planning frameworks" },
 	{ slug: "change-management", title: "Change management" },
 	{ slug: "change-management-agile", title: "Change management › Agile" },
+	{ slug: "citations", title: "Citations" },
 	{ slug: "clinical-workforce", title: "Clinical workforce" },
 	{ slug: "communication-thinking", title: "Communication & thinking" },
 	{ slug: "consent-end-of-life-care", title: "Consent & end-of-life care" },
