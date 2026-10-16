@@ -500,6 +500,16 @@ and every skill is listed once, in alphabetical order.
 - [ieee-1061-software-quality-metrics](skills/ieee-1061-software-quality-metrics/)
 - [ieee-730-software-quality-assurance](skills/ieee-730-software-quality-assurance/)
 
+## Information Technology Service Management
+
+- [cobit-5](skills/cobit-5/)
+- [fitsm](skills/fitsm/)
+- [iso-iec-20000](skills/iso-iec-20000/)
+- [itil-5](skills/itil-5/)
+- [service-integration-and-management](skills/service-integration-and-management/)
+- [verism](skills/verism/)
+- [yasm](skills/yasm/)
+
 ## Legal skills
 
 - [legal-arbitration-and-mediation](skills/legal-arbitration-and-mediation/)

@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1117,
+ "skillCount": 1124,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -2945,6 +2945,60 @@
      "description": "Use when asked to plan, set up, or assess Software Quality Assurance (SQA) processes using IEEE 730, covering SQA planning, product and process assurance, and control across the life cycle. Distinct from [[ieee-1012-software-verification-and-validation]] (technical V&V activities), [[ieee-1028-software-reviews-and-audits]] (review and audit procedures), and [[ieee-1061-software-quality-metrics]] (measurement).",
      "page": "https://skills-on-ai.org/skills/ieee-730-software-quality-assurance/",
      "raw": "https://skills-on-ai.org/skills/ieee-730-software-quality-assurance/SKILL.md"
+    }
+   ]
+  },
+  {
+   "title": "Information Technology Service Management",
+   "skills": [
+    {
+     "name": "cobit-5",
+     "title": "Cobit 5",
+     "description": "Use when asked to apply COBIT, the ISACA framework for enterprise IT governance and management, for risk management, regulatory compliance, cybersecurity, and corporate governance. Distinct from [[itil-5]] and [[iso-iec-20000]] (service management) and [[risk-register]] (a single risk tool).",
+     "page": "https://skills-on-ai.org/skills/cobit-5/",
+     "raw": "https://skills-on-ai.org/skills/cobit-5/SKILL.md"
+    },
+    {
+     "name": "fitsm",
+     "title": "Fitsm",
+     "description": "Use when asked to set up lightweight IT service management with FitSM, a streamlined standard often described as \"ITIL light\", for small-to-medium organizations that want core process structure without heavy overhead. Distinct from [[itil-5]] (broader framework), [[iso-iec-20000]] (certifiable standard), and [[yasm]] (another simplified model).",
+     "page": "https://skills-on-ai.org/skills/fitsm/",
+     "raw": "https://skills-on-ai.org/skills/fitsm/SKILL.md"
+    },
+    {
+     "name": "iso-iec-20000",
+     "title": "Iso Iec 20000",
+     "description": "Use when asked about ISO/IEC 20000, the international standard for IT service management systems, including preparing for independent audit and certification for regulatory or procurement needs. Distinct from [[itil-5]] (guidance, not certifiable), [[fitsm]] (lightweight standard), and [[cobit-5]] (governance framework).",
+     "page": "https://skills-on-ai.org/skills/iso-iec-20000/",
+     "raw": "https://skills-on-ai.org/skills/iso-iec-20000/SKILL.md"
+    },
+    {
+     "name": "itil-5",
+     "title": "Itil 5",
+     "description": "Use when asked to apply, explain, or adopt ITIL 5, the PeopleCert ITIL release that emphasizes digital product management and AI governance alongside service management. Distinct from [[iso-iec-20000]] (certifiable standard), [[verism]] (organization-wide approach), and [[product-management]] (general product practice).",
+     "page": "https://skills-on-ai.org/skills/itil-5/",
+     "raw": "https://skills-on-ai.org/skills/itil-5/SKILL.md"
+    },
+    {
+     "name": "service-integration-and-management",
+     "title": "Service Integration and Management",
+     "description": "Use when asked to apply Service Integration and Management (SIAM), a methodology for managing multiple service suppliers in a complex ecosystem, especially when an organization outsources parts of IT and must integrate vendors. Distinct from [[vendor-management]] (single-supplier relationships), [[itil-5]], and [[service-level-agreement]].",
+     "page": "https://skills-on-ai.org/skills/service-integration-and-management/",
+     "raw": "https://skills-on-ai.org/skills/service-integration-and-management/SKILL.md"
+    },
+    {
+     "name": "verism",
+     "title": "Verism",
+     "description": "Use when asked to apply VeriSM, an organization-level approach to service management that combines several management practices (such as Agile, DevOps, Lean, and ITIL) across the whole business. Distinct from [[itil-5]] (one framework), [[agile-principles]] (one practice), and [[cobit-5]] (governance framework).",
+     "page": "https://skills-on-ai.org/skills/verism/",
+     "raw": "https://skills-on-ai.org/skills/verism/SKILL.md"
+    },
+    {
+     "name": "yasm",
+     "title": "Yasm",
+     "description": "Use when asked to adopt YaSM, a simplified, streamlined service management model with a pre-defined process framework that is quick to adopt. Distinct from [[fitsm]] (a lightweight standard), [[itil-5]] (fuller framework), and [[iso-iec-20000]] (certifiable standard).",
+     "page": "https://skills-on-ai.org/skills/yasm/",
+     "raw": "https://skills-on-ai.org/skills/yasm/SKILL.md"
     }
    ]
   },

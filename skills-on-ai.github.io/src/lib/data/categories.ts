@@ -35,6 +35,7 @@ export const categories: Category[] = [
 	{ slug: "hr-compensation", title: "HR & compensation" },
 	{ slug: "human-languages", title: "Human languages" },
 	{ slug: "ieee", title: "IEEE" },
+	{ slug: "information-technology-service-management", title: "Information Technology Service Management" },
 	{ slug: "legal-skills", title: "Legal skills" },
 	{ slug: "legal-contracts", title: "Legal › Contracts" },
 	{ slug: "lily-design-system", title: "Lily Design System" },

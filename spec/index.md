@@ -12,6 +12,13 @@ Skills:
 - figma-make
 - health-economics-{guide,metrics} (copy ~/health-economics-guide/SKILL.md)
 - html
+- itil-5
+- iso-iec-20000
+- cobit-5
+- fitsm
+- yasm
+- verism
+- service-integration-and-management
 - ieee-{730-software-quality-assurance,1012-software-verification-and-validation,1028-software-reviews-and-audits,1061-software-quality-metrics}
 - json
 - lily-design-system-{angular,blazor,html,nunjucks,react,svelte,vue,web-components}
