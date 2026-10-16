@@ -1,6 +1,6 @@
 ---
 name: iso-iec-20000
-description: Use when asked about ISO/IEC 20000, the international standard for IT service management systems, including preparing for independent audit and certification for regulatory or procurement needs. Distinct from [[itil-5]] (guidance, not certifiable), [[fitsm]] (lightweight standard), and [[cobit-5]] (governance framework).
+description: Use when asked about ISO/IEC 20000, the international standard for IT service management systems, including preparing for independent audit and certification for regulatory or procurement needs. Distinct from [[itil-5]] (guidance, not certifiable), [[fitsm]] (lightweight standard), and [[cobit-2019]] (governance framework).
 ---
 
 # ISO/IEC 20000

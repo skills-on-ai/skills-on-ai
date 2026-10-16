@@ -502,7 +502,7 @@ and every skill is listed once, in alphabetical order.
 
 ## Information Technology Service Management
 
-- [cobit-5](skills/cobit-5/)
+- [cobit-2019](skills/cobit-2019/)
 - [fitsm](skills/fitsm/)
 - [iso-iec-20000](skills/iso-iec-20000/)
 - [itil-5](skills/itil-5/)

@@ -64,5 +64,5 @@ ITIL 5 is the version of the ITIL IT service management framework that follows I
 
 ## Learn more
 
-- Related: [[iso-iec-20000]], [[cobit-5]], [[verism]], [[service-catalog]], [[service-level-agreement]], [[incident-response-plan]].
+- Related: [[iso-iec-20000]], [[cobit-2019]], [[verism]], [[service-catalog]], [[service-level-agreement]], [[incident-response-plan]].
 - Official source: [ITIL by PeopleCert](https://www.peoplecert.org/).

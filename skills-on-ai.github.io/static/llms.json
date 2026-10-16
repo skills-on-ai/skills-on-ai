@@ -2952,11 +2952,11 @@
    "title": "Information Technology Service Management",
    "skills": [
     {
-     "name": "cobit-5",
-     "title": "Cobit 5",
-     "description": "Use when asked to apply COBIT, the ISACA framework for enterprise IT governance and management, for risk management, regulatory compliance, cybersecurity, and corporate governance. Distinct from [[itil-5]] and [[iso-iec-20000]] (service management) and [[risk-register]] (a single risk tool).",
-     "page": "https://skills-on-ai.org/skills/cobit-5/",
-     "raw": "https://skills-on-ai.org/skills/cobit-5/SKILL.md"
+     "name": "cobit-2019",
+     "title": "Cobit 2019",
+     "description": "Use when asked to apply COBIT 2019, the ISACA framework for enterprise IT governance and management, for risk management, regulatory compliance, cybersecurity, and corporate governance. Distinct from [[itil-5]] and [[iso-iec-20000]] (service management) and [[risk-register]] (a single risk tool).",
+     "page": "https://skills-on-ai.org/skills/cobit-2019/",
+     "raw": "https://skills-on-ai.org/skills/cobit-2019/SKILL.md"
     },
     {
      "name": "fitsm",
@@ -2968,7 +2968,7 @@
     {
      "name": "iso-iec-20000",
      "title": "Iso Iec 20000",
-     "description": "Use when asked about ISO/IEC 20000, the international standard for IT service management systems, including preparing for independent audit and certification for regulatory or procurement needs. Distinct from [[itil-5]] (guidance, not certifiable), [[fitsm]] (lightweight standard), and [[cobit-5]] (governance framework).",
+     "description": "Use when asked about ISO/IEC 20000, the international standard for IT service management systems, including preparing for independent audit and certification for regulatory or procurement needs. Distinct from [[itil-5]] (guidance, not certifiable), [[fitsm]] (lightweight standard), and [[cobit-2019]] (governance framework).",
      "page": "https://skills-on-ai.org/skills/iso-iec-20000/",
      "raw": "https://skills-on-ai.org/skills/iso-iec-20000/SKILL.md"
     },
@@ -2989,7 +2989,7 @@
     {
      "name": "verism",
      "title": "Verism",
-     "description": "Use when asked to apply VeriSM, an organization-level approach to service management that combines several management practices (such as Agile, DevOps, Lean, and ITIL) across the whole business. Distinct from [[itil-5]] (one framework), [[agile-principles]] (one practice), and [[cobit-5]] (governance framework).",
+     "description": "Use when asked to apply VeriSM, an organization-level approach to service management that combines several management practices (such as Agile, DevOps, Lean, and ITIL) across the whole business. Distinct from [[itil-5]] (one framework), [[agile-principles]] (one practice), and [[cobit-2019]] (governance framework).",
      "page": "https://skills-on-ai.org/skills/verism/",
      "raw": "https://skills-on-ai.org/skills/verism/SKILL.md"
     },

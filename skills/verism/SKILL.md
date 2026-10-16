@@ -1,6 +1,6 @@
 ---
 name: verism
-description: Use when asked to apply VeriSM, an organization-level approach to service management that combines several management practices (such as Agile, DevOps, Lean, and ITIL) across the whole business. Distinct from [[itil-5]] (one framework), [[agile-principles]] (one practice), and [[cobit-5]] (governance framework).
+description: Use when asked to apply VeriSM, an organization-level approach to service management that combines several management practices (such as Agile, DevOps, Lean, and ITIL) across the whole business. Distinct from [[itil-5]] (one framework), [[agile-principles]] (one practice), and [[cobit-2019]] (governance framework).
 ---
 
 # VeriSM
@@ -58,5 +58,5 @@ VeriSM is an organizational-level approach to service management. It is best for
 
 ## Learn more
 
-- Related: [[itil-5]], [[agile-principles]], [[cobit-5]], [[service-integration-and-management]].
+- Related: [[itil-5]], [[agile-principles]], [[cobit-2019]], [[service-integration-and-management]].
 - Official source: [VeriSM](https://verism.global/).

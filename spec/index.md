@@ -14,7 +14,7 @@ Skills:
 - html
 - itil-5
 - iso-iec-20000
-- cobit-5
+- cobit-2019
 - fitsm
 - yasm
 - verism
