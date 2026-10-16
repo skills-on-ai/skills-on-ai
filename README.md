@@ -493,6 +493,13 @@ and every skill is listed once, in alphabetical order.
 - [turkish-language](skills/turkish-language/)
 - [vietnamese-language](skills/vietnamese-language/)
 
+## IEEE
+
+- [ieee-1012-software-verification-and-validation](skills/ieee-1012-software-verification-and-validation/)
+- [ieee-1028-software-reviews-and-audits](skills/ieee-1028-software-reviews-and-audits/)
+- [ieee-1061-software-quality-metrics](skills/ieee-1061-software-quality-metrics/)
+- [ieee-730-software-quality-assurance](skills/ieee-730-software-quality-assurance/)
+
 ## Legal skills
 
 - [legal-arbitration-and-mediation](skills/legal-arbitration-and-mediation/)
