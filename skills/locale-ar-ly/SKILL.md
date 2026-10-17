@@ -1,6 +1,6 @@
 ---
 name: locale-ar-ly
-description: Use when working with the Arabic (Libya) locale (`ar-LY`) — its endonym العربية (ليبيا), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Libya) locale (`ar-LY`) — its endonym العربية (ليبيا), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Libya) (ar-LY)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Libyan conventions. Writing is MSA; the spoken dialect is Libyan Arabic.
+
+- **Currency:** Libyan dinar (LYD, د.ل), divided into 1,000 dirhams; amounts have three decimals.
+- **Calendar and weekend:** Gregorian; month names such as يناير / فبراير; the weekend is Friday-Saturday.
+- **Tone:** formal and courteous; avoid dialect in documentation.
+
+## Common pitfalls
+
+- Using two decimals for dinar amounts.
+- Using Levantine or Gulf dialect words.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

@@ -1,6 +1,6 @@
 ---
 name: locale-te-in
-description: Use when working with the Telugu (India) locale (`te-IN`) — its endonym తెలుగు (భారత దేశం), Telugu script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Telugu (India) locale (`te-IN`) — its endonym తెలుగు (భారత దేశం), Telugu script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Telugu (India) (te-IN)
@@ -35,7 +35,21 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-te-001]] with the conventions of India (Andhra Pradesh and Telangana).
+
+- **Formats:** rupee (₹), Indian grouping, dates DD/MM/YYYY; the Telugu calendar and Ugadi are cultural dates.
+- **Regional variants:** Telangana and Andhra differ in speech and in some vocabulary; the written standard is shared. Check the audience for marketing copy.
+
+## Common pitfalls
+
+- Using Kannada or Tamil characters or spellings.
+- Assuming one regional dialect.
+- The general pitfalls in [[locale-te-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number grouping, calendars, and currency (https://cldr.unicode.org)

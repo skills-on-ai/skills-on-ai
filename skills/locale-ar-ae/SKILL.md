@@ -1,6 +1,6 @@
 ---
 name: locale-ar-ae
-description: Use when working with the Arabic (United Arab Emirates) locale (`ar-AE`) — its endonym العربية (الإمارات), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (United Arab Emirates) locale (`ar-AE`) — its endonym العربية (الإمارات), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (United Arab Emirates) (ar-AE)
@@ -41,7 +41,24 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these United Arab Emirates conventions. Writing is MSA; the spoken Emirati dialect is Gulf Arabic. English is the common language of business, so Arabic UI often sits next to English.
+
+- **Currency and numbers:** dirham (AED), written with the Arabic abbreviation د.إ or the code AED; follow CLDR `ar-AE` for the default digits and check what the product already uses.
+- **Calendar and weekend:** Gregorian is standard, Hijri for religious dates. Government work weeks changed to a Saturday-Sunday weekend in 2022, with a shortened Friday; check the current rules before localizing schedules.
+- **Tone:** formal and respectful; titles such as الشيخ and الشيخة, معالي and سعادة are used. Religious greetings (رمضان كريم, عيد مبارك) are expected at the right times.
+- **Names:** keep emirate and local names in the standard Arabic spellings used by official bodies.
+
+## Common pitfalls
+
+- Using Egyptian or Levantine dialect words in UAE copy.
+- Applying a Friday-Saturday weekend assumption without checking.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

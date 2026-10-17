@@ -1,6 +1,6 @@
 ---
 name: locale-am-et
-description: Use when working with the Amharic (Ethiopia) locale (`am-ET`) — its endonym አማርኛ (ኢትዮጵያ), Ethiopic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Amharic (Ethiopia) locale (`am-ET`) — its endonym አማርኛ (ኢትዮጵያ), Ethiopic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Amharic (Ethiopia) (am-ET)
@@ -35,7 +35,23 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-am-001]] with the conventions of Ethiopia.
+
+- **Calendar and clock:** the Ethiopian calendar and Ethiopian clock are used officially and in daily life; show Gregorian dates alongside for international content.
+- **Formats:** birr (`ብር`); dates in Amharic month names (መስከረም, ጥቅምት, ኅዳር, ...); decimal point.
+- **Context:** Amharic is the federal working language; other Ethiopian languages (Oromo, Tigrinya, Somali) are official regionally. Provide complete Amharic content.
+- **Tone:** polite and respectful, with titles and greetings.
+
+## Common pitfalls
+
+- Using Gregorian dates only on Ethiopian forms.
+- Mixing Tigrinya or Geez forms.
+- The general pitfalls in [[locale-am-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

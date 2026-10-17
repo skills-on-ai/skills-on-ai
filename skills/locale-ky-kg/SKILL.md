@@ -1,6 +1,6 @@
 ---
 name: locale-ky-kg
-description: Use when working with the Kyrgyz (Kyrgyzstan) locale (`ky-KG`) — its endonym Кыргызча (Кыргызстан), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Kyrgyz (Kyrgyzstan) locale (`ky-KG`) — its endonym Кыргызча (Кыргызстан), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Kyrgyz (Kyrgyzstan) (ky-KG)
@@ -35,7 +35,21 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ky-001]] with the conventions of Kyrgyzstan.
+
+- **Context:** Kyrgyz is the state language and Russian is an official language and widely used; provide Kyrgyz content that is complete.
+- **Formats:** som; dates `17.10.2026`; 24-hour clock; decimal comma.
+
+## Common pitfalls
+
+- Using Kazakh forms or letters.
+- Providing Russian-only content for Kyrgyz audiences.
+- The general pitfalls in [[locale-ky-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

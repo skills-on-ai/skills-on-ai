@@ -1,6 +1,6 @@
 ---
 name: locale-zu-za
-description: Use when working with the Zulu (South Africa) locale (`zu-ZA`) — its endonym isiZulu (iNingizimu Afrika), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Zulu (South Africa) locale (`zu-ZA`) — its endonym isiZulu (iNingizimu Afrika), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Zulu (South Africa) (zu-ZA)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-zu-001]] with the conventions of South Africa.
+
+- **Context:** isiZulu is one of eleven official languages of South Africa and the most widely spoken home language; most readers also know English.
+- **Formats:** rand (`R`); dates `17 Okthoba 2026`; 24-hour clock; check CLDR `zu` for separators.
+- **Terminology:** use PanSALB, the Department of Arts and Culture, and National Language Service terminology lists for official content.
+
+## Common pitfalls
+
+- Mixing Xhosa or Ndebele forms.
+- Using English loan spellings in place of Zulu spellings.
+- The general pitfalls in [[locale-zu-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Pan South African Language Board (PanSALB), the statutory body for the official languages of South Africa

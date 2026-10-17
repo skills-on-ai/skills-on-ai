@@ -1,6 +1,6 @@
 ---
 name: locale-lv-lv
-description: Use when working with the Latvian (Latvia) locale (`lv-LV`) — its endonym Latviešu (Latvija), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Latvian (Latvia) locale (`lv-LV`) — its endonym Latviešu (Latvija), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Latvian (Latvia) (lv-LV)
@@ -36,7 +36,22 @@ CLDR plural categories for this locale: **zero**, **one**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-lv-001]] with the conventions of Latvia.
+
+- **Law:** Latvian is the sole official language, and the State Language Law requires Latvian in public bodies and consumer information. Provide Latvian content that is complete.
+- **Formats:** euro; dates `17.10.2026.` (with a final period); 24-hour clock; decimal comma.
+- **Names:** names are declined in running text; use the nominative in forms and lists.
+
+## Common pitfalls
+
+- Using Russian as the default language.
+- Leaving out the final period in dates.
+- The general pitfalls in [[locale-lv-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- EU Interinstitutional Style Guide (https://style-guide.europa.eu), language-specific conventions

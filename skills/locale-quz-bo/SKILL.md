@@ -1,6 +1,6 @@
 ---
 name: locale-quz-bo
-description: Use when working with the Quechua (Bolivia) locale (`quz-BO`) — its endonym Runasimi (Bolivia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Quechua (Bolivia) locale (`quz-BO`) — its endonym Runasimi (Bolivia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Quechua (Bolivia) (quz-BO)
@@ -28,7 +28,22 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-quz-pe]] to Quechua in Bolivia.
+
+- **Context:** Quechua is an official language of the Plurinational State of Bolivia. Bolivian Quechua uses the Southern Quechua alphabet adopted by the Bolivian language authorities, which differs slightly from the Peruvian one in some letters and conventions; confirm the standard with the project's language authority.
+- **Formats:** boliviano (`Bs`); decimal comma in Bolivia (see CLDR); dates `17 de octubre de 2026` in Spanish.
+- **Terminology:** use Bolivian language institutes' terms where available.
+
+## Common pitfalls
+
+- Using the Peruvian alphabet conventions without checking.
+- Using Spanish loanword spellings.
+- The general pitfalls in [[locale-quz-pe]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Bolivian language authorities for Quechua (Plurinational State of Bolivia)

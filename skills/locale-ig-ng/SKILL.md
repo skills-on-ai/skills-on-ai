@@ -1,6 +1,6 @@
 ---
 name: locale-ig-ng
-description: Use when working with the Igbo (Nigeria) locale (`ig-NG`) — its endonym Igbo (Naịjịrịa), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Igbo (Nigeria) locale (`ig-NG`) — its endonym Igbo (Naịjịrịa), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Igbo (Nigeria) (ig-NG)
@@ -34,7 +34,22 @@ CLDR plural categories for this locale: **other** (1 form).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ig-001]] with the conventions of Nigeria.
+
+- **Context:** Igbo is one of the major languages of Nigeria; English is the official language. Use Standard Igbo (Igbo Izugbe) in written content.
+- **Formats:** naira (`₦`); dates in English or Igbo form; 24-hour clock; decimal point.
+- **Tone:** warm and respectful, with greetings and titles for elders.
+
+## Common pitfalls
+
+- Using unmarked dialect spelling.
+- Omitting dotted letters.
+- The general pitfalls in [[locale-ig-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

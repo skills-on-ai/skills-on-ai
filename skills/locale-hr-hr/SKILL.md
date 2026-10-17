@@ -1,6 +1,6 @@
 ---
 name: locale-hr-hr
-description: Use when working with the Croatian (Croatia) locale (`hr-HR`) — its endonym Hrvatski (Hrvatska), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Croatian (Croatia) locale (`hr-HR`) — its endonym Hrvatski (Hrvatska), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Croatian (Croatia) (hr-HR)
@@ -36,7 +36,22 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-hr-001]] with the conventions of Croatia.
+
+- **Currency and formats:** euro (`12,50 €`) since 1 January 2023; dates `17. 10. 2026.`; 24-hour clock; decimal comma.
+- **Terminology:** use Croatian EU terminology (an official Croatian version exists) for legal and administrative content.
+- **Names:** place names follow the official Croatian forms (Zagreb, Dubrovnik) and diacritics.
+
+## Common pitfalls
+
+- Using kuna for current prices.
+- Using Serbian or Bosnian vocabulary.
+- The general pitfalls in [[locale-hr-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

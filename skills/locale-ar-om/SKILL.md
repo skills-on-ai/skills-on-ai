@@ -1,6 +1,6 @@
 ---
 name: locale-ar-om
-description: Use when working with the Arabic (Oman) locale (`ar-OM`) — its endonym العربية (عُمان), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Oman) locale (`ar-OM`) — its endonym العربية (عُمان), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Oman) (ar-OM)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Omani conventions. Writing is MSA; the spoken dialect is Gulf (Omani) Arabic.
+
+- **Currency:** Omani rial (OMR, ر.ع.), divided into 1,000 baisa; amounts have three decimals.
+- **Calendar and weekend:** Gregorian for business, Hijri for religious events; the weekend is Friday-Saturday.
+- **Tone:** formal and courteous; titles are important in business.
+
+## Common pitfalls
+
+- Using two decimals for rial amounts.
+- Confusing the Omani rial (ريال عماني) with the Saudi or Qatari riyal.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

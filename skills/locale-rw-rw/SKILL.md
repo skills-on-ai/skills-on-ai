@@ -1,6 +1,6 @@
 ---
 name: locale-rw-rw
-description: Use when working with the Kinyarwanda (Rwanda) locale (`rw-RW`) — its endonym Ikinyarwanda (Rwanda), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Kinyarwanda (Rwanda) locale (`rw-RW`) — its endonym Ikinyarwanda (Rwanda), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Kinyarwanda (Rwanda) (rw-RW)
@@ -32,7 +32,22 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-rw-001]] with the conventions of Rwanda.
+
+- **Context:** Kinyarwanda is the national language and is spoken by nearly all Rwandans; English, French, and Swahili are also official. Public bodies publish in Kinyarwanda and English.
+- **Formats:** Rwandan franc (`Frw`); dates `17 Ukwakira 2026`; 24-hour clock; decimal comma in some publications; check CLDR.
+- **Tone:** respectful and community-oriented; avoid divisive or ethnic terms in public content.
+
+## Common pitfalls
+
+- Using French spellings for Kinyarwanda words.
+- Using ethnic terminology carelessly.
+- The general pitfalls in [[locale-rw-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

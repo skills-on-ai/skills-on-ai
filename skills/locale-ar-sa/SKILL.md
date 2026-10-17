@@ -1,6 +1,6 @@
 ---
 name: locale-ar-sa
-description: Use when working with the Arabic (Saudi Arabia) locale (`ar-SA`) — its endonym العربية (السعودية), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Saudi Arabia) locale (`ar-SA`) — its endonym العربية (السعودية), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Saudi Arabia) (ar-SA)
@@ -41,7 +41,25 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Saudi conventions. Writing is MSA; the spoken dialects include Hejazi, Najdi, and Gulf varieties. The Hijri calendar is part of official life.
+
+- **Currency:** Saudi riyal (SAR, ر.س). Check CLDR `ar-SA` for the default digits; Eastern Arabic-Indic digits are common in print, Western digits in many apps.
+- **Calendar:** the Umm al-Qura Hijri calendar is used for official dates and religious events; show Gregorian alongside when needed. CLDR supports both.
+- **Weekend:** Friday-Saturday.
+- **Tone:** formal, religiously respectful, and conservative in imagery and content. Honorific titles and religious greetings are expected.
+- **Terminology:** follow terms used by Saudi government bodies and the Saudi Standards body where they exist.
+
+## Common pitfalls
+
+- Showing only Gregorian dates for official or religious purposes.
+- Using content or imagery that conflicts with local norms.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

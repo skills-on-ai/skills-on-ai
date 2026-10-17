@@ -1,6 +1,6 @@
 ---
 name: locale-sr-rs
-description: Use when working with the Serbian (Serbia) locale (`sr-RS`) — its endonym Српски (Србија), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Serbian (Serbia) locale (`sr-RS`) — its endonym Српски (Србија), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Serbian (Serbia) (sr-RS)
@@ -36,7 +36,22 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sr-001]] with the conventions of Serbia.
+
+- **Script and variant:** Cyrillic is the official script by the Constitution, and Latin is widely used in daily and commercial text; provide the script the product audience reads. Standard Serbian in Serbia is ekavian.
+- **Formats:** dinar (`RSD`, `дин.`); dates `17.10.2026.`; 24-hour clock; decimal comma.
+- **Terminology:** use Serbian terms (`хиљада`, `воз`, `ваздухоплов`) rather than Croatian ones (`tisuća`, `vlak`, `zrakoplov`).
+
+## Common pitfalls
+
+- Using ijekavian or Croatian forms.
+- Assuming one script for all readers.
+- The general pitfalls in [[locale-sr-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

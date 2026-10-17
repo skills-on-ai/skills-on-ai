@@ -1,6 +1,6 @@
 ---
 name: locale-ga-ie
-description: Use when working with the Irish (Ireland) locale (`ga-IE`) — its endonym Gaeilge (Éire), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Irish (Ireland) locale (`ga-IE`) — its endonym Gaeilge (Éire), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Irish (Ireland) (ga-IE)
@@ -38,7 +38,23 @@ CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **o
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ga-001]] with the conventions of Ireland.
+
+- **Status:** Irish is the first official language of the Republic of Ireland and the Official Languages Act 2003 requires public bodies to provide key documents in Irish. Irish text should carry equal status with English in bilingual material.
+- **Formats:** euro; dates `17 Deireadh Fómhair 2026`; 24-hour clock; decimal point.
+- **Dialects:** Munster, Connacht, and Ulster Irish differ in speech; the Caighdeán Oifigiúil is the written standard; use the standard unless the project targets a dialect.
+- **Names:** Irish personal and place names (Ó, Mac, Nic, Uí) follow Irish rules for lenition and eclipsis; do not anglicize them.
+
+## Common pitfalls
+
+- Using English word order in bilingual material.
+- Using a dialect form in standard text.
+- The general pitfalls in [[locale-ga-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Tearma.ie (https://www.tearma.ie)

@@ -1,6 +1,6 @@
 ---
 name: locale-lt-lt
-description: Use when working with the Lithuanian (Lithuania) locale (`lt-LT`) — its endonym Lietuvių (Lietuva), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Lithuanian (Lithuania) locale (`lt-LT`) — its endonym Lietuvių (Lietuva), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Lithuanian (Lithuania) (lt-LT)
@@ -37,7 +37,22 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-lt-001]] with the conventions of Lithuania.
+
+- **Law:** Lithuanian is the sole official language and the language law requires Lithuanian in public bodies and consumer information.
+- **Formats:** euro; dates `2026-10-17` (ISO is common) or `2026 m. spalio 17 d.`; 24-hour clock; decimal comma.
+- **Names:** Lithuanian rules govern the spelling of personal names and place names; keep the Lithuanian forms.
+
+## Common pitfalls
+
+- Using Russian or Polish forms of place names.
+- Dropping diacritics from names.
+- The general pitfalls in [[locale-lt-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- EU Interinstitutional Style Guide (https://style-guide.europa.eu), language-specific conventions

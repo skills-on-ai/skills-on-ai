@@ -1,6 +1,6 @@
 ---
 name: locale-ml-in
-description: Use when working with the Malayalam (India) locale (`ml-IN`) — its endonym മലയാളം (ഭാരതം), Malayalam script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Malayalam (India) locale (`ml-IN`) — its endonym മലയാളം (ഭാരതം), Malayalam script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Malayalam (India) (ml-IN)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ml-001]] with the conventions of India (Kerala).
+
+- **Formats:** rupee (₹), Indian grouping, dates DD/MM/YYYY; the Malayalam calendar (Kollavarsham) is used culturally.
+- **Context:** Malayalam is the official language of Kerala and Lakshadweep; English mixing is common in business.
+- **Names:** many Malayali names have initials before the given name; keep the initials.
+
+## Common pitfalls
+
+- Dropping initials from names.
+- Using Tamil or Telugu characters.
+- The general pitfalls in [[locale-ml-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number grouping, calendars, and currency (https://cldr.unicode.org)

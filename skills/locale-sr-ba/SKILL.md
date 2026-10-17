@@ -1,6 +1,6 @@
 ---
 name: locale-sr-ba
-description: Use when working with the Serbian (Bosnia and Herzegovina) locale (`sr-BA`) — its endonym Српски (Босна и Херцеговина), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Serbian (Bosnia and Herzegovina) locale (`sr-BA`) — its endonym Српски (Босна и Херцеговина), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Serbian (Bosnia and Herzegovina) (sr-BA)
@@ -36,7 +36,23 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sr-001]] with the conventions of Bosnia and Herzegovina (Serbian).
+
+- **Variant:** Serbian in Bosnia (especially Republika Srpska) is usually ijekavian: `лијепо`, `млијеко`, `ријеч`. Use ijekavian forms unless the audience requires ekavian.
+- **Script:** Cyrillic and Latin are both used; Republika Srpska officials use Cyrillic.
+- **Formats:** convertible mark (`КМ`, `BAM`); dates `17.10.2026.`; decimal comma.
+- **Context:** Bosnian, Croatian, and Serbian are all official; do not replace Serbian forms with Bosnian or Croatian forms in Serbian-language content.
+
+## Common pitfalls
+
+- Using ekavian forms for a Republika Srpska audience.
+- Mixing Bosnian or Croatian terms into Serbian text.
+- The general pitfalls in [[locale-sr-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

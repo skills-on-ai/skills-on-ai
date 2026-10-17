@@ -1,6 +1,6 @@
 ---
 name: locale-ar-iq
-description: Use when working with the Arabic (Iraq) locale (`ar-IQ`) — its endonym العربية (العراق), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Iraq) locale (`ar-IQ`) — its endonym العربية (العراق), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Iraq) (ar-IQ)
@@ -41,7 +41,24 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Iraqi conventions. Arabic and Kurdish are official languages; the spoken dialect is Iraqi Arabic.
+
+- **Currency and numbers:** Iraqi dinar (IQD, د.ع). Check CLDR `ar-IQ` for the default digits.
+- **Month names:** Iraq uses the Levantine-style names (كانون الثاني, شباط, آذار, نيسان, أيار, حزيران, تموز, آب, أيلول, تشرين الأول, تشرين الثاني, كانون الأول).
+- **Kurdish:** where Kurdish is included, use Sorani (Arabic-based script) as the writing standard in Iraq, or Kurmanji where it is the project's target; do not substitute Arabic for Kurdish names.
+- **Tone:** formal and courteous; religious and national observances differ by community, so check holiday content.
+
+## Common pitfalls
+
+- Using Gulf or Maghrebi month names.
+- Transliterating Kurdish names through Arabic spelling rules without checking.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

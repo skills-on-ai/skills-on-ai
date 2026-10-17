@@ -1,6 +1,6 @@
 ---
 name: locale-pl-pl
-description: Use when working with the Polish (Poland) locale (`pl-PL`) — its endonym Polski (Polska), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Polish (Poland) locale (`pl-PL`) — its endonym Polski (Polska), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Polish (Poland) (pl-PL)
@@ -37,7 +37,22 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-pl-001]] with the conventions of Poland.
+
+- **Formats:** złoty (`zł`) after the amount; dates `17.10.2026` or `17 października 2026 r.`; 24-hour clock; decimal comma.
+- **Terminology:** use Polish EU terminology (official Polish translation) for legal and administrative content.
+- **Tone:** polite and formal in business, with titles (`Pan Dyrektor`, `Pani Doktor`) in correspondence.
+
+## Common pitfalls
+
+- Using English date and number formats.
+- Using Czech or Russian forms.
+- The general pitfalls in [[locale-pl-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

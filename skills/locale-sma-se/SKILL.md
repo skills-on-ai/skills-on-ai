@@ -1,6 +1,6 @@
 ---
 name: locale-sma-se
-description: Use when working with the Southern Sami (Sweden) locale (`sma-SE`) — its endonym Åarjelsaemien gïele (Sveerje), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Southern Sami (Sweden) locale (`sma-SE`) — its endonym Åarjelsaemien gïele (Sveerje), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Southern Sami (Sweden) (sma-SE)
@@ -32,7 +32,22 @@ CLDR plural categories for this locale: **one**, **two**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sma-no]] to Southern Sámi in Sweden.
+
+- **Context:** Southern Sámi is one of the recognized national minority languages in Sweden, used in the Sámi administrative area and in education.
+- **Formats:** Swedish krona (`kr`); decimal comma; quotation marks `”…”`; dates with Swedish-style order.
+- **Spelling:** use the Swedish-side conventions for letters such as å where the project requires, and confirm with a native reviewer.
+
+## Common pitfalls
+
+- Using Norwegian-side spelling conventions for a Swedish audience without checking.
+- Dropping Sámi letters.
+- The general pitfalls in [[locale-sma-no]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Sámi Parliament of Sweden (Sametinget)

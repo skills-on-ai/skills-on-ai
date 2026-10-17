@@ -1,6 +1,6 @@
 ---
 name: locale-ar-bh
-description: Use when working with the Arabic (Bahrain) locale (`ar-BH`) — its endonym العربية (البحرين), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Bahrain) locale (`ar-BH`) — its endonym العربية (البحرين), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Bahrain) (ar-BH)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Bahraini conventions. Writing is MSA; the spoken dialect is Gulf Arabic with distinct Bahraini features.
+
+- **Currency:** Bahraini dinar (BHD, د.ب), subdivided into 1,000 fils, so amounts have three decimal places.
+- **Calendar and weekend:** Gregorian for business, Hijri for religious dates; the weekend is Friday-Saturday.
+- **Tone:** formal, with courtesies and titles appropriate to the audience; religious holidays are observed according to the Hijri calendar.
+
+## Common pitfalls
+
+- Showing two decimal places for dinar amounts.
+- Using Levantine or Maghrebi vocabulary.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

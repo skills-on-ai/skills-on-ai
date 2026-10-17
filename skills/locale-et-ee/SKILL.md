@@ -1,6 +1,6 @@
 ---
 name: locale-et-ee
-description: Use when working with the Estonian (Estonia) locale (`et-EE`) — its endonym Eesti (Eesti), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Estonian (Estonia) locale (`et-EE`) — its endonym Eesti (Eesti), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Estonian (Estonia) (et-EE)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-et-001]] with the conventions of Estonia.
+
+- **Formats:** euro; dates `17.10.2026`; 24-hour clock (`kell 17.30`); decimal comma.
+- **Names:** place names follow official Estonian forms; Estonian names keep õ, ä, ö, ü.
+- **Tone:** plain, concise, and egalitarian; IT-savvy audiences expect clear, efficient wording.
+
+## Common pitfalls
+
+- Using Russian forms or place names.
+- Dropping diacritics from names.
+- The general pitfalls in [[locale-et-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- EU Interinstitutional Style Guide (https://style-guide.europa.eu), language-specific conventions

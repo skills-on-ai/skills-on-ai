@@ -1,6 +1,6 @@
 ---
 name: locale-he-il
-description: Use when working with the Hebrew (Israel) locale (`he-IL`) — its endonym עברית (ישראל), Hebrew script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Hebrew (Israel) locale (`he-IL`) — its endonym עברית (ישראל), Hebrew script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Hebrew (Israel) (he-IL)
@@ -38,7 +38,23 @@ CLDR plural categories for this locale: **one**, **two**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-he-001]] with the conventions of Israel.
+
+- **Calendar:** the Gregorian calendar for business; the Hebrew calendar for holidays and religious dates; show both in civil and holiday content.
+- **Formats:** shekel (`₪`); decimal point and comma thousands separator; dates `17.10.2026` or `17 באוקטובר 2026`; 24-hour clock.
+- **Context:** Hebrew and Arabic are used in public life; bilingual materials are common. Keep terminology consistent between the Hebrew and Arabic versions (see [[locale-ar-001]]).
+- **Tone:** direct and informal; first names are used in business.
+
+## Common pitfalls
+
+- Using decimal commas.
+- Using an inconsistent gender policy.
+- The general pitfalls in [[locale-he-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, calendar, and currency formats (https://cldr.unicode.org)

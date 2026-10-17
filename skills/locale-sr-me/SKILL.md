@@ -1,6 +1,6 @@
 ---
 name: locale-sr-me
-description: Use when working with the Serbian (Montenegro) locale (`sr-ME`) — its endonym Српски (Црна Гора), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Serbian (Montenegro) locale (`sr-ME`) — its endonym Српски (Црна Гора), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Serbian (Montenegro) (sr-ME)
@@ -36,7 +36,23 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sr-001]] with the conventions of Montenegro (Serbian). Montenegrin is the official language of Montenegro and has its own standard, with additional letters ś and ź (`с́`, `з́`); Serbian is also widely used and recognized.
+
+- **Variant:** ijekavian; use `лијепо`, `млијеко`, `ријека` forms.
+- **Script:** both Cyrillic and Latin are used; Latin is more common in daily life.
+- **Formats:** the euro (`€`) is used; dates `17. 10. 2026.`; decimal comma.
+- **Context:** if the audience expects Montenegrin, use the Montenegrin standard (including ś and ź) rather than Serbian.
+
+## Common pitfalls
+
+- Using ekavian forms.
+- Using the dinar for Montenegro.
+- The general pitfalls in [[locale-sr-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

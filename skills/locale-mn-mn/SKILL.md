@@ -1,6 +1,6 @@
 ---
 name: locale-mn-mn
-description: Use when working with the Mongolian (Mongolia) locale (`mn-MN`) — its endonym Монгол (Монгол улс), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Mongolian (Mongolia) locale (`mn-MN`) — its endonym Монгол (Монгол улс), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Mongolian (Mongolia) (mn-MN)
@@ -35,7 +35,23 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-mn-001]] with the conventions of Mongolia, where Cyrillic is the official script (the traditional Mongolian script is being re-promoted for official documents).
+
+- **Script:** Cyrillic for everyday text. Where a project requires the traditional Mongolian script, provide it as a separate resource, not as a transliteration of the Cyrillic.
+- **Currency:** tögrög (₮), placed after the amount; check CLDR `mn-MN` for number format.
+- **Dates:** year-month-day with ordinal month names; the lunar calendar is used for traditional festivals (Tsagaan Sar).
+- **Tone:** polite and respectful, with honorifics for elders and officials.
+
+## Common pitfalls
+
+- Mixing Cyrillic and traditional script without a requirement.
+- Writing Russian-style date or number formats.
+- The general pitfalls in [[locale-mn-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for mn-MN (https://cldr.unicode.org)

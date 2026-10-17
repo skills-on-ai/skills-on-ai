@@ -1,6 +1,6 @@
 ---
 name: locale-si-lk
-description: Use when working with the Sinhala (Sri Lanka) locale (`si-LK`) — its endonym සිංහල (ශ්‍රී ලංකාව), Sinhala script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Sinhala (Sri Lanka) locale (`si-LK`) — its endonym සිංහල (ශ්‍රී ලංකාව), Sinhala script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Sinhala (Sri Lanka) (si-LK)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-si-001]] with the conventions of Sri Lanka.
+
+- **Context:** Sinhala and Tamil are the official languages of Sri Lanka, and English is the link language; many public documents are trilingual. Keep Sinhala and Tamil versions consistent (see [[locale-ta-001]]).
+- **Formats:** Sri Lankan rupee (රු), dates DD/MM/YYYY; check CLDR `si-LK` for grouping; the Buddhist calendar and poya days affect schedules.
+- **Tone:** polite and respectful; titles are used in public contexts.
+
+## Common pitfalls
+
+- Using only one language in public-sector content.
+- Ignoring poya days in scheduling content.
+- The general pitfalls in [[locale-si-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number grouping, calendars, and currency (https://cldr.unicode.org)

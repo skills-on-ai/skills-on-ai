@@ -1,6 +1,6 @@
 ---
 name: locale-es-pr
-description: Use when working with the Spanish (Puerto Rico) locale (`es-PR`) — its endonym Español (Puerto Rico), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Spanish (Puerto Rico) locale (`es-PR`) — its endonym Español (Puerto Rico), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Spanish (Puerto Rico) (es-PR)
@@ -36,7 +36,24 @@ CLDR plural categories for this locale: **one**, **many**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Start from the general Spanish guidance in [[locale-es-419]] (grammar, register, and typography) and apply the following Puerto Rican-specific points.
+
+- **Address:** "tú" is the informal singular and "usted" is formal; plural is "ustedes".
+- **Vocabulary:** Puerto Rican Spanish has many English loanwords because of US ties ("parquear", "troca", "janguear"); these are spoken-level and should not appear in standard text where a Spanish term exists ("estacionar", "camioneta").
+- **Currency and formats:** the US dollar; decimal point and comma thousands separator per CLDR `es-PR`.
+- **Names:** keep local names such as "Boricua" as cultural terms and do not translate them.
+
+## Common pitfalls
+
+- Using the address form, vocabulary, or number format of another region; confirm each against the target country.
+- Writing spoken slang or dialect spellings in standard text.
+- The general pitfalls in [[locale-es-001]] (word order, capitalization, false friends, and agreement) also apply here.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Real Academia Española and ASALE, Diccionario panhispánico de dudas and Ortografía de la lengua española (2010), https://www.rae.es
+- Unicode CLDR locale data for number, date, and currency formats of each Spanish region (https://cldr.unicode.org)

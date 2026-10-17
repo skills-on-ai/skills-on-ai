@@ -1,6 +1,6 @@
 ---
 name: locale-ru-ru
-description: Use when working with the Russian (Russia) locale (`ru-RU`) — its endonym Русский (Россия), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Russian (Russia) locale (`ru-RU`) — its endonym Русский (Россия), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Russian (Russia) (ru-RU)
@@ -37,7 +37,23 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ru-001]] with the conventions of Russia.
+
+- **Formats:** ruble (₽) after the amount; dates `17.10.2026` or `17 октября 2026 г.`; 24-hour clock; decimal comma; metric units.
+- **Law and terminology:** the Russian language law requires use of the literary language norms in official contexts and consumer information; follow dictionaries approved for this purpose and check requirements for the product.
+- **Names:** Russian names have a patronymic (Иван Петрович Сидоров). Formal address uses first name plus patronymic; forms must collect and show all three parts.
+- **Tone:** formal and reserved in business; humor is acceptable in consumer brands.
+
+## Common pitfalls
+
+- Requiring only first and last names in forms.
+- Using Ukrainian or Belarusian forms for Russian text.
+- The general pitfalls in [[locale-ru-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Gramota.ru (https://gramota.ru)

@@ -1,6 +1,6 @@
 ---
 name: locale-ar-ma
-description: Use when working with the Arabic (Morocco) locale (`ar-MA`) — its endonym العربية (المغرب), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Morocco) locale (`ar-MA`) — its endonym العربية (المغرب), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Morocco) (ar-MA)
@@ -41,7 +41,24 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Moroccan conventions. Arabic and Tamazight are official; the spoken dialect (Darija) is far from MSA and French is widely used in business and education.
+
+- **Currency and numbers:** Moroccan dirham (MAD, د.م.); Western digits (0-9) are the norm in Morocco. Check CLDR `ar-MA`.
+- **Month names:** يناير, فبراير, مارس, أبريل, ماي, يونيو, يوليوز, غشت, شتنبر, أكتوبر, نونبر, دجنبر are the Moroccan forms of several months (يوليوز, غشت, شتنبر, نونبر, دجنبر differ from the Mashriqi names).
+- **French influence:** many technical terms enter through French; for formal text prefer the MSA terms (حاسوب, برنامج) unless the project glossary specifies otherwise.
+- **Tamazight:** use Tifinagh (the official script) where Tamazight is provided; do not auto-translate it with Arabic tools.
+
+## Common pitfalls
+
+- Using Eastern Arabic-Indic digits by default.
+- Using the Mashriqi month names in Moroccan documents.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

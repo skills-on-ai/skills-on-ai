@@ -1,6 +1,6 @@
 ---
 name: locale-mk-mk
-description: Use when working with the Macedonian (North Macedonia) locale (`mk-MK`) — its endonym Македонски (Северна Македонија), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Macedonian (North Macedonia) locale (`mk-MK`) — its endonym Македонски (Северна Македонија), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Macedonian (North Macedonia) (mk-MK)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-mk-001]] with the conventions of North Macedonia.
+
+- **Formats:** denar (ден.); dates `17.10.2026`; 24-hour clock; decimal comma.
+- **Names:** the country name in Macedonian is `Северна Македонија`; use official forms for institutions.
+- **Albanian:** Albanian is also official in some municipalities (see [[locale-sq-001]]); bilingual materials are common.
+
+## Common pitfalls
+
+- Using the former country name in official content.
+- Using Bulgarian or Serbian vocabulary.
+- The general pitfalls in [[locale-mk-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

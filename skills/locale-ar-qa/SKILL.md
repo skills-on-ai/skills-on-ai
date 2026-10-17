@@ -1,6 +1,6 @@
 ---
 name: locale-ar-qa
-description: Use when working with the Arabic (Qatar) locale (`ar-QA`) — its endonym العربية (قطر), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Qatar) locale (`ar-QA`) — its endonym العربية (قطر), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Qatar) (ar-QA)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Qatari conventions. Writing is MSA; the spoken dialect is Gulf Arabic and English is common in business.
+
+- **Currency:** Qatari riyal (QAR, ر.ق), written with two decimals.
+- **Calendar and weekend:** Gregorian for business, Hijri for religious events; the weekend is Friday-Saturday.
+- **Tone:** formal and respectful; titles such as الشيخ and سعادة are used.
+
+## Common pitfalls
+
+- Treating the Qatari riyal as the Saudi riyal.
+- Using non-Gulf dialect in UI text.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

@@ -1,6 +1,6 @@
 ---
 name: locale-es-uy
-description: Use when working with the Spanish (Uruguay) locale (`es-UY`) — its endonym Español (Uruguay), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Spanish (Uruguay) locale (`es-UY`) — its endonym Español (Uruguay), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Spanish (Uruguay) (es-UY)
@@ -36,7 +36,24 @@ CLDR plural categories for this locale: **one**, **many**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Start from the general Spanish guidance in [[locale-es-419]] (grammar, register, and typography) and apply the following Uruguayan-specific points.
+
+- **Address:** voseo is used informally, much like in Argentina ("vos tenés"), and "tú" with voseo-like verb forms is also heard; "usted" is formal. Use "vos" forms for informal copy only if the brand wants a local feel.
+- **Vocabulary:** shared with Rioplatense speech: "computadora", "celular", "auto", "ómnibus" or "bondi" (bus).
+- **Currency and formats:** peso uruguayo (symbol "$U" in some contexts); decimal comma, period thousands separator.
+- **Tone:** local copy is reserved and polite, less colloquial than Argentine copy.
+
+## Common pitfalls
+
+- Using the address form, vocabulary, or number format of another region; confirm each against the target country.
+- Writing spoken slang or dialect spellings in standard text.
+- The general pitfalls in [[locale-es-001]] (word order, capitalization, false friends, and agreement) also apply here.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Real Academia Española and ASALE, Diccionario panhispánico de dudas and Ortografía de la lengua española (2010), https://www.rae.es
+- Unicode CLDR locale data for number, date, and currency formats of each Spanish region (https://cldr.unicode.org)

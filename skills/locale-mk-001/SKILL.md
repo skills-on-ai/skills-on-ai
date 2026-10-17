@@ -1,6 +1,6 @@
 ---
 name: locale-mk-001
-description: Use when working with the Macedonian locale (`mk-001`) — its endonym Македонски, Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Macedonian locale (`mk-001`) — its endonym Македонски, Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Macedonian (mk-001)
@@ -37,7 +37,41 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Macedonian is a South Slavic language written in a Cyrillic alphabet with its own letters ѓ, ќ, ѕ, џ, љ, њ. Like Bulgarian, it has lost noun cases and has a definite article suffix. See [[locale-mk-mk]].
+
+**Translate ideas, not words.**
+
+- Do not translate through Serbian or Bulgarian; vocabulary, spelling, and grammar differ.
+- Macedonian is analytic: prepositions replace cases, and word order is flexible.
+- Re-express idioms by meaning.
+
+**Grammar.**
+
+- The definite article has three forms by distance: `-от` (neutral), `-ов` (near), `-он` (far): `книгата`, `книгава`, `книгана`.
+- Verbs have rich tense and mood forms, including the evidential.
+- Clitic pronouns go before the verb.
+
+**Register.**
+
+- "Ти" is informal; "Вие" is polite. UI and public text use "Вие" or an impersonal style.
+
+**Orthography and typography.**
+
+- Use the Macedonian letters ѓ, ќ, ѕ, џ, љ, њ and the accent marks on ѐ and ѝ where needed; never replace them with Serbian look-alikes.
+- Quotation marks `„…“`; dates `17 октомври 2026`; decimal comma; space for thousands; currency denar (`ден.`).
+- Follow the Macedonian orthography (Правопис на македонскиот јазик) and the Krste Misirkov Institute of the Macedonian Language.
+
+## Common pitfalls
+
+- Using Serbian or Bulgarian forms.
+- Dropping the triple definite article.
+- Using the wrong Cyrillic letter forms.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Институт за македонски јазик „Крсте Мисирков“
+- Microsoft Localization Style Guide, Macedonian (https://aka.ms/macedonian-styleguide)

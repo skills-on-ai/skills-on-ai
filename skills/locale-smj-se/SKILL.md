@@ -1,6 +1,6 @@
 ---
 name: locale-smj-se
-description: Use when working with the Lule Sami (Sweden) locale (`smj-SE`) — its endonym Julevsámegiella (Svierik), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Lule Sami (Sweden) locale (`smj-SE`) — its endonym Julevsámegiella (Svierik), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Lule Sami (Sweden) (smj-SE)
@@ -32,7 +32,22 @@ CLDR plural categories for this locale: **one**, **two**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-smj-no]] to Lule Sámi in Sweden.
+
+- **Context:** Lule Sámi is a recognized national minority language in Sweden, used in education and public services in the Sámi administrative area.
+- **Formats:** Swedish krona (`kr`); decimal comma; quotation marks `”…”`.
+- **Terminology:** use Lule Sámi terms from the Sámi Parliament and local institutions.
+
+## Common pitfalls
+
+- Using Norwegian-side conventions without checking.
+- Dropping Sámi letters.
+- The general pitfalls in [[locale-smj-no]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Sámi Parliament of Sweden (Sametinget)

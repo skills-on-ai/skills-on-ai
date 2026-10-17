@@ -1,6 +1,6 @@
 ---
 name: locale-or-in
-description: Use when working with the Odia (India) locale (`or-IN`) — its endonym ଓଡ଼ିଆ (ଭାରତ), Oriya script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Odia (India) locale (`or-IN`) — its endonym ଓଡ଼ିଆ (ଭାରତ), Oriya script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Odia (India) (or-IN)
@@ -35,7 +35,21 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-or-001]] with the conventions of India (Odisha).
+
+- **Formats:** rupee (₹), Indian grouping, dates DD/MM/YYYY; the Odia calendar is used for festivals such as Rath Yatra.
+- **Context:** Odia is the official language of Odisha; place names (Bhubaneswar, Cuttack) have standard Odia forms.
+
+## Common pitfalls
+
+- Using Bengali spellings for Odia place names.
+- Using Hindi vocabulary where an Odia term exists.
+- The general pitfalls in [[locale-or-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number grouping, calendars, and currency (https://cldr.unicode.org)

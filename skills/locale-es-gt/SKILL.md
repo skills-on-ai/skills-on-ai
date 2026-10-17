@@ -1,6 +1,6 @@
 ---
 name: locale-es-gt
-description: Use when working with the Spanish (Guatemala) locale (`es-GT`) — its endonym Español (Guatemala), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Spanish (Guatemala) locale (`es-GT`) — its endonym Español (Guatemala), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Spanish (Guatemala) (es-GT)
@@ -36,7 +36,23 @@ CLDR plural categories for this locale: **one**, **many**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Start from the general Spanish guidance in [[locale-es-419]] (grammar, register, and typography) and apply the following Guatemalan-specific points.
+
+- **Address:** "vos" is common in informal speech with its own forms ("vos tenés"), "usted" is widely used for formality and even among family, and standard text uses "usted" or neutral "tú". "Usted" is the safest choice.
+- **Names and currency:** the quetzal (symbol "Q") is the currency; Mayan language names and places keep their official spelling.
+- **Formats:** use CLDR data for `es-GT` number and date formats.
+
+## Common pitfalls
+
+- Using the address form, vocabulary, or number format of another region; confirm each against the target country.
+- Writing spoken slang or dialect spellings in standard text.
+- The general pitfalls in [[locale-es-001]] (word order, capitalization, false friends, and agreement) also apply here.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Real Academia Española and ASALE, Diccionario panhispánico de dudas and Ortografía de la lengua española (2010), https://www.rae.es
+- Unicode CLDR locale data for number, date, and currency formats of each Spanish region (https://cldr.unicode.org)

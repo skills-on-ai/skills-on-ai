@@ -1,6 +1,6 @@
 ---
 name: locale-ar-jo
-description: Use when working with the Arabic (Jordan) locale (`ar-JO`) — its endonym العربية (الأردن), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Jordan) locale (`ar-JO`) — its endonym العربية (الأردن), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Jordan) (ar-JO)
@@ -41,7 +41,24 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Jordanian conventions. Writing is MSA; the spoken dialect is Levantine (Jordanian).
+
+- **Currency:** Jordanian dinar (JOD, د.أ), divided into 1,000 fils, so amounts commonly have three decimals.
+- **Month names:** Levantine names (كانون الثاني, شباط, آذار, and so on).
+- **Tone:** polite and formal; "حضرتك" and titles such as "أستاذ" or "دكتور" are common in service text.
+- **Calendar and weekend:** Gregorian; the weekend is Friday-Saturday.
+
+## Common pitfalls
+
+- Using Egyptian month names (يناير) when the audience expects Levantine names.
+- Writing dinar amounts with two decimals.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

@@ -1,6 +1,6 @@
 ---
 name: locale-cs-cz
-description: Use when working with the Czech (Czech Republic) locale (`cs-CZ`) — its endonym Čeština (Česko), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Czech (Czech Republic) locale (`cs-CZ`) — its endonym Čeština (Česko), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Czech (Czech Republic) (cs-CZ)
@@ -37,7 +37,23 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-cs-001]] with the conventions of the Czech Republic.
+
+- **Country name:** the official short name is `Česko` (Czechia); use it in contexts where a short name is needed.
+- **Formats:** koruna (`Kč`) after the amount; dates `17. 10. 2026` or `17. října 2026`; 24-hour clock; decimal comma.
+- **Names and titles:** give first name before surname in Czech; academic and professional titles (Ing., Mgr., Dr.) are used in formal correspondence and forms.
+- **Tone:** reserved and practical; irony and understatement are common, and hard-sell marketing is viewed with suspicion.
+
+## Common pitfalls
+
+- Using Slovak vocabulary or diacritics.
+- Dropping academic titles in correspondence.
+- The general pitfalls in [[locale-cs-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

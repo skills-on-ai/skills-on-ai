@@ -1,6 +1,6 @@
 ---
 name: locale-sk-sk
-description: Use when working with the Slovak (Slovakia) locale (`sk-SK`) — its endonym Slovenčina (Slovensko), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Slovak (Slovakia) locale (`sk-SK`) — its endonym Slovenčina (Slovensko), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Slovak (Slovakia) (sk-SK)
@@ -37,7 +37,22 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sk-001]] with the conventions of Slovakia.
+
+- **Formats:** euro (`12,50 €`) since 2009; dates `17. 10. 2026`; 24-hour clock; decimal comma.
+- **Context:** Hungarian and Rusyn are minority languages with local use; Slovak is the state language and the law requires Slovak in consumer information.
+- **Tone:** polite and factual; titles (Ing., Mgr.) are used in formal correspondence.
+
+## Common pitfalls
+
+- Using Czech vocabulary or the koruna.
+- Omitting Slovak labelling in consumer information.
+- The general pitfalls in [[locale-sk-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

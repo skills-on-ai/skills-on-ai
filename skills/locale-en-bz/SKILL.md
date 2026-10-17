@@ -1,6 +1,6 @@
 ---
 name: locale-en-bz
-description: Use when working with the English (Belize) locale (`en-BZ`) — its endonym English (Belize), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the English (Belize) locale (`en-BZ`) — its endonym English (Belize), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: English (Belize) (en-BZ)
@@ -35,7 +35,23 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-en-001]] and use these Belizean conventions. English is the official language, with Belize Kriol and Spanish widely spoken.
+
+- **Spelling:** British forms (-ise, -our, -re).
+- **Dates and numbers:** day/month/year, BZ$ for the Belize dollar, decimal point and comma thousands separator.
+- **Multilingual context:** keep Kriol, Spanish, Garifuna, and Maya place and community names in their local spellings.
+
+## Common pitfalls
+
+- Respelling Kriol words as English.
+- Assuming a US audience for US-style dates and spellings.
+- The general pitfalls in [[locale-en-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Writing Style Guide (https://learn.microsoft.com/style-guide/welcome/)
+- Unicode CLDR locale data for date, number, and currency formats (https://cldr.unicode.org)

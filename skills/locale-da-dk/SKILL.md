@@ -1,6 +1,6 @@
 ---
 name: locale-da-dk
-description: Use when working with the Danish (Denmark) locale (`da-DK`) — its endonym Dansk (Danmark), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Danish (Denmark) locale (`da-DK`) — its endonym Dansk (Danmark), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Danish (Denmark) (da-DK)
@@ -35,7 +35,23 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-da-001]] with the conventions of Denmark.
+
+- **Formats:** Danish krone (DKK), written "12,50 kr."; day.month.year; 24-hour clock; decimal comma.
+- **Institutions:** use official Danish names for authorities (Skattestyrelsen, Politi, borger.dk); EU terms follow the Danish EU texts.
+- **Tone:** informal and egalitarian; titles are rarely used, and first names are normal in business.
+- **Faroese and Greenlandic contexts:** Danish is also used in the Faroe Islands and Greenland, but with local practice; see [[locale-fo-fo]] and [[locale-kl-gl]].
+
+## Common pitfalls
+
+- Writing in a formal "De" register.
+- Using Swedish or Norwegian forms.
+- The general pitfalls in [[locale-da-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Dansk Sprognævn, Retskrivningsordbogen (https://sproget.dk)

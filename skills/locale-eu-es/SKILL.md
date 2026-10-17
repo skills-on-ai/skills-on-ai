@@ -1,6 +1,6 @@
 ---
 name: locale-eu-es
-description: Use when working with the Basque (Spain) locale (`eu-ES`) — its endonym Euskara (Espainia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Basque (Spain) locale (`eu-ES`) — its endonym Euskara (Espainia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Basque (Spain) (eu-ES)
@@ -35,7 +35,24 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-eu-001]] with the conventions of the Basque Country and Navarre in Spain.
+
+- **Variants:** Euskara Batua is the written standard in Spain; local dialect features (Biscayan, Gipuzkoan, Navarrese) belong in speech and literature, not in UI or documentation.
+- **Official use:** Basque is co-official in the Basque Autonomous Community and in parts of Navarre, so public bodies publish bilingual material. Match official spellings of place names (for example Donostia, Gasteiz, Iruñea) and keep Basque and Spanish forms side by side when the project does.
+- **Formats:** day-month-year with the Basque suffixes (2026ko urriaren 17a); euro; decimal comma. Check CLDR `eu` for separators.
+- **Terminology:** use Euskalterm (Basque Government) and Elhuyar for technical terms.
+
+## Common pitfalls
+
+- Using Spanish punctuation or place-name forms where a Basque form is official.
+- Using Spanish calques in syntax.
+- The general pitfalls in [[locale-eu-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Euskaltzaindia (https://www.euskaltzaindia.eus)
+- Microsoft Localization Style Guide, Basque (https://aka.ms/basque-styleguide)

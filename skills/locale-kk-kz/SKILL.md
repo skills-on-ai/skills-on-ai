@@ -1,6 +1,6 @@
 ---
 name: locale-kk-kz
-description: Use when working with the Kazakh (Kazakhstan) locale (`kk-KZ`) — its endonym Қазақ тілі (Қазақстан), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Kazakh (Kazakhstan) locale (`kk-KZ`) — its endonym Қазақ тілі (Қазақстан), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Kazakh (Kazakhstan) (kk-KZ)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-kk-001]] with the conventions of Kazakhstan.
+
+- **Context:** Kazakh is the state language and Russian is an official language in government and widely used. Kazakh content should be complete, not a thin Russian translation.
+- **Formats:** tenge (`₸`); dates `17.10.2026`; 24-hour clock; decimal comma.
+- **Script:** Cyrillic is the current script; a Latin alphabet is planned. Do not introduce Latin without a requirement.
+
+## Common pitfalls
+
+- Using Russian forms in Kazakh text.
+- Mixing alphabets.
+- The general pitfalls in [[locale-kk-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

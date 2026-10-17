@@ -1,6 +1,6 @@
 ---
 name: locale-co-fr
-description: Use when working with the Corsican (France) locale (`co-FR`) — its endonym Corsu (Francia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Corsican (France) locale (`co-FR`) — its endonym Corsu (Francia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Corsican (France) (co-FR)
@@ -32,7 +32,22 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-co-001]] to the Corsican spoken in France.
+
+- **Context:** Corsican is a recognized regional language but is not official; bilingual signs and documents exist in Corsican and French. Use French for official legal text and Corsican alongside it where the project provides both.
+- **Typography:** French conventions (non-breaking space before `: ; ! ?`, guillemets) usually apply.
+- **Formats:** euro after the amount; day/month/year; 24-hour clock; decimal comma.
+
+## Common pitfalls
+
+- Presenting Corsican as a dialect of Italian or French in material meant for Corsican readers.
+- Machine-translating from French without review.
+- The general pitfalls in [[locale-co-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Collectivité de Corse, language policy and teaching resources for Corsican

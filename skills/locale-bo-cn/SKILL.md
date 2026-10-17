@@ -1,6 +1,6 @@
 ---
 name: locale-bo-cn
-description: Use when working with the Tibetan (China) locale (`bo-CN`) — its endonym བོད་སྐད་ (ཀྲུང་གོ), Tibetan script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Tibetan (China) locale (`bo-CN`) — its endonym བོད་སྐད་ (ཀྲུང་གོ), Tibetan script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Tibetan (China) (bo-CN)
@@ -34,7 +34,22 @@ CLDR plural categories for this locale: **other** (1 form).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-bo-001]] with Tibetan conventions in China.
+
+- **Context:** Tibetan is used in the Tibet Autonomous Region and in Tibetan areas of Qinghai, Sichuan, Gansu, and Yunnan. Official terms may be coined by calque from Chinese in government documents; follow the target publisher's terminology.
+- **Dialects:** the Lhasa-based standard is the model for formal speech; Amdo and Kham readers use the same written standard but speak different varieties.
+- **Formats:** dates are often written in the Gregorian calendar and the Tibetan calendar for cultural events; currency yuan (¥); Arabic digits in UI.
+
+## Common pitfalls
+
+- Using a spoken-dialect spelling in formal text.
+- Writing Tibetan in Chinese punctuation instead of the shad.
+- The general pitfalls in [[locale-bo-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for bo-CN (https://cldr.unicode.org)

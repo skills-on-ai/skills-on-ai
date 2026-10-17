@@ -1,6 +1,6 @@
 ---
 name: locale-sa-in
-description: Use when working with the Sanskrit (India) locale (`sa-IN`) — its endonym संस्कृतम् (भारतम्), Devanagari script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Sanskrit (India) locale (`sa-IN`) — its endonym संस्कृतम् (भारतम्), Devanagari script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Sanskrit (India) (sa-IN)
@@ -32,7 +32,21 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sa-001]] with the conventions of India.
+
+- **Context:** Sanskrit is one of the scheduled languages of India and is used in ceremonies, education, and scholarship. Modern vocabulary should follow the Commission for Scientific and Technical Terminology or the Rashtriya Sanskrit Sansthan.
+- **Formats:** Devanagari digits in print; dates may include the Vikram Samvat and Shaka years for ritual use.
+
+## Common pitfalls
+
+- Mixing Hindi vocabulary into Sanskrit text.
+- Using modern coinages without an authority.
+- The general pitfalls in [[locale-sa-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Commission for Scientific and Technical Terminology (CSTT)

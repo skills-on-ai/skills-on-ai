@@ -1,6 +1,6 @@
 ---
 name: locale-sl-si
-description: Use when working with the Slovenian (Slovenia) locale (`sl-SI`) — its endonym Slovenščina (Slovenija), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Slovenian (Slovenia) locale (`sl-SI`) — its endonym Slovenščina (Slovenija), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Slovenian (Slovenia) (sl-SI)
@@ -37,7 +37,21 @@ CLDR plural categories for this locale: **one**, **two**, **few**, **other** (4 
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-sl-001]] with the conventions of Slovenia.
+
+- **Formats:** euro; dates `17. 10. 2026`; 24-hour clock; decimal comma.
+- **Terminology:** use Slovenian EU terminology for legal and administrative content; Italian and Hungarian are co-official in some municipalities, so bilingual materials exist there.
+
+## Common pitfalls
+
+- Using non-Slovene place-name forms for border areas.
+- Using Croatian vocabulary.
+- The general pitfalls in [[locale-sl-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

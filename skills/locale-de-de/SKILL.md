@@ -1,6 +1,6 @@
 ---
 name: locale-de-de
-description: Use when working with the German (Germany) locale (`de-DE`) — its endonym Deutsch (Deutschland), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the German (Germany) locale (`de-DE`) — its endonym Deutsch (Deutschland), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: German (Germany) (de-DE)
@@ -35,7 +35,24 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-de-001]] with German (Germany) conventions.
+
+- **Orthography:** the Duden and the official rules of the Rat für deutsche Rechtschreibung; the ß is used (Straße) after long vowels and diphthongs.
+- **Formats:** day.month.year, 24-hour clock, decimal comma, euro after the amount; "Sie" is the default in business; the consumer web has moved toward "du" in many brands.
+- **Vocabulary:** "Handy" (mobile), "Brötchen", "Abitur", "Bundesland", "Krankenkasse"; official terms follow the federal terminology of the Bundesverwaltung and the German Institute for Standardization (DIN).
+- **Tone:** direct, factual, and precise; marketing hype and exaggeration are viewed skeptically.
+
+## Common pitfalls
+
+- Using Austrian or Swiss terms ("Jänner", "Velo", "parkieren") for a German audience.
+- Over-promising language that sounds like a direct translation of American marketing.
+- The general pitfalls in [[locale-de-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Duden (https://www.duden.de)
+- Microsoft Localization Style Guide, German (https://aka.ms/german-styleguide)

@@ -1,6 +1,6 @@
 ---
 name: locale-es-sv
-description: Use when working with the Spanish (El Salvador) locale (`es-SV`) — its endonym Español (El Salvador), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Spanish (El Salvador) locale (`es-SV`) — its endonym Español (El Salvador), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Spanish (El Salvador) (es-SV)
@@ -36,7 +36,24 @@ CLDR plural categories for this locale: **one**, **many**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Start from the general Spanish guidance in [[locale-es-419]] (grammar, register, and typography) and apply the following Salvadoran-specific points.
+
+- **Address:** "vos" is the usual informal singular ("vos tenés") and "usted" is formal; standard product text uses "usted".
+- **Currency:** the US dollar is official, and Bitcoin is legal tender by law; avoid assuming a specific payment method in copy.
+- **Vocabulary:** "chivo" and "cipote" are colloquial; keep them out of standard text.
+- **Formats:** use CLDR data for `es-SV` formats.
+
+## Common pitfalls
+
+- Using the address form, vocabulary, or number format of another region; confirm each against the target country.
+- Writing spoken slang or dialect spellings in standard text.
+- The general pitfalls in [[locale-es-001]] (word order, capitalization, false friends, and agreement) also apply here.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Real Academia Española and ASALE, Diccionario panhispánico de dudas and Ortografía de la lengua española (2010), https://www.rae.es
+- Unicode CLDR locale data for number, date, and currency formats of each Spanish region (https://cldr.unicode.org)

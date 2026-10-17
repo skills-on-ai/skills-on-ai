@@ -1,6 +1,6 @@
 ---
 name: locale-en-zw
-description: Use when working with the English (Zimbabwe) locale (`en-ZW`) — its endonym English (Zimbabwe), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the English (Zimbabwe) locale (`en-ZW`) — its endonym English (Zimbabwe), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: English (Zimbabwe) (en-ZW)
@@ -35,7 +35,24 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-en-001]] and use these Zimbabwean conventions. English is one of sixteen official languages.
+
+- **Spelling:** British forms (-ise, -our, -re).
+- **Dates and numbers:** day/month/year, decimal point and comma thousands separator.
+- **Currency:** Zimbabwe has changed currency several times and multiple currencies circulate. Verify the current legal currency and name it explicitly in prices rather than assuming a symbol.
+- **Names:** keep Shona and Ndebele names and place names in their local spellings.
+
+## Common pitfalls
+
+- Assuming a currency symbol without checking the current currency.
+- Respelling Shona or Ndebele names.
+- The general pitfalls in [[locale-en-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Writing Style Guide (https://learn.microsoft.com/style-guide/welcome/)
+- Unicode CLDR locale data for date, number, and currency formats (https://cldr.unicode.org)

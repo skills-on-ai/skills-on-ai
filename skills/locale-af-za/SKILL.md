@@ -1,6 +1,6 @@
 ---
 name: locale-af-za
-description: Use when working with the Afrikaans (South Africa) locale (`af-ZA`) — its endonym Afrikaans (Suid-Afrika), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Afrikaans (South Africa) locale (`af-ZA`) — its endonym Afrikaans (Suid-Afrika), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Afrikaans (South Africa) (af-ZA)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-af-001]] to Afrikaans in South Africa.
+
+- **Context:** Afrikaans is one of eleven official languages; most readers also know English, so code-switching is common in speech. In formal text keep the Afrikaans consistent and gloss English terms only when needed.
+- **Formats:** rand ("R12,50"), day-month-year, 24-hour clock, decimal comma.
+- **Register:** "u" for public and formal text; "jy" for friendly consumer text.
+
+## Common pitfalls
+
+- Mixing Afrikaans and English in formal copy.
+- Using Dutch forms for loanwords.
+- The general pitfalls in [[locale-af-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Die Afrikaanse Taalkommissie

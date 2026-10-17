@@ -1,6 +1,6 @@
 ---
 name: locale-ug-cn
-description: Use when working with the Uyghur (China) locale (`ug-CN`) — its endonym ئۇيغۇرچە (جۇڭگو), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Uyghur (China) locale (`ug-CN`) — its endonym ئۇيغۇرچە (جۇڭگو), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Uyghur (China) (ug-CN)
@@ -37,7 +37,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ug-001]] with the conventions of China (Xinjiang).
+
+- **Script:** the Arabic-based alphabet is the official script in China; right to left.
+- **Formats:** yuan (`¥`); dates `2026-10-17` in many documents; 24-hour clock; Beijing time (UTC+8) is official while local Xinjiang time (UTC+6) is also used; state the time zone when it matters.
+- **Context:** content in China is subject to local legal and content rules; check them for sensitive text.
+
+## Common pitfalls
+
+- Using the Latin Uyghur script in China-facing material without a requirement.
+- Ignoring the time-zone ambiguity.
+- The general pitfalls in [[locale-ug-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

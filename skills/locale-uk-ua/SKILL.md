@@ -1,6 +1,6 @@
 ---
 name: locale-uk-ua
-description: Use when working with the Ukrainian (Ukraine) locale (`uk-UA`) — its endonym Українська (Україна), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Ukrainian (Ukraine) locale (`uk-UA`) — its endonym Українська (Україна), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Ukrainian (Ukraine) (uk-UA)
@@ -37,7 +37,23 @@ CLDR plural categories for this locale: **one**, **few**, **many**, **other** (4
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-uk-001]] with the conventions of Ukraine.
+
+- **Law:** Ukrainian is the sole state language and the law on the state language requires Ukrainian in public services and consumer information. Provide Ukrainian by default.
+- **Formats:** hryvnia (₴); dates `17.10.2026` or `17 жовтня 2026 р.`; 24-hour clock; decimal comma.
+- **Names and places:** use Ukrainian forms (Київ, Одеса); names of people follow the Ukrainian transliteration rules where converted.
+- **Context:** Russian is widely understood but should not be the default in Ukrainian-language material; avoid Russian-language-only content.
+
+## Common pitfalls
+
+- Using Russian place names or forms.
+- Using Russian as the default language of a UI for Ukraine.
+- The general pitfalls in [[locale-uk-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

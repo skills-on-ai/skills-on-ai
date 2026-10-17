@@ -1,6 +1,6 @@
 ---
 name: locale-tt-ru
-description: Use when working with the Tatar (Russia) locale (`tt-RU`) — its endonym Татар теле (Россия), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Tatar (Russia) locale (`tt-RU`) — its endonym Татар теле (Россия), Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Tatar (Russia) (tt-RU)
@@ -32,7 +32,22 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-tt-001]] with the conventions of Russia (Tatarstan).
+
+- **Context:** Tatar and Russian are both state languages of Tatarstan; many documents are bilingual. Tatar content should be complete and not a thin translation of Russian.
+- **Formats:** ruble (₽); dates `17.10.2026`; 24-hour clock; decimal comma.
+- **Script:** Cyrillic is the official script in Russia; do not use Latin spelling without a requirement.
+
+## Common pitfalls
+
+- Using Latin Tatar for Russian-based content.
+- Providing Tatar that mirrors Russian syntax.
+- The general pitfalls in [[locale-tt-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

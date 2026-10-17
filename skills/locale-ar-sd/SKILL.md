@@ -1,6 +1,6 @@
 ---
 name: locale-ar-sd
-description: Use when working with the Arabic (Sudan) locale (`ar-SD`) — its endonym العربية (السودان), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Sudan) locale (`ar-SD`) — its endonym العربية (السودان), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Sudan) (ar-SD)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Sudanese conventions. Arabic and English are official; the spoken dialect is Sudanese Arabic.
+
+- **Currency:** Sudanese pound (SDG, ج.س).
+- **Calendar and weekend:** Gregorian with month names such as يناير / فبراير; Hijri for religious events; the weekend is Friday-Saturday.
+- **Tone:** polite and formal; MSA is used in official writing.
+
+## Common pitfalls
+
+- Using Levantine month names.
+- Writing Sudanese dialect in formal text.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

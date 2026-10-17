@@ -1,6 +1,6 @@
 ---
 name: locale-bn-in
-description: Use when working with the Bengali (India) locale (`bn-IN`) — its endonym বাংলা (ভারত), Bengali script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Bengali (India) locale (`bn-IN`) — its endonym বাংলা (ভারত), Bengali script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Bengali (India) (bn-IN)
@@ -35,7 +35,23 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-bn-001]] with the conventions of India, mostly West Bengal and Tripura. Bengali is one of the scheduled languages of India.
+
+- **Vocabulary:** Indian Bengali uses more Sanskrit-origin words: জল (water), স্নান (bath), নিমন্ত্রণ (invitation).
+- **Currency and calendar:** rupee (₹); Gregorian dates in business and the Bengali calendar for festivals; Indian grouping.
+- **Standards:** the Paschimbanga Bangla Akademi sets the West Bengal spelling.
+- **Tone:** polite and a bit more formal than colloquial speech; English loans are common.
+
+## Common pitfalls
+
+- Using Bangladeshi vocabulary (পানি, গোসল) for an Indian audience.
+- Using the taka symbol or Bangladesh institution names.
+- The general pitfalls in [[locale-bn-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Paschimbanga Bangla Akademi, Akademi Banan Abhidhan

@@ -1,6 +1,6 @@
 ---
 name: locale-sr-001
-description: Use when working with the Serbian locale (`sr-001`) — its endonym Српски, Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Serbian locale (`sr-001`) — its endonym Српски, Cyrillic script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Serbian (sr-001)
@@ -40,7 +40,44 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Serbian is a South Slavic language written in both Cyrillic and Latin script; both are official in Serbia and used in everyday life. It has ekavian (Serbia) and ijekavian (Bosnia, Montenegro, parts of Serbia) pronunciation and spelling variants. Choose the script and the variant before translating. See [[locale-sr-rs]], [[locale-sr-ba]], and [[locale-sr-me]].
+
+**Translate ideas, not words.**
+
+- Serbian is highly inflected, with seven cases and three genders. Restructure English sentences; do not translate word for word.
+- Serbian uses the future tense with "ћу" (`ću`) plus infinitive or "da" plus present: `Нећу сачувати` or `Нећу да сачувам`; the "da" construction is common in Serbian, whereas Croatian prefers the infinitive.
+- Re-express idioms by meaning.
+
+**Grammar that trips translators.**
+
+- Plurals: one, few, and other categories (`1 датотека`, `2 датотеке`, `5 датотека`); genitive plural after five. See [[unicode-messageformat]].
+- Verbs have aspect; clitics occupy second position in the clause.
+- Adjectives and nouns agree in gender, number, and case.
+
+**Register.**
+
+- "Ти" is informal and "Ви" is formal (capitalized in letters to one person). UI and public text use "Ви" or an impersonal style.
+- UI commands use the imperative (`Сачувајте`) or the infinitive (`Сачувати`).
+
+**Orthography and typography.**
+
+- Cyrillic and Latin map one to one (digraphs `lj`, `nj`, `dž` correspond to `љ`, `њ`, `џ`). Provide both scripts when the audience uses both, and convert with a reliable one-to-one transliterator; do not mix scripts in one text.
+- Ekavian: `лепо`, `млеко`, `река`; ijekavian: `лијепо`, `млијеко`, `ријека`. Choose one variant for the whole text.
+- Quotation marks `„…“`; dates `17. октобар 2026.` (with periods after the day and year); decimal comma; space or period for thousands; currency dinar (`дин.` or `RSD`).
+- Follow the Matica srpska orthography (Правопис српскога језика).
+
+## Common pitfalls
+
+- Mixing Cyrillic and Latin script in one text.
+- Mixing ekavian and ijekavian forms.
+- Using Croatian vocabulary or the infinitive-only future.
+- Missing the period after ordinal dates.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Matica srpska, Правопис српскога језика
+- Microsoft Localization Style Guide, Serbian (Cyrillic and Latin) (https://aka.ms/serbian-cyrillic-styleguide, https://aka.ms/serbian-latin-styleguide)

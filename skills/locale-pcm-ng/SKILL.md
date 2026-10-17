@@ -1,6 +1,6 @@
 ---
 name: locale-pcm-ng
-description: Use when working with the Nigerian Pidgin (Nigeria) locale (`pcm-NG`) — its endonym Naijá (Nigeria), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Nigerian Pidgin (Nigeria) locale (`pcm-NG`) — its endonym Naijá (Nigeria), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Nigerian Pidgin (Nigeria) (pcm-NG)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-pcm-001]] with the conventions of Nigeria.
+
+- **Context:** Pidgin is a lingua franca across Nigeria, spoken alongside English and indigenous languages; it is used in media, health messaging, and advertising.
+- **Formats:** naira (`₦`); dates in English forms; 24-hour or 12-hour clock; decimal point.
+- **Regional variation:** Pidgin differs by region (Warri, Port Harcourt, Lagos); choose a broadly understood form for national content.
+
+## Common pitfalls
+
+- Using regional slang in national content.
+- Using Pidgin in formal legal text without requirement.
+- The general pitfalls in [[locale-pcm-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, date, and currency formats (https://cldr.unicode.org)

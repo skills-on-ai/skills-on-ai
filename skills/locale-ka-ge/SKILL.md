@@ -1,6 +1,6 @@
 ---
 name: locale-ka-ge
-description: Use when working with the Georgian (Georgia) locale (`ka-GE`) — its endonym ქართული (საქართველო), Georgian script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Georgian (Georgia) locale (`ka-GE`) — its endonym ქართული (საქართველო), Georgian script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Georgian (Georgia) (ka-GE)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ka-001]] with the conventions of Georgia.
+
+- **Formats:** lari (`₾`); dates `17.10.2026`; 24-hour clock; decimal comma.
+- **Names:** place names follow official Georgian forms (`თბილისი`); Latin transliteration follows the national system.
+- **Context:** Abkhaz and Ossetian are also used in some regions; Georgian is the state language.
+
+## Common pitfalls
+
+- Using Russian place-name forms.
+- Using other scripts (Mtavruli) outside design contexts.
+- The general pitfalls in [[locale-ka-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Unicode CLDR locale data for number, calendar, and currency formats (https://cldr.unicode.org)

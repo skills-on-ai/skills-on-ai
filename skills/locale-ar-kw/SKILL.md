@@ -1,6 +1,6 @@
 ---
 name: locale-ar-kw
-description: Use when working with the Arabic (Kuwait) locale (`ar-KW`) — its endonym العربية (الكويت), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Arabic (Kuwait) locale (`ar-KW`) — its endonym العربية (الكويت), Arabic script, right-to-left (RTL) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Arabic (Kuwait) (ar-KW)
@@ -41,7 +41,23 @@ CLDR plural categories for this locale: **zero**, **one**, **two**, **few**, **m
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ar-001]] with these Kuwaiti conventions. Writing is MSA; the spoken dialect is Gulf Arabic (Kuwaiti).
+
+- **Currency:** Kuwaiti dinar (KWD, د.ك), divided into 1,000 fils; amounts have three decimals.
+- **Calendar and weekend:** Gregorian for business; Hijri for religious events; the weekend is Friday-Saturday.
+- **Tone:** formal and respectful; religious greetings are expected at Ramadan and the Eids.
+
+## Common pitfalls
+
+- Using two decimals for dinar amounts.
+- Mixing Levantine or Egyptian vocabulary into the text.
+- The general pitfalls in [[locale-ar-001]] (calques, passive overuse, bidirectional text, and gender agreement) also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Microsoft Localization Style Guide, Arabic (https://aka.ms/arabic-styleguide)
+- Unicode CLDR locale data for digits, calendars, and currency formats (https://cldr.unicode.org)

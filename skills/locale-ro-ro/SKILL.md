@@ -1,6 +1,6 @@
 ---
 name: locale-ro-ro
-description: Use when working with the Romanian (Romania) locale (`ro-RO`) — its endonym Română (România), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Romanian (Romania) locale (`ro-RO`) — its endonym Română (România), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Romanian (Romania) (ro-RO)
@@ -36,7 +36,23 @@ CLDR plural categories for this locale: **one**, **few**, **other** (3 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ro-001]] with the conventions of Romania.
+
+- **Formats:** leu (`lei`, `RON`) after the amount; dates `17.10.2026`; 24-hour clock; decimal comma.
+- **Terminology:** use Romanian EU terminology (official Romanian versions) for legal and administrative content.
+- **Names:** Romanian names have a family name and a given name; compound given names and diacritics are common and must be kept (Ștefan, Țepeș).
+- **Tone:** polite and formal in business, with titles (`Domnule`, `Doamnă`, `Doamna`) in correspondence.
+
+## Common pitfalls
+
+- Using Moldovan or Russian-influenced forms.
+- Dropping diacritics from names.
+- The general pitfalls in [[locale-ro-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- EU Interinstitutional Style Guide (https://style-guide.europa.eu), language-specific conventions

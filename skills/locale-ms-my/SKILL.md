@@ -1,6 +1,6 @@
 ---
 name: locale-ms-my
-description: Use when working with the Malay (Malaysia) locale (`ms-MY`) — its endonym Bahasa Melayu (Malaysia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Malay (Malaysia) locale (`ms-MY`) — its endonym Bahasa Melayu (Malaysia), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Malay (Malaysia) (ms-MY)
@@ -34,7 +34,23 @@ CLDR plural categories for this locale: **other** (1 form).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-ms-001]] with the conventions of Malaysia.
+
+- **Formats:** ringgit "RM12.50"; decimal point and comma for thousands; dates "17 Oktober 2026"; 24-hour clock.
+- **Terminology:** use DBP terms and the Malaysian government's terminology (including Pusat Rujukan Persuratan Melayu).
+- **Titles:** Dato', Datuk, Tan Sri, Tun, and Dr are part of names; keep them in the correct order and abbreviations.
+- **Multilingual context:** English, Chinese, and Tamil are widely used; Bahasa Melayu is the national language and language of government; Malaysian English words are often mixed in speech but not in formal text.
+
+## Common pitfalls
+
+- Mixing Indonesian forms or number format.
+- Dropping honorific titles.
+- The general pitfalls in [[locale-ms-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Dewan Bahasa dan Pustaka (https://www.dbp.gov.my)

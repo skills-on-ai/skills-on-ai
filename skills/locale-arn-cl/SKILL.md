@@ -1,6 +1,6 @@
 ---
 name: locale-arn-cl
-description: Use when working with the Mapudungun (Chile) locale (`arn-CL`) — its endonym Mapudungun (Chile), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Mapudungun (Chile) locale (`arn-CL`) — its endonym Mapudungun (Chile), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Mapudungun (Chile) (arn-CL)
@@ -28,7 +28,35 @@ CLDR has no explicit plural rule defined for this language; it falls back to the
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Mapudungun (Mapuzugun) is the language of the Mapuche people of Chile and Argentina. There are several competing writing systems (Alfabeto Unificado, Alfabeto Raguileo, and Azümchefe), so confirm which one the community or project uses before translating. This guidance is lower-confidence; have a native reviewer check it.
+
+**Translate ideas, not words.**
+
+- Translate from the meaning into Mapuzugun, not word for word through Spanish. Mapuzugun is agglutinative and expresses relations through suffixes on the verb.
+- Use terms developed by Mapuche language specialists and communities (for example through Conadi and local universities) rather than raw Spanish loanwords where a Mapuzugun term exists.
+- Re-express idioms and cultural concepts (che, mapu, newen) by meaning; avoid reducing them to single Spanish words.
+
+**Grammar.**
+
+- Mapuzugun has singular, dual, and plural in pronouns and verbs, and distinguishes inclusive and exclusive "we".
+- Verbs carry many suffixes for tense, aspect, mood, direction, and person.
+
+**Orthography and typography.**
+
+- Use the writing system the audience uses (Unificado, Raguileo, or Azümchefe). They differ in letters such as `ü`, `ng`, `tr`, and `ll`; do not mix systems in one text.
+- Chilean conventions apply to numbers and dates: decimal comma, `17 de octubre de 2026`, Chilean peso (`$`).
+
+## Common pitfalls
+
+- Mixing writing systems.
+- Translating through Spanish.
+- Dropping special letters.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Corporación Nacional de Desarrollo Indígena (CONADI), Chile
+- Mapuche language materials of the Chilean Ministry of Education

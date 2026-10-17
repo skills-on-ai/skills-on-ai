@@ -1,6 +1,6 @@
 ---
 name: locale-mt-mt
-description: Use when working with the Maltese (Malta) locale (`mt-MT`) — its endonym Malti (Malta), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Maltese (Malta) locale (`mt-MT`) — its endonym Malti (Malta), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Maltese (Malta) (mt-MT)
@@ -38,7 +38,22 @@ CLDR plural categories for this locale: **one**, **two**, **few**, **many**, **o
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-mt-001]] with the conventions of Malta.
+
+- **Context:** Maltese and English are both official; many documents are bilingual. English text is Malta English with British spelling (see [[locale-en-mt]]).
+- **Formats:** euro; dates `17/10/2026`; 24-hour clock; check CLDR `mt` for separators.
+- **Terminology:** use the Maltese EU terminology (official Maltese versions) for legal and administrative content.
+
+## Common pitfalls
+
+- Mixing English words into Maltese product text without need.
+- Dropping Maltese letters from names.
+- The general pitfalls in [[locale-mt-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- EU Interinstitutional Style Guide (https://style-guide.europa.eu), language-specific conventions

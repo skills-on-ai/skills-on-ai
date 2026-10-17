@@ -1,6 +1,6 @@
 ---
 name: locale-fy-nl
-description: Use when working with the Frisian (Netherlands) locale (`fy-NL`) — its endonym Frysk (Nederlân), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
+description: Use when working with the Frisian (Netherlands) locale (`fy-NL`) — its endonym Frysk (Nederlân), Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.
 ---
 
 # Locale: Frisian (Netherlands) (fy-NL)
@@ -35,7 +35,22 @@ CLDR plural categories for this locale: **one**, **other** (2 forms).
 
 See [[unicode-messageformat]] for writing plural messages using these categories.
 
+## Translating into this locale
+
+Apply [[locale-fy-001]] to Frisian in the Netherlands.
+
+- **Co-official status:** Frisian and Dutch are both official in Fryslân. Public bodies in the province issue bilingual material; place names have official Frisian forms (for example Ljouwert for Leeuwarden).
+- **Formats:** euro, day-month-year, 24-hour clock, decimal comma.
+- **Terminology:** use Frisian terms from the Fryske Akademy and the provincial government over Dutch loanwords.
+
+## Common pitfalls
+
+- Using Dutch place names where an official Frisian name exists.
+- Translating through Dutch.
+- The general pitfalls in [[locale-fy-001]] also apply.
+
 ## Learn more
 
 - [[locale]] for BCP 47 identifiers, locale-sensitive formatting, pluralization, and text-direction concepts that apply across all locales.
 - [[unicode-messageformat]] for writing plural/selection messages correctly for this locale's grammar.
+- Fryske Akademy (https://www.fryske-akademy.nl)
