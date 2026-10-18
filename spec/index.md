@@ -233,7 +233,7 @@ Skills:
 - {total-project-control,plan-do-check-act,pestle-analysis,swot-analysis}
 - {ooda-loop,queueing-theory,pitch-deck,maturity-models,statement-of-work}
 - {plantuml,mermaid}-diagram
-- {crucial-conversations,system-quality-attributes,oblique-strategies,always-improving}
+- {crucial-conversations,system-quality-attributes,oblique-strategies,always-improving,deliberate-practice}
 - {strategic-balanced-scorecard,inclusive-language,care-plan}
 - causal-analysis-based-on-system-theory
 - {key-performance-indicators,objectives-and-key-results,smart-criteria}

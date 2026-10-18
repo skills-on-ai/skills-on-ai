@@ -133,6 +133,7 @@ and every skill is listed once, in alphabetical order.
 
 - [always-improving](skills/always-improving/)
 - [crucial-conversations](skills/crucial-conversations/)
+- [deliberate-practice](skills/deliberate-practice/)
 - [getting-feedback](skills/getting-feedback/)
 - [giving-feedback](skills/giving-feedback/)
 - [inclusive-language](skills/inclusive-language/)

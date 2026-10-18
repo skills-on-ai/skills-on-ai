@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1124,
+ "skillCount": 1125,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -655,6 +655,13 @@
      "description": "Use when asked how to handle a high-stakes, emotionally charged conversation — the CPR/CRIB/AMPP/WWWF frameworks from the \"Crucial Conversations\" book — grounded in joelparkerhenderson/crucial-conversations, distinct from general team communication norms (see ways-of-working).",
      "page": "https://skills-on-ai.org/skills/crucial-conversations/",
      "raw": "https://skills-on-ai.org/skills/crucial-conversations/SKILL.md"
+    },
+    {
+     "name": "deliberate-practice",
+     "title": "Deliberate Practice",
+     "description": "Use when asked to design, audit, or fix practice so it actually builds skill — a goal just past current ability, full concentration, immediate specific feedback, and repetition with correction — or when someone has practiced for a long time without improving. Distinct from [[getting-feedback]] (how to receive feedback well), [[always-improving]] (the general habit of continuous improvement), and [[smart-criteria]] (how to word a goal), each of which it draws on.",
+     "page": "https://skills-on-ai.org/skills/deliberate-practice/",
+     "raw": "https://skills-on-ai.org/skills/deliberate-practice/SKILL.md"
     },
     {
      "name": "getting-feedback",
