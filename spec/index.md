@@ -37,7 +37,7 @@ Skills:
 - toml
 - {emacs,vim,org-mode}
 - {org-contacts,org-roam}
-- {git,github,gitlab,codeberg}
+- {git,github,gitlab,codeberg,keycloak}
 - {aws,azure,civo,google,scaleway}-cloud
 - {claude,gemini,gpt,mistral,gb1,glimmer,ollama}-ai
 - {javascript,python,rust,typescript}-programming
@@ -495,6 +495,7 @@ Skills:
 - share-on-{bluesky,facebook,instagram,linkedin,linkedin-projects,mastodon,threads}
 - united-kingdom-national-health-service-digital-technology-assessment-criteria
 - locale-{language}-{region} (one skill per BCP 47 locale, for example `locale-cy-gb`; the `locale` skill is the parent)
+- locale-peer-id (`.locale-peer-id` files that track translated directories across locales)
 
 Subprojects:
 

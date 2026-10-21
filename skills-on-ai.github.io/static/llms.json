@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1125,
+ "skillCount": 1127,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -6979,6 +6979,13 @@
      "raw": "https://skills-on-ai.org/skills/locale-pcm-ng/SKILL.md"
     },
     {
+     "name": "locale-peer-id",
+     "title": "Locale Peer Id",
+     "description": "Use when asked to track corresponding translated content across locales with a locale peer id, to create or check `.locale-peer-id` files, or to set up a locales directory layout for translation. Distinct from [[locale]], which covers locale codes and locale-sensitive data in code, and from the per-locale skills such as [[locale-en-001]], which give guidance for one locale.",
+     "page": "https://skills-on-ai.org/skills/locale-peer-id/",
+     "raw": "https://skills-on-ai.org/skills/locale-peer-id/SKILL.md"
+    },
+    {
      "name": "locale-pl-001",
      "title": "Locale Pl 001",
      "description": "Use when working with the Polish locale (`pl-001`) — its endonym Polski, Latin script, left-to-right (LTR) direction, or spoken-population data. Reference data and translation guidance (register, grammar, idiom, typography) for this specific locale; see [[locale]] for general i18n/l10n concepts (BCP 47, plural rules, RTL) that apply across all locales.",
@@ -7919,6 +7926,13 @@
      "description": "Use when asked to write or review an incident response plan — the pre-defined process for handling a security or operational incident while it's happening, including severity levels, roles, and escalation — as distinct from a [[postmortem]] (the after-the-fact analysis once the incident is over) and a [[business-continuity-plan]] (broader, org-wide continuity planning rather than tactical in-the-moment response).",
      "page": "https://skills-on-ai.org/skills/incident-response-plan/",
      "raw": "https://skills-on-ai.org/skills/incident-response-plan/SKILL.md"
+    },
+    {
+     "name": "keycloak",
+     "title": "Keycloak",
+     "description": "Use when asked to set up, configure, secure, or troubleshoot Keycloak, the open-source identity and access management server, including realms, clients, users, roles, single sign-on with OpenID Connect or SAML, identity brokering, and deployment. Distinct from [[threat-modeling]], which analyzes risks without configuring an identity provider.",
+     "page": "https://skills-on-ai.org/skills/keycloak/",
+     "raw": "https://skills-on-ai.org/skills/keycloak/SKILL.md"
     },
     {
      "name": "on-call-rotation",
