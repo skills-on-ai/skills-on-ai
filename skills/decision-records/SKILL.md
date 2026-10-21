@@ -96,3 +96,7 @@ Full pre-publish and review checklists: `../../checklist/index.md`.
 - `../../checklist/index.md` — checklists for every stage, and for running the
   practice across an organization.
 - `../../help/index.md` — FAQ, troubleshooting table, and glossary.
+
+## Learn more
+
+- Decision Records: <https://decision-records.github.io/>

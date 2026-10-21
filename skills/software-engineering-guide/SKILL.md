@@ -61,3 +61,7 @@ This skill is for reading and applying the guide. If the user wants to fix,
 extend, or restructure the guide's own content or its website, hand off to
 `software-engineering-guide-maintainer`, or point them at
 `CONTRIBUTING.md` in the source repo.
+
+## Learn more
+
+- Software Engineering Guide: <https://software-engineering-guide.github.io/>

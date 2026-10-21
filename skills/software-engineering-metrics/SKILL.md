@@ -77,3 +77,7 @@ question:
    `dashboard-spec-example.md`, and point them at the chapter 9.5 maturity
    self-assessment to locate where they actually are before recommending
    where to go next.
+
+## Learn more
+
+- Software Engineering Metrics: <https://software-engineering-metrics.github.io/>

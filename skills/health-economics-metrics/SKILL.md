@@ -75,3 +75,7 @@ goes into a live business case.
   [willingness-to-pay-thresholds](../../topics/willingness-to-pay-thresholds.md).
 - Don't present a computed metric without at least one caveat from that topic's Pitfalls section
   when it's plausibly relevant.
+
+## Learn more
+
+- Health Economics Metrics: <https://health-economics-metrics.github.io/>

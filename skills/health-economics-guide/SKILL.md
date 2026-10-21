@@ -28,3 +28,7 @@ You help someone **use** the *Health Economics Guide* — a practical handbook o
 ## What this skill is not for
 
 Don't edit chapters, `README.md`, `GLOSSARY.md`, `INDEX.md`, or the spec under this skill — that's maintainer work with its own hard rules (citation verification, template conformance, cross-file consistency). Use `health-economics-guide-maintainer` for any change to the repository's content.
+
+## Learn more
+
+- Health Economics Guide: <https://health-economics-guide.github.io/>

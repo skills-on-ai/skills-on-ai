@@ -121,3 +121,7 @@ mention (don't set these up unprompted):
 
 Full background, more templates, and further reading live in the
 [architecture-decision-record repo](https://github.com/joelparkerhenderson/architecture-decision-record).
+
+## Learn more
+
+- Architecture Decision Record: <https://architecture-decision-record.github.io/>

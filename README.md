@@ -176,6 +176,11 @@ and every skill is listed once, in alphabetical order.
 - [two-way-door-decisions](skills/two-way-door-decisions/)
 - [weighted-decision-matrix](skills/weighted-decision-matrix/)
 
+## Digital health
+
+- [digital-health-guide](skills/digital-health-guide/)
+- [digital-health-metrics](skills/digital-health-metrics/)
+
 ## Enterprise
 
 - [enterprise-architecture](skills/enterprise-architecture/)
@@ -503,11 +508,15 @@ and every skill is listed once, in alphabetical order.
 
 ## Information Technology Service Management
 
+- [agile-itil-guide](skills/agile-itil-guide/)
+- [agile-itil-metrics](skills/agile-itil-metrics/)
 - [cobit-2019](skills/cobit-2019/)
 - [fitsm](skills/fitsm/)
 - [iso-iec-20000](skills/iso-iec-20000/)
 - [itil-5](skills/itil-5/)
 - [service-integration-and-management](skills/service-integration-and-management/)
+- [service-management-guide](skills/service-management-guide/)
+- [service-management-metrics](skills/service-management-metrics/)
 - [verism](skills/verism/)
 - [yasm](skills/yasm/)
 
@@ -711,6 +720,11 @@ and every skill is listed once, in alphabetical order.
 - [government-regulatory-impact-assessment](skills/government-regulatory-impact-assessment/)
 - [policy-brief](skills/policy-brief/)
 - [sustainability-report](skills/sustainability-report/)
+
+## Public value
+
+- [public-value-guide](skills/public-value-guide/)
+- [public-value-metrics](skills/public-value-metrics/)
 
 ## Research & analysis methods
 

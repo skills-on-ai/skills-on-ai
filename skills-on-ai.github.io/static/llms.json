@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1127,
+ "skillCount": 1135,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -901,6 +901,25 @@
      "description": "Use when asked to choose among several options against multiple criteria that matter by different amounts — score each option on each criterion, weight the criteria, total the results, and test how sensitive the winner is to the weights — as distinct from a [[decision-tree]] (sequential choices under uncertainty), [[expected-value-analysis]] (a single quantity under probabilities), and a plain pros-and-cons list (unweighted, unstructured).",
      "page": "https://skills-on-ai.org/skills/weighted-decision-matrix/",
      "raw": "https://skills-on-ai.org/skills/weighted-decision-matrix/SKILL.md"
+    }
+   ]
+  },
+  {
+   "title": "Digital health",
+   "skills": [
+    {
+     "name": "digital-health-guide",
+     "title": "Digital Health Guide",
+     "description": "Use when asked to find, explain, or apply content from the Digital Health Guide, a handbook of best practices for delivering digital services in health and social care, such as choosing topics for a role or problem, answering questions on clinical safety, information governance, digital inclusion, or delivery, running a team workshop, or assessing maturity. Companion to [[digital-health-metrics]], which covers measurement; for economic questions see [[health-economics-guide]], and for delivery practice in general see [[software-engineering-guide]].",
+     "page": "https://skills-on-ai.org/skills/digital-health-guide/",
+     "raw": "https://skills-on-ai.org/skills/digital-health-guide/SKILL.md"
+    },
+    {
+     "name": "digital-health-metrics",
+     "title": "Digital Health Metrics",
+     "description": "Use when asked to define, calculate, choose, or interpret a digital health metric, such as patient portal adoption, telehealth visit rate, appointment no-show rate, alert override rate, readmission rate, customer acquisition cost, or ROI and value on investment, or an evaluation framework such as RE-AIM, using the Digital Health Metrics book as the grounded source. Companion to [[digital-health-guide]], which covers delivery practice; for health spending and value see [[health-economics-metrics]].",
+     "page": "https://skills-on-ai.org/skills/digital-health-metrics/",
+     "raw": "https://skills-on-ai.org/skills/digital-health-metrics/SKILL.md"
     }
    ]
   },
@@ -2959,6 +2978,20 @@
    "title": "Information Technology Service Management",
    "skills": [
     {
+     "name": "agile-itil-guide",
+     "title": "Agile Itil Guide",
+     "description": "Use when asked to find, explain, or apply content from the Agile ITIL Guide, such as choosing topics for a role or problem, running a team conversation from a topic's discussion questions, or adapting one of its AI prompts to a team's own material. Companion to [[agile-itil-metrics]], which covers measurement; for the ITIL framework itself see [[itil-5]], for Agile values see [[agile-principles]], and for the wider service management guide see [[service-management-guide]].",
+     "page": "https://skills-on-ai.org/skills/agile-itil-guide/",
+     "raw": "https://skills-on-ai.org/skills/agile-itil-guide/SKILL.md"
+    },
+    {
+     "name": "agile-itil-metrics",
+     "title": "Agile Itil Metrics",
+     "description": "Use when someone asks how to measure an agile or ITIL practice (incidents, changes, flow, service levels, experience, assets, cost, risk, people, or AI), or needs the right topic, metric definition, gaming vector, guardrail, discussion question, or AI prompt from the Agile ITIL Metrics book. Companion to [[agile-itil-guide]], which covers the practices themselves; for the broader service management book see [[service-management-metrics]], and for general indicator design see [[key-performance-indicators]].",
+     "page": "https://skills-on-ai.org/skills/agile-itil-metrics/",
+     "raw": "https://skills-on-ai.org/skills/agile-itil-metrics/SKILL.md"
+    },
+    {
      "name": "cobit-2019",
      "title": "Cobit 2019",
      "description": "Use when asked to apply COBIT 2019, the ISACA framework for enterprise IT governance and management, for risk management, regulatory compliance, cybersecurity, and corporate governance. Distinct from [[itil-5]] and [[iso-iec-20000]] (service management) and [[risk-register]] (a single risk tool).",
@@ -2992,6 +3025,20 @@
      "description": "Use when asked to apply Service Integration and Management (SIAM), a methodology for managing multiple service suppliers in a complex ecosystem, especially when an organization outsources parts of IT and must integrate vendors. Distinct from [[vendor-management]] (single-supplier relationships), [[itil-5]], and [[service-level-agreement]].",
      "page": "https://skills-on-ai.org/skills/service-integration-and-management/",
      "raw": "https://skills-on-ai.org/skills/service-integration-and-management/SKILL.md"
+    },
+    {
+     "name": "service-management-guide",
+     "title": "Service Management Guide",
+     "description": "Use when asked to find, explain, or apply content from the Service Management Guide, such as choosing topics for a role or problem, running a team conversation from a topic's discussion questions, adapting one of its AI prompts to a team's own material, or looking at a practice through agile, AI, automation, and analytics. Companion to [[service-management-metrics]], which covers measurement; for frameworks and standards see [[itil-5]], [[iso-iec-20000]], and [[fitsm]], and for the agile variant see [[agile-itil-guide]].",
+     "page": "https://skills-on-ai.org/skills/service-management-guide/",
+     "raw": "https://skills-on-ai.org/skills/service-management-guide/SKILL.md"
+    },
+    {
+     "name": "service-management-metrics",
+     "title": "Service Management Metrics",
+     "description": "Use when someone asks how to measure a service management practice (incidents, changes, flow, service levels, experience, assets, cost, risk, people, or AI), or needs the right topic, metric definition, gaming vector, guardrail, discussion question, or AI prompt from the Service Management Metrics book. Companion to [[service-management-guide]], which covers the practices themselves; for the agile variant see [[agile-itil-metrics]], for service level agreements see [[service-level-agreement]], and for general indicator design see [[key-performance-indicators]].",
+     "page": "https://skills-on-ai.org/skills/service-management-metrics/",
+     "raw": "https://skills-on-ai.org/skills/service-management-metrics/SKILL.md"
     },
     {
      "name": "verism",
@@ -4141,6 +4188,25 @@
      "description": "Use when asked to write, review, or structure a sustainability report — a disclosure of an organization's environmental, social, and governance (ESG) performance, often against a recognized framework or standard — distinct from an [[environmental-impact-assessment]], which evaluates a single project's predicted impact before it proceeds rather than an organization's ongoing performance.",
      "page": "https://skills-on-ai.org/skills/sustainability-report/",
      "raw": "https://skills-on-ai.org/skills/sustainability-report/SKILL.md"
+    }
+   ]
+  },
+  {
+   "title": "Public value",
+   "skills": [
+    {
+     "name": "public-value-guide",
+     "title": "Public Value Guide",
+     "description": "Use when the user asks about public value, public administration, public policy, government management, or social-sector and nonprofit management, wants to run a team workshop on one of these topics, or wants to assess their organization's maturity against a public-value practice. Routes to the right topic of the Public Value Guide and answers from the book's own text. Trigger phrases include \"public value,\" \"strategic triangle,\" \"government failure,\" \"public administration,\" \"social sector,\" and \"nonprofit management.\" Companion to [[public-value-metrics]], which covers measuring and justifying public value; for health spending see [[health-economics-guide]].",
+     "page": "https://skills-on-ai.org/skills/public-value-guide/",
+     "raw": "https://skills-on-ai.org/skills/public-value-guide/SKILL.md"
+    },
+    {
+     "name": "public-value-metrics",
+     "title": "Public Value Metrics",
+     "description": "Use when the user asks to explain a public-value concept, compute a metric such as social return on investment, value for money, or cost per outcome, apply Green Book appraisal, or build a business case for government or social-sector software, using the Public Value Metrics book as the grounded source of formulas, worked examples, and pitfalls. Companion to [[public-value-guide]], which covers practice rather than measurement; for health-specific economics see [[health-economics-metrics]].",
+     "page": "https://skills-on-ai.org/skills/public-value-metrics/",
+     "raw": "https://skills-on-ai.org/skills/public-value-metrics/SKILL.md"
     }
    ]
   },

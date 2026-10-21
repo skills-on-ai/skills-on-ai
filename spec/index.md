@@ -27,6 +27,7 @@ Skills:
 - organizational-development
 - people-and-organizational-development
 - software-engineering-{guide,metrics}
+- {public-value,digital-health,agile-itil,service-management}-{guide,metrics}
 - sql
 - united-kingdom-government-digital-and-data-profession-capability-framework
 - user-centred-design
