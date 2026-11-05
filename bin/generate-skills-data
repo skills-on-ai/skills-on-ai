@@ -64,6 +64,8 @@ SLUG_TITLES = {
     "mlops": "MLOps",
     "on-call-rotation": "On-Call Rotation",
     "3d-printing": "3D Printing",
+    "3-21-0-inbox-system": "3-21-0 Inbox System",
+    "linkedin-refresh": "LinkedIn Refresh",
 }
 
 

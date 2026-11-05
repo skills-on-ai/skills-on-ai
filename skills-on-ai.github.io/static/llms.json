@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1135,
+ "skillCount": 1185,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -3974,6 +3974,361 @@
      "description": "Use when asked to write or improve a team's ways of working — ground rules, working agreements, meeting/communication/feedback norms, remote/async practices, or onboarding/orientation docs — or to distinguish \"principles\" from \"values\", \"tenets\", \"norms\", and \"working agreements\" when a team is documenting how it operates.",
      "page": "https://skills-on-ai.org/skills/ways-of-working/",
      "raw": "https://skills-on-ai.org/skills/ways-of-working/SKILL.md"
+    }
+   ]
+  },
+  {
+   "title": "Personal systems",
+   "skills": [
+    {
+     "name": "3-21-0-inbox-system",
+     "title": "3-21-0 Inbox System",
+     "description": "Use when someone wants a daily email routine of three inbox sessions of 21 minutes each that end at zero, with the inbox ignored in between, known as the 321zero or 3-21-0 method. Distinct from [[inbox-cleanup]] (a one-off backlog clearance, not a daily routine), [[focus-blocker]] (blocks distractions rather than scheduling email), and [[text-shortcut-system]] (speeds up the replies written during sessions).",
+     "page": "https://skills-on-ai.org/skills/3-21-0-inbox-system/",
+     "raw": "https://skills-on-ai.org/skills/3-21-0-inbox-system/SKILL.md"
+    },
+    {
+     "name": "adulting-day",
+     "title": "Adulting Day",
+     "description": "Use when someone wants a recurring monthly or quarterly block that batches life admin such as appointments, renewals, forms, repairs, and returns, using one running list. Distinct from [[weekly-planning-meeting]] (planning work and priorities, not admin chores), [[home-reset-system]] (housework), [[calendar-control]] (managing the calendar itself), and [[emergent-task-planning]] (handling tasks that arise unplanned).",
+     "page": "https://skills-on-ai.org/skills/adulting-day/",
+     "raw": "https://skills-on-ai.org/skills/adulting-day/SKILL.md"
+    },
+    {
+     "name": "ai-note-system",
+     "title": "AI Note System",
+     "description": "Use when someone wants to use an AI assistant with their notes to capture, summarize, tag, and retrieve them, while verifying summaries and keeping sensitive content out of unsuitable tools. Distinct from [[reading-capture]] (turning reading into notes in your own words), [[journaling]] (private reflective writing), and [[tab-management]] (taming open pages before they become notes).",
+     "page": "https://skills-on-ai.org/skills/ai-note-system/",
+     "raw": "https://skills-on-ai.org/skills/ai-note-system/SKILL.md"
+    },
+    {
+     "name": "annual-review",
+     "title": "Annual Review",
+     "description": "Use when asked to run a personal yearly review across life areas (what went well, what did not, lessons, and a theme and goals for the next year), or at year end or a birthday. Distinct from [[yearly-planning-meeting]] (a team or organization session), [[decision-journal]] (reviewing individual decisions as they happen), and [[beautiful-life-doc]] (a standing statement of the life one wants, which this review updates).",
+     "page": "https://skills-on-ai.org/skills/annual-review/",
+     "raw": "https://skills-on-ai.org/skills/annual-review/SKILL.md"
+    },
+    {
+     "name": "automated-savings",
+     "title": "Automated Savings",
+     "description": "Use when someone wants saving to happen before spending, by setting up scheduled transfers on payday to savings accounts, goal pots, or retirement contributions. Related to [[basic-budget]] and [[personal-budget]] (deciding how much to save), [[money-map]] (which accounts exist), and [[bill-autopay]] (automating outgoing bills, not savings). This one is the transfer schedule, not the plan behind it.",
+     "page": "https://skills-on-ai.org/skills/automated-savings/",
+     "raw": "https://skills-on-ai.org/skills/automated-savings/SKILL.md"
+    },
+    {
+     "name": "basic-budget",
+     "title": "Basic Budget",
+     "description": "Use when someone has never kept a budget, has abandoned complicated ones, or wants a first budget built in one sitting with a few broad buckets. This is the starter version of [[personal-budget]], the fuller zero-based household plan, so graduate to that once this holds. Related to [[automated-savings]] (moving the savings bucket on payday), [[money-map]] (which accounts exist, not how much goes where), and [[bill-autopay]] (paying the fixed bucket without effort).",
+     "page": "https://skills-on-ai.org/skills/basic-budget/",
+     "raw": "https://skills-on-ai.org/skills/basic-budget/SKILL.md"
+    },
+    {
+     "name": "beautiful-life-doc",
+     "title": "Beautiful Life Doc",
+     "description": "Use when asked to write a personal living document describing, in concrete sensory detail, what a good ordinary life looks like for this person, including days, people, places, work, and what to say no to, and to reread it regularly to guide choices. Distinct from [[regret-minimization]] (a single decision test), [[annual-review]] (looking back over a year), and [[ideal-week-system]] (a schedule). The name is descriptive only.",
+     "page": "https://skills-on-ai.org/skills/beautiful-life-doc/",
+     "raw": "https://skills-on-ai.org/skills/beautiful-life-doc/SKILL.md"
+    },
+    {
+     "name": "bill-autopay",
+     "title": "Bill Autopay",
+     "description": "Use when someone wants recurring bills paid automatically without missed payments, overdrafts, or unnoticed price rises, covering buffers, due dates, alerts, what not to autopay, and a monthly statement check. Related to [[automated-savings]] (automating money going into savings), [[subscription-reset]] (cancelling what you no longer want), and [[basic-budget]] (planning amounts). This one is about safely automating payment of bills you intend to keep.",
+     "page": "https://skills-on-ai.org/skills/bill-autopay/",
+     "raw": "https://skills-on-ai.org/skills/bill-autopay/SKILL.md"
+    },
+    {
+     "name": "birthday-reminders",
+     "title": "Birthday Reminders",
+     "description": "Use when someone wants one reliable system for birthdays and anniversaries, with reminders set early enough to buy, make, or send something rather than only on the day. Pairs with [[gift-ideas-list]] (what to give), and is distinct from [[calendar-control]] (managing the whole calendar), [[event-planning]] (organizing a party), and [[adulting-day]] (batching admin tasks).",
+     "page": "https://skills-on-ai.org/skills/birthday-reminders/",
+     "raw": "https://skills-on-ai.org/skills/birthday-reminders/SKILL.md"
+    },
+    {
+     "name": "calendar-control",
+     "title": "Calendar Control",
+     "description": "Use when asked to defend a personal calendar by auditing it, setting default meeting lengths, adding focus blocks and buffers, and declining requests well, or when meetings crowd out real work. Distinct from [[ideal-week-system]] (designing a template week that this skill then protects), [[weekly-planning-meeting]] (a team meeting), and [[focus-blocker]] (blocking distracting apps rather than calendar time).",
+     "page": "https://skills-on-ai.org/skills/calendar-control/",
+     "raw": "https://skills-on-ai.org/skills/calendar-control/SKILL.md"
+    },
+    {
+     "name": "capsule-wardrobe",
+     "title": "Capsule Wardrobe",
+     "description": "Use when someone wants a small set of clothes that mix and match well, including auditing what they own, choosing a palette, finding gaps, and adjusting for seasons, climate, work needs, and budget. Distinct from [[everything-has-a-home]] (storage for all belongings), [[the-upgrade-list]] (replacing worn everyday items with better ones), and [[packing-checklist]] (what to take on a trip, which a capsule makes easier).",
+     "page": "https://skills-on-ai.org/skills/capsule-wardrobe/",
+     "raw": "https://skills-on-ai.org/skills/capsule-wardrobe/SKILL.md"
+    },
+    {
+     "name": "coupon-autopilot",
+     "title": "Coupon Autopilot",
+     "description": "Use when someone wants low-effort discounts on purchases they already planned, through browser extensions, cashback, loyalty apps, and card offers, while avoiding buying more because it is discounted and weighing the privacy cost of extensions. Related to [[basic-budget]] (the spending plan the discounts serve), [[subscription-reset]] (recurring costs rather than one-off purchases), and [[travel-rewards]] (points on travel spending).",
+     "page": "https://skills-on-ai.org/skills/coupon-autopilot/",
+     "raw": "https://skills-on-ai.org/skills/coupon-autopilot/SKILL.md"
+    },
+    {
+     "name": "credit-check-system",
+     "title": "Credit Check System",
+     "description": "Use when someone wants a scheduled routine to review their own credit reports, spot errors or fraud, dispute mistakes, and understand the difference between a score and a report. Credit systems vary greatly by country. Related to [[identity-protection]] (freezes and alerts, the defensive layer), [[travel-rewards]] (applying for cards), and [[important-docs-vault]] (storing dispute records). This one is the recurring check and dispute process.",
+     "page": "https://skills-on-ai.org/skills/credit-check-system/",
+     "raw": "https://skills-on-ai.org/skills/credit-check-system/SKILL.md"
+    },
+    {
+     "name": "daily-reset-block",
+     "title": "Daily Reset Block",
+     "description": "Use when asked to set up a short protected block in the day for clearing the desk, inbox pile, loose tasks, and head, and for restarting, or when work and life pile up by afternoon. Distinct from [[home-reset-system]] (resetting the house), [[tomorrow-setup]] (preparing the next day, usually at day's end), and [[inbox-cleanup]] (a one-time inbox clear). This is the daily midpoint or end-of-work reset.",
+     "page": "https://skills-on-ai.org/skills/daily-reset-block/",
+     "raw": "https://skills-on-ai.org/skills/daily-reset-block/SKILL.md"
+    },
+    {
+     "name": "everything-has-a-home",
+     "title": "Everything Has a Home",
+     "description": "Use when someone wants to stop losing and relocating things by giving each belonging one fixed place, including choosing places, setting up drop zones, handling clutter, and applying a one-in-one-out rule. Distinct from [[home-reset-system]] (the recurring routine that returns things to those places), [[the-upgrade-list]] (deciding what to replace), and [[moving-checklist]] (packing and relocating).",
+     "page": "https://skills-on-ai.org/skills/everything-has-a-home/",
+     "raw": "https://skills-on-ai.org/skills/everything-has-a-home/SKILL.md"
+    },
+    {
+     "name": "focus-blocker",
+     "title": "Focus Blocker",
+     "description": "Use when someone wants to block distracting websites and apps during chosen hours, or has tried a blocker and keeps bypassing it. Distinct from [[grayscale-mode]] (makes the phone less compelling without blocking anything), [[tab-management]] (controls open tabs rather than access), and [[information-diet]] (decides which sources deserve attention at all).",
+     "page": "https://skills-on-ai.org/skills/focus-blocker/",
+     "raw": "https://skills-on-ai.org/skills/focus-blocker/SKILL.md"
+    },
+    {
+     "name": "friday-highlights",
+     "title": "Friday Highlights",
+     "description": "Use when asked to set up a short end-of-week note listing wins, progress, blockers, and next week's focus, kept for oneself and optionally sent to a manager, or when review time arrives and the user cannot recall their accomplishments. Distinct from [[weekly-planning-meeting]] (a team meeting), [[annual-review]] (a yearly personal review), and [[journaling]] (open-ended private writing).",
+     "page": "https://skills-on-ai.org/skills/friday-highlights/",
+     "raw": "https://skills-on-ai.org/skills/friday-highlights/SKILL.md"
+    },
+    {
+     "name": "gift-ideas-list",
+     "title": "Gift Ideas List",
+     "description": "Use when someone wants a running per-person list of gift ideas captured all year, whenever a person mentions something they want or need, with sizes, preferences, and a budget, so gift-giving is calm rather than a last-minute scramble. Pairs with [[birthday-reminders]] (the dates and lead-time alerts), and is distinct from [[event-planning]] (organizing the occasion), [[personal-budget]] (the overall spending plan), and [[the-upgrade-list]] (items for yourself).",
+     "page": "https://skills-on-ai.org/skills/gift-ideas-list/",
+     "raw": "https://skills-on-ai.org/skills/gift-ideas-list/SKILL.md"
+    },
+    {
+     "name": "grayscale-mode",
+     "title": "Grayscale Mode",
+     "description": "Use when someone wants to make their phone less compelling by switching the screen to grayscale, or asks where that setting is and how to toggle it quickly. Distinct from [[focus-blocker]] (blocks access rather than dulling appeal), [[information-diet]] (chooses what to consume), and [[tab-management]] (browser organization).",
+     "page": "https://skills-on-ai.org/skills/grayscale-mode/",
+     "raw": "https://skills-on-ai.org/skills/grayscale-mode/SKILL.md"
+    },
+    {
+     "name": "health-maintenance",
+     "title": "Health Maintenance",
+     "description": "Use when asked to set up a personal calendar of routine care (dentist, eye checks, vaccinations, screenings, physical exams) and a one-page health summary, or when someone cannot remember when they last had a check. Distinct from [[important-docs-vault]] (where the records themselves are stored), [[adulting-day]] (a recurring block to run errands like booking these), and [[birthday-reminders]] (the same reminder mechanics for dates). This is a scheduling system, not medical advice.",
+     "page": "https://skills-on-ai.org/skills/health-maintenance/",
+     "raw": "https://skills-on-ai.org/skills/health-maintenance/SKILL.md"
+    },
+    {
+     "name": "home-backup-kit",
+     "title": "Home Backup Kit",
+     "description": "Use when someone wants a household plan and kit for when ordinary things fail, such as a power cut, no water, no heat, no internet, a lost key, or a dead phone, including backups for the small stuff. Distinct from [[business-continuity-plan]] (the organizational version this scales down), [[important-docs-vault]] (documents only), and [[moving-checklist]] (a one-time relocation).",
+     "page": "https://skills-on-ai.org/skills/home-backup-kit/",
+     "raw": "https://skills-on-ai.org/skills/home-backup-kit/SKILL.md"
+    },
+    {
+     "name": "home-reset-system",
+     "title": "Home Reset System",
+     "description": "Use when someone wants a short recurring routine that returns the home to a livable baseline, with daily resets and weekly zones, rather than occasional marathon cleans. Distinct from [[everything-has-a-home]] (assigning places to belongings, which makes resetting fast), [[daily-reset-block]] (a reset of the day and the mind, not the house), and [[adulting-day]] (batching admin tasks, not housework).",
+     "page": "https://skills-on-ai.org/skills/home-reset-system/",
+     "raw": "https://skills-on-ai.org/skills/home-reset-system/SKILL.md"
+    },
+    {
+     "name": "hydration-autopilot",
+     "title": "Hydration Autopilot",
+     "description": "Use when asked to make drinking water automatic through cues such as bottle placement and attaching sips to existing habits, or when someone forgets to drink during the day. Distinct from [[weekly-meal-plan]] (food planning) and [[sleep-rhythm-system]] (another daily habit system). Habit design only, with no daily amount prescribed.",
+     "page": "https://skills-on-ai.org/skills/hydration-autopilot/",
+     "raw": "https://skills-on-ai.org/skills/hydration-autopilot/SKILL.md"
+    },
+    {
+     "name": "ideal-week-system",
+     "title": "Ideal Week System",
+     "description": "Use when asked to design a template week in time blocks that reflects priorities, energy, and commitments, then compare real weeks against it. Distinct from [[weekly-planning-meeting]] (a team meeting to plan one week), [[calendar-control]] (defending and auditing the live calendar), and [[annual-review]] (yearly reflection on goals).",
+     "page": "https://skills-on-ai.org/skills/ideal-week-system/",
+     "raw": "https://skills-on-ai.org/skills/ideal-week-system/SKILL.md"
+    },
+    {
+     "name": "identity-protection",
+     "title": "Identity Protection",
+     "description": "Use when someone wants to reduce the risk of identity theft or fraud, or has had a data breach or suspected theft, covering credit freezes where available, account alerts, multi-factor authentication, phishing habits, and the steps to take afterwards. Rules vary by country. Related to [[password-manager]] (unique passwords), [[credit-check-system]] (checking reports for signs of fraud), and [[important-docs-vault]] (safe storage of identity documents).",
+     "page": "https://skills-on-ai.org/skills/identity-protection/",
+     "raw": "https://skills-on-ai.org/skills/identity-protection/SKILL.md"
+    },
+    {
+     "name": "important-docs-vault",
+     "title": "Important Docs Vault",
+     "description": "Use when someone wants one secure place for vital documents, both a physical store and an encrypted digital one, with an inventory, an emergency access plan, and a rule for originals versus copies. Distinct from [[estate-planning]] (deciding what happens to assets and who decides), [[last-will-and-testament]] (drafting the will itself), [[password-manager]] (storing logins), and [[identity-protection]] (guarding against misuse of identity data).",
+     "page": "https://skills-on-ai.org/skills/important-docs-vault/",
+     "raw": "https://skills-on-ai.org/skills/important-docs-vault/SKILL.md"
+    },
+    {
+     "name": "inbox-cleanup",
+     "title": "Inbox Cleanup",
+     "description": "Use when someone has an overloaded email inbox with thousands of old messages and wants a one-off cleanup (archive everything older than a date, mass unsubscribe, filters) followed by a maintenance habit. Distinct from [[3-21-0-inbox-system]] (an ongoing routine, not a backlog clearance), [[focus-blocker]] (limits access to distractions), and [[text-shortcut-system]] (speeds up typing replies).",
+     "page": "https://skills-on-ai.org/skills/inbox-cleanup/",
+     "raw": "https://skills-on-ai.org/skills/inbox-cleanup/SKILL.md"
+    },
+    {
+     "name": "information-diet",
+     "title": "Information Diet",
+     "description": "Use when someone feels overwhelmed by news, feeds, newsletters, or podcasts and wants to audit those inputs, cut some, schedule the rest, and choose higher-quality sources. Distinct from [[focus-blocker]] (blocks access during chosen hours), [[grayscale-mode]] (dulls the phone's appeal), and [[reading-capture]] (processes what has already been read).",
+     "page": "https://skills-on-ai.org/skills/information-diet/",
+     "raw": "https://skills-on-ai.org/skills/information-diet/SKILL.md"
+    },
+    {
+     "name": "inner-circle",
+     "title": "Inner Circle",
+     "description": "Use when asked to deliberately choose and maintain the handful of closest relationships, with a list, a contact cadence, reach-out reminders, and ways to show up in hard times, or when someone feels busy and drifting from people who matter. Distinct from [[birthday-reminders]] (dates only), [[saturdates-ritual]] (a standing date), and [[reputation-radar]] (how one appears to others).",
+     "page": "https://skills-on-ai.org/skills/inner-circle/",
+     "raw": "https://skills-on-ai.org/skills/inner-circle/SKILL.md"
+    },
+    {
+     "name": "life-dinner",
+     "title": "Life Dinner",
+     "description": "Use when asked to set up a regular dinner for a couple to check in on the relationship, with an agenda agreed in advance so hard subjects have a place. Distinct from [[saturdates-ritual]] (time together for fun, not discussion), [[crucial-conversations]] (handling a single high-stakes talk), and [[weekly-planning-meeting]] (a team meeting).",
+     "page": "https://skills-on-ai.org/skills/life-dinner/",
+     "raw": "https://skills-on-ai.org/skills/life-dinner/SKILL.md"
+    },
+    {
+     "name": "linkedin-refresh",
+     "title": "LinkedIn Refresh",
+     "description": "Use when asked to refresh a LinkedIn profile (headline, about section, experience, skills, photo, and recommendations), especially before a job search or after a role change. Distinct from [[share-on-linkedin]] (writing posts), [[share-on-linkedin-projects]] (sharing project work), and [[reputation-radar]] (checking how one appears across the web).",
+     "page": "https://skills-on-ai.org/skills/linkedin-refresh/",
+     "raw": "https://skills-on-ai.org/skills/linkedin-refresh/SKILL.md"
+    },
+    {
+     "name": "minimum-viable-workout",
+     "title": "Minimum Viable Workout",
+     "description": "Use when asked to define the smallest workout someone will still do on their worst day so the exercise habit never fully stops, or when all-or-nothing thinking keeps ending routines. Distinct from [[bodyweight-fitness]] (a full no-equipment training approach), [[home-gym-fitness]] (equipment at home), and [[recovery-and-rest-fitness]] (planned rest and recovery). This is the floor beneath those plans, not a training programme.",
+     "page": "https://skills-on-ai.org/skills/minimum-viable-workout/",
+     "raw": "https://skills-on-ai.org/skills/minimum-viable-workout/SKILL.md"
+    },
+    {
+     "name": "money-map",
+     "title": "Money Map",
+     "description": "Use when someone wants a one-page overview of every account they have and how money flows between them, covering income, bills, spending, savings, investments, and debts, using names and institutions rather than balances or numbers. Differs from [[basic-budget]] and [[personal-budget]], which plan amounts, while this shows structure. Related to [[automated-savings]] and [[bill-autopay]] (the transfers and payments the map reveals).",
+     "page": "https://skills-on-ai.org/skills/money-map/",
+     "raw": "https://skills-on-ai.org/skills/money-map/SKILL.md"
+    },
+    {
+     "name": "mood-shift-playlist",
+     "title": "Mood Shift Playlist",
+     "description": "Use when asked to build playlists that move from a current mood to a target mood (calm, focus, energy, or lift) with tracks ordered gradually. Distinct from [[daily-reset-block]] (a clearing routine that could use a playlist), [[rainy-day-folder]] (saved kind messages and memories), and [[journaling]] (writing through feelings). A personal music tool, not treatment for mood.",
+     "page": "https://skills-on-ai.org/skills/mood-shift-playlist/",
+     "raw": "https://skills-on-ai.org/skills/mood-shift-playlist/SKILL.md"
+    },
+    {
+     "name": "offline-learning",
+     "title": "Offline Learning",
+     "description": "Use when someone wants to learn without screens or a connection, or with downloaded material on commutes and flights, using books, paper notes, saved courses, and protected device-free time. Distinct from [[deliberate-practice]] (how to practice for skill, whatever the medium), [[reading-capture]] (processing what you read into notes), and [[focus-blocker]] (blocks distractions on connected devices).",
+     "page": "https://skills-on-ai.org/skills/offline-learning/",
+     "raw": "https://skills-on-ai.org/skills/offline-learning/SKILL.md"
+    },
+    {
+     "name": "packing-checklist",
+     "title": "Packing Checklist",
+     "description": "Use when someone wants a reusable master packing list with modules for different trip types so they stop forgetting things and stop overpacking. Distinct from [[travel-itinerary]] (the plan of where to go and when), [[moving-checklist]] (relocating a household), [[capsule-wardrobe]] (the clothing set that feeds a packing list), and [[event-planning]] (organizing an event).",
+     "page": "https://skills-on-ai.org/skills/packing-checklist/",
+     "raw": "https://skills-on-ai.org/skills/packing-checklist/SKILL.md"
+    },
+    {
+     "name": "password-manager",
+     "title": "Password Manager",
+     "description": "Use when someone wants to choose and adopt one password manager, migrate from reused or remembered passwords, set unique passwords with multi-factor authentication, and prepare emergency access and an offline recovery kit. Related to [[identity-protection]] (the wider protection plan including freezes and phishing habits), [[important-docs-vault]] (storing documents rather than logins), and [[estate-planning]] (access for others after death or incapacity).",
+     "page": "https://skills-on-ai.org/skills/password-manager/",
+     "raw": "https://skills-on-ai.org/skills/password-manager/SKILL.md"
+    },
+    {
+     "name": "rainy-day-folder",
+     "title": "Rainy Day Folder",
+     "description": "Use when asked to create a saved collection of kind messages, praise, photos, and good memories to open on a bad day, or when someone wants a ready-made comfort file for low moments. Distinct from [[mood-shift-playlist]] (music for changing mood), [[journaling]] (new writing), and [[beautiful-life-doc]] (a vision of a good ordinary life). A self-care tool, not treatment.",
+     "page": "https://skills-on-ai.org/skills/rainy-day-folder/",
+     "raw": "https://skills-on-ai.org/skills/rainy-day-folder/SKILL.md"
+    },
+    {
+     "name": "reading-capture",
+     "title": "Reading Capture",
+     "description": "Use when someone reads books, articles, or papers and forgets most of it, or wants a system to capture highlights and ideas and then process them into their own words so they can be found and used later. Distinct from [[ai-note-system]] (managing notes with an AI assistant), [[deliberate-practice]] (building a skill through focused repetition), and [[tab-management]] (holding pages to read).",
+     "page": "https://skills-on-ai.org/skills/reading-capture/",
+     "raw": "https://skills-on-ai.org/skills/reading-capture/SKILL.md"
+    },
+    {
+     "name": "reputation-radar",
+     "title": "Reputation Radar",
+     "description": "Use when asked to set up a recurring check of how one appears, online (searching one's name, name alerts, old profiles, tagged posts) and in practice (asking trusted colleagues what they would say), or when preparing for a job search or public role. Distinct from [[linkedin-refresh]] (updating one profile), [[getting-feedback]] (receiving feedback on work), and [[identity-protection]] (guarding against fraud and theft).",
+     "page": "https://skills-on-ai.org/skills/reputation-radar/",
+     "raw": "https://skills-on-ai.org/skills/reputation-radar/SKILL.md"
+    },
+    {
+     "name": "saturdates-ritual",
+     "title": "Saturdates Ritual",
+     "description": "Use when asked to set up a standing Saturday date, a protected recurring time for a partner, or the same idea for a child, friend, or oneself, covering budget, childcare, phones away, taking turns planning, and a low-effort fallback. Distinct from [[life-dinner]] (a dinner with an agenda for discussing the relationship, not for fun) and [[event-planning]] (one-off events).",
+     "page": "https://skills-on-ai.org/skills/saturdates-ritual/",
+     "raw": "https://skills-on-ai.org/skills/saturdates-ritual/SKILL.md"
+    },
+    {
+     "name": "sleep-environment",
+     "title": "Sleep Environment",
+     "description": "Use when asked to set up or fix a bedroom for sleep, covering darkness, quiet, temperature, comfort, and keeping devices out. Distinct from [[sleep-rhythm-system]] (the timing and habits around sleep) and [[sleep-quality-assessment]] (judging how well someone sleeps). Practical room setup, not treatment.",
+     "page": "https://skills-on-ai.org/skills/sleep-environment/",
+     "raw": "https://skills-on-ai.org/skills/sleep-environment/SKILL.md"
+    },
+    {
+     "name": "sleep-rhythm-system",
+     "title": "Sleep Rhythm System",
+     "description": "Use when asked to set up consistent wake and bed times, a wind-down routine, morning light, and a plan for weekends and travel. Distinct from [[sleep-environment]] (the bedroom itself) and [[sleep-quality-assessment]] (assessing how well someone sleeps). Non-clinical habit design, not treatment of a sleep disorder.",
+     "page": "https://skills-on-ai.org/skills/sleep-rhythm-system/",
+     "raw": "https://skills-on-ai.org/skills/sleep-rhythm-system/SKILL.md"
+    },
+    {
+     "name": "subscription-reset",
+     "title": "Subscription Reset",
+     "description": "Use when someone suspects they pay for recurring subscriptions they no longer use, or wants a yearly audit that finds them in statements, cancels the unwanted ones, and records renewal dates. Related to [[bill-autopay]] (safely automating bills you keep), [[basic-budget]] (planning amounts), and [[coupon-autopilot]] (discounts on one-off purchases). This one finds and removes recurring charges rather than managing the ones you intend to keep.",
+     "page": "https://skills-on-ai.org/skills/subscription-reset/",
+     "raw": "https://skills-on-ai.org/skills/subscription-reset/SKILL.md"
+    },
+    {
+     "name": "tab-management",
+     "title": "Tab Management",
+     "description": "Use when someone has dozens of browser tabs open, loses things in them, or wants a routine for keeping tabs under control with sessions, a save-for-later place, a tab limit, and an end-of-day close. Distinct from [[focus-blocker]] (blocks sites rather than organizing tabs), [[reading-capture]] (processes what was read), and [[inbox-cleanup]] (the same clutter problem for email).",
+     "page": "https://skills-on-ai.org/skills/tab-management/",
+     "raw": "https://skills-on-ai.org/skills/tab-management/SKILL.md"
+    },
+    {
+     "name": "text-shortcut-system",
+     "title": "Text Shortcut System",
+     "description": "Use when someone types the same phrases repeatedly (addresses, email replies, signatures, links) and wants text expansion or keyboard replacement shortcuts with a naming convention. Distinct from [[keyboard-shortcut]] (key combinations that trigger commands, not typed expansions), [[inbox-cleanup]] (reduces the mail itself), and [[3-21-0-inbox-system]] (a routine that these shortcuts speed up).",
+     "page": "https://skills-on-ai.org/skills/text-shortcut-system/",
+     "raw": "https://skills-on-ai.org/skills/text-shortcut-system/SKILL.md"
+    },
+    {
+     "name": "the-upgrade-list",
+     "title": "The Upgrade List",
+     "description": "Use when someone wants a running, ranked list of everyday items worth replacing with a better version, bought one at a time when use justifies it rather than on impulse. Distinct from [[personal-budget]] (the whole spending plan), [[everything-has-a-home]] (organizing what you own), [[capsule-wardrobe]] (clothing specifically), and [[regret-minimization]] (a framework for big life choices, not purchases).",
+     "page": "https://skills-on-ai.org/skills/the-upgrade-list/",
+     "raw": "https://skills-on-ai.org/skills/the-upgrade-list/SKILL.md"
+    },
+    {
+     "name": "tomorrow-setup",
+     "title": "Tomorrow Setup",
+     "description": "Use when asked to build a short evening routine that prepares the next day (top priorities, calendar check, clothes, bag, and food), or when mornings feel rushed and things get forgotten. Distinct from [[daily-reset-block]] (tidying the home and mind at day's end), [[calendar-control]] (shaping the calendar itself), and [[weekly-planning-meeting]] (planning a whole week with a team).",
+     "page": "https://skills-on-ai.org/skills/tomorrow-setup/",
+     "raw": "https://skills-on-ai.org/skills/tomorrow-setup/SKILL.md"
+    },
+    {
+     "name": "travel-rewards",
+     "title": "Travel Rewards",
+     "description": "Use when someone wants a simple points and miles strategy for cheaper travel, picking one program, earning on spending they already do, and avoiding debt or overspending for points. Rules and products vary by country. Related to [[coupon-autopilot]] (discounts on everyday purchases), [[travel-itinerary]] (planning the trip itself), [[basic-budget]] (the spending plan points must never override), and [[credit-check-system]] (watching credit when applying for cards).",
+     "page": "https://skills-on-ai.org/skills/travel-rewards/",
+     "raw": "https://skills-on-ai.org/skills/travel-rewards/SKILL.md"
+    },
+    {
+     "name": "weekly-meal-plan",
+     "title": "Weekly Meal Plan",
+     "description": "Use when asked to plan the week's dinners, build the shopping list, use leftovers, and set fallback meals, while respecting dietary needs, allergies, and budget. Distinct from [[basic-budget]] (the whole household budget), [[hydration-autopilot]] (drinks), and [[event-planning]] (a single occasion). Planning logistics only, not a diet or weight-loss plan.",
+     "page": "https://skills-on-ai.org/skills/weekly-meal-plan/",
+     "raw": "https://skills-on-ai.org/skills/weekly-meal-plan/SKILL.md"
     }
    ]
   },

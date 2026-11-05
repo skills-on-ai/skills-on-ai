@@ -497,6 +497,56 @@ Skills:
 - united-kingdom-national-health-service-digital-technology-assessment-criteria
 - locale-{language}-{region} (one skill per BCP 47 locale, for example `locale-cy-gb`; the `locale` skill is the parent)
 - locale-peer-id (`.locale-peer-id` files that track translated directories across locales)
+- 3-21-0-inbox-system
+- adulting-day
+- ai-note-system
+- annual-review
+- automated-savings
+- basic-budget
+- beautiful-life-doc
+- bill-autopay
+- birthday-reminders
+- calendar-control
+- capsule-wardrobe
+- coupon-autopilot
+- credit-check-system
+- daily-reset-block
+- everything-has-a-home
+- focus-blocker
+- friday-highlights
+- gift-ideas-list
+- grayscale-mode
+- health-maintenance
+- home-backup-kit
+- home-reset-system
+- hydration-autopilot
+- ideal-week-system
+- identity-protection
+- important-docs-vault
+- inbox-cleanup
+- information-diet
+- inner-circle
+- life-dinner
+- linkedin-refresh
+- minimum-viable-workout
+- money-map
+- mood-shift-playlist
+- offline-learning
+- packing-checklist
+- password-manager
+- rainy-day-folder
+- reading-capture
+- reputation-radar
+- saturdates-ritual
+- sleep-environment
+- sleep-rhythm-system
+- subscription-reset
+- tab-management
+- text-shortcut-system
+- the-upgrade-list
+- tomorrow-setup
+- travel-rewards
+- weekly-meal-plan
 
 Subprojects:
 

@@ -75,6 +75,8 @@ addressed only if money happens to remain.
 
 ## Learn more
 
+- [[basic-budget]] for a smaller first budget built in one sitting, before
+  taking on this fuller plan.
 - [[budget-forecasting]] for the equivalent discipline applied to an
   organization's revenue and costs rather than a person's or
   household's own money.
