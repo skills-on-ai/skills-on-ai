@@ -3,6 +3,13 @@
 Guidance for AI agents working in this repository. The single source of truth
 is [`spec/`](spec/index.md); this file summarizes it and links to it.
 
+## Specification Driven Development
+
+**The `spec/` directory is the source of truth.** 
+- Before doing anything read all files inside the `spec/` directory using your file-reading tools.
+- Treat all files inside `spec/` as strict requirements. Where any file disagrees with the spec, the spec wins: fix the file, or change the spec on purpose and bring the other files into line in the same commit. 
+- Do not improvise structure, style, or citation practice.
+
 ## What this repo is
 
 Skills on AI: a catalog of 1,100+ agent skills (`skills/<name>/SKILL.md`) and
