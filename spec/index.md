@@ -39,6 +39,7 @@ Skills:
 - {emacs,vim,org-mode}
 - {org-contacts,org-roam}
 - {git,github,gitlab,codeberg,keycloak}
+- github-discussion-first-post-for-{announcements,general,ideas,polls,qa,show-and-tell}
 - {aws,azure,civo,google,scaleway}-cloud
 - {claude,gemini,gpt,mistral,gb1,glimmer,ollama}-ai
 - {javascript,python,rust,typescript}-programming

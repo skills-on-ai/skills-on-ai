@@ -1013,6 +1013,12 @@ and every skill is listed once, in alphabetical order.
 - [codeberg](skills/codeberg/)
 - [git](skills/git/)
 - [github](skills/github/)
+- [github-discussion-first-post-for-announcements](skills/github-discussion-first-post-for-announcements/)
+- [github-discussion-first-post-for-general](skills/github-discussion-first-post-for-general/)
+- [github-discussion-first-post-for-ideas](skills/github-discussion-first-post-for-ideas/)
+- [github-discussion-first-post-for-polls](skills/github-discussion-first-post-for-polls/)
+- [github-discussion-first-post-for-qa](skills/github-discussion-first-post-for-qa/)
+- [github-discussion-first-post-for-show-and-tell](skills/github-discussion-first-post-for-show-and-tell/)
 - [gitlab](skills/gitlab/)
 
 ### Design & UX

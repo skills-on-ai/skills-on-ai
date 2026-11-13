@@ -2,7 +2,7 @@
  "name": "Skills on AI",
  "url": "https://skills-on-ai.org/",
  "repository": "https://github.com/skills-on-ai/skills-on-ai",
- "skillCount": 1185,
+ "skillCount": 1191,
  "categories": [
   {
    "title": "Accessibility & inclusion",
@@ -5813,6 +5813,48 @@
      "description": "Use when asked about GitHub-specific features — pull requests, GitHub Actions, Issues, the gh CLI, branch protection, or GitHub Pages — as opposed to git itself (see git) or another hosting platform (see gitlab, codeberg).",
      "page": "https://skills-on-ai.org/skills/github/",
      "raw": "https://skills-on-ai.org/skills/github/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-announcements",
+     "title": "Github Discussion First Post for Announcements",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"Announcements\" category — a welcome-and-news post that tells readers what the project is, what has changed or launched, and what to do next. Distinct from [[github-discussion-first-post-for-general]] (open conversation), [[github-discussion-first-post-for-show-and-tell]] (a member sharing their work), and [[github]] (GitHub features generally).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-announcements/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-announcements/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-general",
+     "title": "Github Discussion First Post for General",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"General\" category — an open, welcoming conversation starter that invites people to introduce themselves and talk about the project. Distinct from [[github-discussion-first-post-for-announcements]] (maintainer news), [[github-discussion-first-post-for-ideas]] (feature suggestions), [[github-discussion-first-post-for-qa]] (questions with answers), and [[github]] (platform features).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-general/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-general/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-ideas",
+     "title": "Github Discussion First Post for Ideas",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"Ideas\" category — a post that explains how to suggest changes and features, or that proposes a first idea with its problem, proposal, and alternatives. Distinct from [[github-discussion-first-post-for-general]] (open chat), [[github-discussion-first-post-for-polls]] (structured voting), and [[github-discussion-first-post-for-qa]] (questions needing answers).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-ideas/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-ideas/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-polls",
+     "title": "Github Discussion First Post for Polls",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"Polls\" category — a poll with one clear question, a small set of distinct options, and context explaining how the result will be used. Distinct from [[github-discussion-first-post-for-ideas]] (open-ended suggestions), [[github-discussion-first-post-for-general]] (unstructured conversation), and [[github]] (platform features).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-polls/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-polls/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-qa",
+     "title": "Github Discussion First Post for Qa",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"Q&A\" category — either a well-formed question, with context, what was tried, and expected versus actual results, or a pinned post explaining how to ask. Distinct from [[github-discussion-first-post-for-general]] (open chat), [[github-discussion-first-post-for-ideas]] (feature proposals), and [[github]] (platform features such as Issues).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-qa/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-qa/SKILL.md"
+    },
+    {
+     "name": "github-discussion-first-post-for-show-and-tell",
+     "title": "Github Discussion First Post for Show and Tell",
+     "description": "Use when asked to write the first post in a GitHub Discussions \"Show and tell\" category — a post that shares something built with or around the project, or invites others to, with what it is, why it was made, and how to try it. Distinct from [[github-discussion-first-post-for-announcements]] (maintainer news), [[github-discussion-first-post-for-ideas]] (proposals), and [[github-discussion-first-post-for-general]] (open chat).",
+     "page": "https://skills-on-ai.org/skills/github-discussion-first-post-for-show-and-tell/",
+     "raw": "https://skills-on-ai.org/skills/github-discussion-first-post-for-show-and-tell/SKILL.md"
     },
     {
      "name": "gitlab",
