@@ -1,0 +1,13 @@
+How to suggest a new skill or a change
+
+Ideas that start from a problem are easiest to judge. Please copy this template into a new Ideas post.
+
+Problem: What task is an agent doing badly today, and for whom?
+
+Proposal: What skill would you add or change? Give a proposed name in lowercase with hyphens.
+
+Alternatives: Which existing skills come close, and how would the new one differ?
+
+Open questions: What are you unsure about?
+
+What happens next: Maintainers read ideas and, when one is clear and in scope, turn it into an Issue or a skill. Posting an idea does not promise that it will be built.

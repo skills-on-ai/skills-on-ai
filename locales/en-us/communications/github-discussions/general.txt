@@ -1,0 +1,9 @@
+Say hello and tell us how you use Skills on AI
+
+Welcome. This is the place for introductions and open conversation about the Skills on AI catalog.
+
+I will start: I am a maintainer, and I care most about keeping each skill short, grounded, and easy for an agent to follow.
+
+Your turn: what are you using skills for, and which one has been most useful?
+
+For questions that need an answer, use Q&A. For suggestions, use Ideas. For bugs, open an Issue.

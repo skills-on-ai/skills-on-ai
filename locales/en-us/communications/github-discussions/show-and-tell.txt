@@ -1,0 +1,13 @@
+Share what you built with Skills on AI
+
+This category is for showing what you have made with the catalog: an agent setup, a custom skill, a script that uses the site's llms.txt, or an experiment.
+
+When you post, please include:
+
+- What it is, in one sentence
+- Why you made it
+- Something to look at, such as a screenshot, snippet, or link
+- How others can try it
+- What feedback you want, if any
+
+I will go first in the comments. Show us yours.

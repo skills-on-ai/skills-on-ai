@@ -1,0 +1,13 @@
+How do I install a skill in my agent?
+
+Goal: Use one skill from the catalog in my agent.
+
+What I tried: [Describe the steps you took, in order.]
+
+Expected: [What you thought would happen.]
+
+Actual: [What happened, with the exact error text in a code block.]
+
+Environment: [Agent or tool and version, operating system.]
+
+This is a template for good questions. Keep one question per post, remove secrets from logs, and mark the best reply as the answer once it works.

@@ -1,0 +1,16 @@
+Welcome to Skills on AI Discussions
+
+Skills on AI is a catalog of more than 1,100 agent skills, each a single SKILL.md file, published at https://skills-on-ai.org/.
+
+We have turned on GitHub Discussions so the community has a place to talk. Here is where each kind of conversation belongs:
+
+- Questions about using a skill: Q&A
+- Suggestions for new skills or changes: Ideas
+- Something you built with the catalog: Show and tell
+- Votes on direction: Polls
+- Introductions and everything else: General
+- Bugs and concrete tasks: Issues
+
+Please read the repository's contributing guidance before proposing a new skill, since every skill follows the same format.
+
+What to do next: introduce yourself in General, and tell us which skill you use most.

@@ -1,0 +1,14 @@
+Which kind of skills should we add next?
+
+We are deciding where to focus new skills. This poll is advisory: it informs the maintainers but does not bind them.
+
+Poll question: Which area should get the most new skills next?
+
+Options:
+1. Software engineering
+2. Health and care
+3. Business and strategy
+4. Design and user experience
+5. Something else (tell us in the comments)
+
+Please add a comment saying why you chose your option, because votes show what and comments show why.
