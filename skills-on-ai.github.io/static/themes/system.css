@@ -1,0 +1,8 @@
+/* Theme: system ("Follow this device")
+ *
+ * Not a Lily theme: a hand-written file that loads the light or dark Lily
+ * theme to match the browser's prefers-color-scheme setting, and follows it
+ * live when the setting changes. Keep it when refreshing static/themes/ from
+ * @lilydesignsystem/themes. */
+@import url("light.css") (prefers-color-scheme: light);
+@import url("dark.css") (prefers-color-scheme: dark);

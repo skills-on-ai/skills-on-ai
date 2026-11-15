@@ -3,13 +3,25 @@
 	import SiteNav from './SiteNav.svelte';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
 	import type { ShareTarget } from '@lilydesignsystem/svelte-share-picker';
-	import { themes, DEFAULT_THEME_ID } from '#lib/data/themes.js';
+	import { themes, DEFAULT_THEME_ID, THEME_COOKIE } from '#lib/data/themes.js';
 	import { SITE_NAME } from '#lib/site.js';
 
 	// The picker bar's default seven-step text-size scale (largest … smallest,
 	// starting on normal) is used; theme.css maps each slug to a font scale.
 	// Storage keys match the inline script in app.html, which applies the
 	// stored theme and text size before first paint.
+	// The theme choice is kept in a cookie (not localStorage); the inline script
+	// in app.html reads the same cookie before first paint.
+	function readThemeCookie(): string {
+		if (typeof document === 'undefined') return DEFAULT_THEME_ID;
+		const m = document.cookie.match(new RegExp(`(?:^|; )${THEME_COOKIE}=([a-z0-9-]+)`));
+		return m && themes.some((t) => t.id === m[1]) ? m[1] : DEFAULT_THEME_ID;
+	}
+	function saveThemeCookie(slug: string): void {
+		// Don't set a cookie until the visitor leaves the default.
+		if (slug === DEFAULT_THEME_ID && !document.cookie.includes(`${THEME_COOKIE}=`)) return;
+		document.cookie = `${THEME_COOKIE}=${slug}; path=/; max-age=31536000; SameSite=Lax`;
+	}
 	const themeSlugs = themes.map((t) => t.id);
 	const themeLabels = Object.fromEntries(themes.map((t) => [t.id, t.label]));
 	// The share-picker ships no social-network URLs by design; a share list
@@ -88,8 +100,9 @@
 					themes={themeSlugs}
 					themeProps={{
 						themeLabels,
-						storageKey: 'skills-on-ai-theme',
+						value: readThemeCookie(),
 						defaultValue: DEFAULT_THEME_ID,
+						onChange: saveThemeCookie,
 						name: 'theme'
 					}}
 					locales={['en']}

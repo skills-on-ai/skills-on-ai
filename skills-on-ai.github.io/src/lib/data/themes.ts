@@ -5,12 +5,20 @@
 export interface ThemeOption {
 	id: string;
 	label: string;
-	group: 'Government & healthcare' | 'General';
+	group: 'Device' | 'Government & healthcare' | 'General';
 }
 
-export const DEFAULT_THEME_ID = 'light';
+// 'system' follows the browser's light/dark setting (static/themes/system.css).
+export const DEFAULT_THEME_ID = 'system';
+
+// Cookie that stores the visitor's choice; src/app.html reads it before first paint.
+export const THEME_COOKIE = 'skills-on-ai-theme';
 
 export const themes: ThemeOption[] = [
+	// Device first, then the two plain modes
+	{ id: 'system', label: 'Follow this device', group: 'Device' },
+	{ id: 'light', label: 'Light', group: 'Device' },
+	{ id: 'dark', label: 'Dark', group: 'Device' },
 	// Government & healthcare
 	{
 		id: 'united-kingdom-national-health-service-england-for-practitioners',
@@ -61,7 +69,6 @@ export const themes: ThemeOption[] = [
 	{ id: 'corporate', label: 'Corporate', group: 'General' },
 	{ id: 'cupcake', label: 'Cupcake', group: 'General' },
 	{ id: 'cyberpunk', label: 'Cyberpunk', group: 'General' },
-	{ id: 'dark', label: 'Dark', group: 'General' },
 	{ id: 'dim', label: 'Dim', group: 'General' },
 	{ id: 'dracula', label: 'Dracula', group: 'General' },
 	{ id: 'emerald', label: 'Emerald', group: 'General' },
@@ -70,7 +77,6 @@ export const themes: ThemeOption[] = [
 	{ id: 'garden', label: 'Garden', group: 'General' },
 	{ id: 'halloween', label: 'Halloween', group: 'General' },
 	{ id: 'lemonade', label: 'Lemonade', group: 'General' },
-	{ id: 'light', label: 'Light', group: 'General' },
 	{ id: 'lofi', label: 'Lo-Fi', group: 'General' },
 	{ id: 'luxury', label: 'Luxury', group: 'General' },
 	{ id: 'night', label: 'Night', group: 'General' },

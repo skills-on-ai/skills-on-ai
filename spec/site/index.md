@@ -24,7 +24,7 @@ in [catalog](../catalog/index.md).
   Dependencies: `svelte-headless` (components), `svelte-picker-bar` (header
   controls: search, theme, language, text size, share), and
   `svelte-share-picker` (for its `ShareTarget` type).
-- **Themes:** the 45 stylesheets in `static/themes/` are copied from
+- **Themes:** the 45 Lily stylesheets in `static/themes/` are copied from
   `@lilydesignsystem/themes`. Refresh them when the package changes, because
   each release adds styling for new components (the search picker was
   unstyled until the 0.4.0 refresh).
@@ -38,9 +38,17 @@ in [catalog](../catalog/index.md).
   Text size uses the picker bar's default seven steps (`largest`, `larger`,
   `large`, `normal`, `small`, `smaller`, `smallest`); `src/lib/styles/theme.css`
   maps each slug to a font scale.
-- **State kept in the browser:** theme and text size persist to
-  `localStorage` under `skills-on-ai-theme` and `skills-on-ai-text-size`;
-  `src/app.html` applies them before first paint.
+- **Light/dark follows the browser by default.** The UI uses the browser's
+  light/dark setting (`prefers-color-scheme`). The theme picker lists three
+  choices first: "Follow this device" (the default, slug `system`), "Light",
+  and "Dark"; the other 42 Lily themes follow. `static/themes/system.css` is
+  hand-written (it `@import`s `light.css` or `dark.css` by media query), so
+  keep it when refreshing the other theme files.
+- **State kept in the browser:** the theme choice persists to the
+  `skills-on-ai-theme` cookie (path `/`, one year, `SameSite=Lax`), set only
+  once the visitor picks something other than the default; text size persists
+  to `localStorage` under `skills-on-ai-text-size`. `src/app.html` applies
+  both before first paint.
 - **Search:** the header search picker navigates to `/?<terms>`; the home page
   reads those terms into its filter.
 - **Machine-readable routes:** `/skills/<name>/SKILL.md` (raw skill),
