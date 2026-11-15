@@ -65,8 +65,8 @@ site's own `README.md` at [`skills-on-ai.github.io/`](../../skills-on-ai.github.
    standalone remote(s).
 3. The standalone repo's own `deploy.yml` (installed at its root once the
    subtree lands there) builds and deploys to GitHub Pages. It runs
-   `npm ci` on Node 26, so `package.json` and `package-lock.json` must be in
-   sync, and the Node version in the workflow, `package.json` `engines`, and
+   `pnpm install --frozen-lockfile` on Node 26, so `package.json` and
+   `pnpm-lock.yaml` must be in sync, and the Node version in the workflow, `package.json` `engines`, and
    the Lily packages' own `engines` must agree.
 4. Verify: `gh run list -R skills-on-ai/skills-on-ai.github.io -L 1` shows
    `success`, and the live site serves the change. A failed run leaves the

@@ -16,6 +16,9 @@ in [catalog](../catalog/index.md).
 - **Node 26.** `package.json` `engines`, `.npmrc` (`engine-strict=true`), and
   `.github/workflows/deploy.yml` must name the same Node major version; the
   Lily headless package requires it.
+- **pnpm.** `package.json` `packageManager` pins the pnpm version; `pnpm-lock.yaml`
+  is the only lockfile (no `package-lock.json`), and CI installs with
+  `pnpm install --frozen-lockfile`.
 - **Design system:** Lily Design System, from the `@lilydesignsystem/` npm
   scope. The old unscoped `lily-design-system-svelte-*` packages are retired.
   Dependencies: `svelte-headless` (components), `svelte-picker-bar` (header
@@ -50,10 +53,10 @@ in [catalog](../catalog/index.md).
 ### Commands
 
 ```sh
-npm ci                 # exact install from the lockfile (as CI does)
-npm run check          # svelte-check, expected: 0 errors
-npm run build          # static output in build/
-npm run preview        # serve build/ locally
+pnpm install --frozen-lockfile   # exact install from pnpm-lock.yaml (as CI does)
+pnpm run check         # svelte-check, expected: 0 errors
+pnpm run build         # static output in build/
+pnpm run preview       # serve build/ locally
 ```
 
 ### Known build output

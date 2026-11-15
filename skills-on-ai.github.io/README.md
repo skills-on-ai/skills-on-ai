@@ -22,16 +22,16 @@ share). Source files import from `#lib/...` (package subpath imports), not
 ## Develop
 
 ```sh
-npm ci
-npm run dev
-npm run check     # svelte-check, expected: 0 errors
+pnpm install --frozen-lockfile
+pnpm run dev
+pnpm run check     # svelte-check, expected: 0 errors
 ```
 
 ## Build
 
 ```sh
-npm run build      # outputs to build/
-npm run preview    # preview the static build locally
+pnpm run build      # outputs to build/
+pnpm run preview    # preview the static build locally
 ```
 
 ## Data

@@ -35,7 +35,7 @@ the SvelteKit site that publishes it at <https://skills-on-ai.org/>
   `static/llms.txt`, `static/llms.json`. Run `bin/generate-skills-data`
   instead, and fix any `WARN` or `UNCATEGORIZED` output.
 - Site work follows [site](spec/site/index.md): Node 26, `#lib/` imports,
-  `@lilydesignsystem/` packages, and `npm ci` must pass.
+  `@lilydesignsystem/` packages, and `pnpm install --frozen-lockfile` must pass.
 - Don't invent facts, standards, certificates, or citations in skills.
 
 ## Workflow
@@ -50,5 +50,5 @@ deleting skills, or changing remotes.
 
 ```sh
 bin/generate-skills-data              # no WARN / UNCATEGORIZED lines
-cd skills-on-ai.github.io && npm run check && npm run build
+cd skills-on-ai.github.io && pnpm run check && pnpm run build
 ```
