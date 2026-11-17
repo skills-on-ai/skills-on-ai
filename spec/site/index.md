@@ -39,16 +39,19 @@ in [catalog](../catalog/index.md).
   `large`, `normal`, `small`, `smaller`, `smallest`); `src/lib/styles/theme.css`
   maps each slug to a font scale.
 - **Light/dark follows the browser by default.** The UI uses the browser's
-  light/dark setting (`prefers-color-scheme`). The theme picker lists three
-  choices first: "Follow this device" (the default, slug `system`), "Light",
-  and "Dark"; the other 42 Lily themes follow. `static/themes/system.css` is
-  hand-written (it `@import`s `light.css` or `dark.css` by media query), so
-  keep it when refreshing the other theme files.
+  light/dark setting (`prefers-color-scheme`). The theme picker lists "Follow
+  this device" first (the default, from the picker's `systemLabel` option,
+  which also switches live when the device does), then "Light" and "Dark",
+  then the other 42 Lily themes. No custom theme file is needed.
 - **State kept in the browser:** the theme choice persists to the
-  `skills-on-ai-theme` cookie (path `/`, one year, `SameSite=Lax`), set only
-  once the visitor picks something other than the default; text size persists
-  to `localStorage` under `skills-on-ai-text-size`. `src/app.html` applies
-  both before first paint.
+  `skills-on-ai-theme` cookie, written by the theme picker (`cookieName`) only
+  when the visitor changes it; its value is a theme slug or `system`. Text size
+  persists to `localStorage` under `skills-on-ai-text-size`. `src/app.html`
+  applies both before first paint.
+- **Lily packages and overrides.** `svelte-picker-bar` depends on
+  `svelte-theme-picker`; `pnpm-workspace.yaml` overrides it to a newer release
+  than the bar allows (pnpm 12 ignores `pnpm.overrides` in `package.json`).
+  Remove the override once the bar's own range includes it.
 - **Search:** the header search picker navigates to `/?<terms>`; the home page
   reads those terms into its filter.
 - **Machine-readable routes:** `/skills/<name>/SKILL.md` (raw skill),

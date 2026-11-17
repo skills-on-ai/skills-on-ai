@@ -5,20 +5,18 @@
 export interface ThemeOption {
 	id: string;
 	label: string;
-	group: 'Device' | 'Government & healthcare' | 'General';
+	group: 'Government & healthcare' | 'General';
 }
 
-// 'system' follows the browser's light/dark setting (static/themes/system.css).
-export const DEFAULT_THEME_ID = 'system';
 
-// Cookie that stores the visitor's choice; src/app.html reads it before first paint.
+// Cookie that keeps the visitor's choice (a theme slug, or 'system' for "Follow this device");
+// the theme picker writes it and src/app.html reads it before first paint.
 export const THEME_COOKIE = 'skills-on-ai-theme';
 
 export const themes: ThemeOption[] = [
-	// Device first, then the two plain modes
-	{ id: 'system', label: 'Follow this device', group: 'Device' },
-	{ id: 'light', label: 'Light', group: 'Device' },
-	{ id: 'dark', label: 'Dark', group: 'Device' },
+	// Light and Dark first (after the picker's own "Follow this device")
+	{ id: 'light', label: 'Light', group: 'General' },
+	{ id: 'dark', label: 'Dark', group: 'General' },
 	// Government & healthcare
 	{
 		id: 'united-kingdom-national-health-service-england-for-practitioners',

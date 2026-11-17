@@ -1,11 +1,10 @@
 <!doctype html>
-<!-- data-theme default kept in sync with DEFAULT_THEME_ID in src/lib/data/themes.ts -->
-<html lang="en" data-theme="system">
+<html lang="en" data-theme="light">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="A catalog of AI coding skills for AI-assisted software engineering, testing, cloud platforms, databases, and more." />
-		<link rel="stylesheet" id="lily-theme" data-lily-theme-picker="theme" href="/themes/system.css" />
+		<link rel="stylesheet" id="lily-theme" data-lily-theme-picker="theme" href="/themes/light.css" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<script>
 			// Apply the stored theme (a cookie) and text-size choices before first
@@ -17,8 +16,13 @@
 			// directly (theme.css maps data-text-size to --user-font-scale).
 			(function () {
 				try {
+					// The cookie holds a theme slug, or "system" (Follow this device).
+					// Without a cookie, follow the device too.
 					var theme = (document.cookie.match(/(?:^|; )skills-on-ai-theme=([a-z0-9-]+)/) || [])[1];
-					if (theme) {
+					if (!theme || theme === 'system') {
+						theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+					}
+					if (theme !== 'light') {
 						document.documentElement.dataset.theme = theme;
 						var link = document.getElementById('lily-theme');
 						if (link) link.href = '/themes/' + theme + '.css';

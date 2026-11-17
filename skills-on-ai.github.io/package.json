@@ -26,9 +26,9 @@
 		"vite": "^8.0.12"
 	},
 	"dependencies": {
-		"@lilydesignsystem/svelte-headless": "^0.4.0",
-		"@lilydesignsystem/svelte-picker-bar": "^0.3.0",
-		"@lilydesignsystem/svelte-share-picker": "^0.2.0"
+		"@lilydesignsystem/svelte-headless": "^0.9.0",
+		"@lilydesignsystem/svelte-picker-bar": "^0.6.0",
+		"@lilydesignsystem/svelte-share-picker": "^0.3.2"
 	},
 	"license": "MIT",
 	"author": "Joel Parker Henderson <joel@joelparkerhenderson.com>",
