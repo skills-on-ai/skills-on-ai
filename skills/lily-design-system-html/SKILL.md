@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-html
 description: Explains what's available for plain HTML in Lily Design System and helps decide which of the three real HTML subprojects to reach for — the full-catalog headless component library, the six *-picker helper web components, or the styled NHS UK example application. Use when someone asks what Lily offers for plain/vanilla HTML with no framework, which HTML subproject they need, how the HTML headless library relates to the HTML helpers catalog or the example app, wants to see Lily components styled and running with no framework runtime, or asks how the plain-HTML catalogs differ from the separate Web Components catalogs.
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — HTML umbrella

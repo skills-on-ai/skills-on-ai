@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-web-components
 description: Explains what's available as native Web Components in Lily Design System and which of the two real Web Components subprojects to reach for — the partial (33/491) headless custom-element catalog, or the six `<lily-*-picker>` helpers catalog. Use when someone asks what Lily offers as native Web Components, which Web Components subproject they need, how the Web Components headless catalog relates to the Web Components helpers catalog, or asks whether there's a Web Components example application (there isn't one yet).
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — Web Components umbrella

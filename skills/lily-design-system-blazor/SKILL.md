@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-blazor
 description: Explains what's available for Blazor in Lily Design System and which of the three real Blazor subprojects an agent needs — the headless component library (the NuGet package you depend on and style yourself), the six *-picker helpers catalog (opinionated, whole-interaction packages for a page-header preference/action or a form control), or the Blazor Web example app (a fully NHS-UK-styled reference you can run to see components working, or copy CSS from). Use when someone asks what Lily offers for Blazor, which Blazor package to install for a given job, how to run the Blazor example app, or wants Blazor Web App hosting-model guidance (Server / WebAssembly / static SSR).
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — Blazor umbrella

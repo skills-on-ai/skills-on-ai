@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-svelte
 description: Explains what's available for Svelte in Lily Design System and which Svelte subproject to reach for — the headless component library, the canonical *-picker helpers catalog (every other framework ports from this one), or the SvelteKit example application. Use when someone asks what Svelte packages Lily ships, which Svelte subproject they need for a given job, wants to see Svelte components styled and running, or asks about the SvelteKit example app's routes, NHS UK styling, or test coverage.
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — Svelte

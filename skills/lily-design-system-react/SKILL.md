@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-react
 description: Explains what's available for React in Lily Design System and which of the three real React subprojects to reach for — the headless component library, the six *-picker helpers, or the Next.js example app. Use when someone asks what React support Lily Design System has, which React package they need, wants to see Lily's React components styled and running, or asks about the Next.js example app's routes, NHS UK styling, or App Router setup.
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — React

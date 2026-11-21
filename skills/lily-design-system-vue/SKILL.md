@@ -1,7 +1,7 @@
 ---
 name: lily-design-system-vue
 description: Use when someone asks what's available for Vue in Lily Design System, which Vue subproject they need (the headless component library, the *-picker helpers catalog, or the Nuxt.js example app), wants to run or see Vue components styled and working end-to-end, or needs the Nuxt-specific example app's routes and conventions before either sibling skill applies.
-license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause
+license: MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause OR OGL-UK-3.0 OR CC-BY-NC-SA-4.0
 ---
 
 # Lily Design System™ — Vue — concepts & usage
